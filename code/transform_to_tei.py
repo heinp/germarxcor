@@ -30,9 +30,13 @@ with open(input_file) as file:
 
 
 fulltitle = html.find("title")
-matches = re.match(r"(.*): (.*)", fulltitle.text)
-title = matches[2]
-author = matches[1]
+matches = re.match(r"(.*)(: | - )(.*)", fulltitle.text)
+if matches is not None:
+    title = matches[3]
+    author = matches[1]
+else:
+    author = "Karl Marx, Friedrich Engels"
+    title = fulltitle
 dig_source_name = "Stimmen der proletarischen Revolution"
 dig_source_url = "http://www.mlwerke.de"
 dig_source_licence = "N/A"
@@ -43,8 +47,7 @@ text = html.find("body").getText()
 # In[39]:
 
 
-tei = f"""
-<?xml version="1.0" encoding="UTF-8"?>
+tei = f"""<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
     <teiHeader>
         <fileDesc>
@@ -78,7 +81,9 @@ tei = f"""
     </teiHeader>
     <text>
         <body>
-            {text}
+            <p>
+                {text}
+            </p>
         </body>
     </text>
 </TEI>"""
