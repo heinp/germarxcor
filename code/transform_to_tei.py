@@ -41,7 +41,11 @@ dig_source_name = "Stimmen der proletarischen Revolution"
 dig_source_url = "http://www.mlwerke.de"
 dig_source_licence = "N/A"
 dig_source_licence_url = "http://mlwerke.de/ies/kontakt.htm"
-text = html.find("body").getText()
+try:
+    text = html.find("body").getText()
+except AttributeError:
+    text = html.getText()
+text = re.sub(r"<(\d{1,4})>", r"[\1]", text) 
 
 
 # In[39]:
