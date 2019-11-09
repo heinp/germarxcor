@@ -1,36 +1,33 @@
-
-# coding: utf-8
-
-# In[2]:
-
-
 from bs4 import BeautifulSoup as BS
 import re
 import os
 import sys
+from lxml import etree
 
-
-# In[12]:
-
-
+print("Setting up")
 input_file = sys.argv[1]
-output_file = sys.argv[2]
+output_file = re.sub("/html/", "/tei/", input_file)
+output_file = re.sub(r"\.html?f?", ".xml", output_file)
+output_plain = re.sub("/html/", "/txt/", input_file)
+output_plain = re.sub(r"\.html?f?", ".txt", output_plain)
+
+
 if not os.path.exists(os.path.dirname(output_file)):
     os.makedirs(os.path.dirname(output_file))
-
-
-# In[14]:
+    
+if not os.path.exists(os.path.dirname(output_plain)):
+    os.makedirs(os.path.dirname(output_plain))
 
 
 with open(input_file) as file:
-    html = BS(file.read(), "html.parser")   
+    html = BS(file.read(), "lxml")   
 
-
-# In[34]:
-
-
-fulltitle = html.find("title")
-matches = re.match(r"(.*)(: | - )(.*)", fulltitle.text)
+print("Get meta data")
+fulltitle = html.find("title").text
+fulltitle = fulltitle.replace("<", "")
+fulltitle = fulltitle.replace(">", "")
+fulltitle = fulltitle.replace("&", "")
+matches = re.match(r"(.*)(: | - )(.*)", fulltitle)
 if matches is not None:
     title = matches[3]
     author = matches[1]
@@ -41,16 +38,19 @@ dig_source_name = "Stimmen der proletarischen Revolution"
 dig_source_url = "http://www.mlwerke.de"
 dig_source_licence = "N/A"
 dig_source_licence_url = "http://mlwerke.de/ies/kontakt.htm"
+
+print("Extract body")
 try:
     text = html.find("body").getText()
 except AttributeError:
     text = html.getText()
-text = re.sub(r"<(\d{1,4})>", r"[\1]", text) 
+text = re.sub(r"<(\d{1,4})>", r"", text)
+text = text.replace("<", "")
+text = text.replace(">", "")
+text = text.replace("&", "")
 
 
-# In[39]:
-
-
+print("Build TEI")
 tei = f"""<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
     <teiHeader>
@@ -93,9 +93,17 @@ tei = f"""<?xml version="1.0" encoding="UTF-8"?>
 </TEI>"""
 
 
-# In[41]:
 
+with open(output_plain, "w") as file:
+    file.write(text)
 
 with open(output_file, "w") as file:
     file.write(tei)
 
+try:
+    doc = etree.parse(open(output_file))
+except etree.XMLSyntaxError as err:
+    print("XML Syntax Error, see error.log")
+    with open("error.log", "a") as error_file:
+        error_file.write(str(err.error_log))    
+print("\n")
