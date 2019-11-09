@@ -28,16 +28,19 @@ fulltitle = fulltitle.replace("<", "")
 fulltitle = fulltitle.replace(">", "")
 fulltitle = fulltitle.replace("&", "")
 matches = re.match(r"(.*)(: | - )(.*)", fulltitle)
+
+
+author = "Josef Stalin"
+
 if matches is not None:
     title = matches[3]
-    author = matches[1]
+    #author = matches[1]
 else:
-    author = "Karl Marx, Friedrich Engels"
     title = fulltitle
-dig_source_name = "Stimmen der proletarischen Revolution"
-dig_source_url = "http://www.mlwerke.de"
+dig_source_name = "J.W. Stalin – Werke und Texte"
+dig_source_url = "https://web.archive.org/web/20180319113921/http://stalinwerke.de/"
 dig_source_licence = "N/A"
-dig_source_licence_url = "http://mlwerke.de/ies/kontakt.htm"
+dig_source_licence_url = "N/A"
 
 print("Extract body")
 try:
@@ -64,7 +67,7 @@ tei = f"""<?xml version="1.0" encoding="UTF-8"?>
                 <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
                 <availability>
                     <licence>
-                        <ab>CC-BY-4.0</ab>
+                        <ab>CC-BY-SA-4.0</ab>
                         <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
                     </licence>
                 </availability>
