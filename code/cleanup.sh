@@ -8,4 +8,4 @@ function clean {
 	done;
 }
 
-clean .
+clean ../html
