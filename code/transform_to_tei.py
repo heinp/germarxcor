@@ -8,15 +8,15 @@ print("Setting up")
 input_file = sys.argv[1]
 output_file = re.sub("/html/", "/tei/", input_file)
 output_file = re.sub(r"\.html?f?", ".xml", output_file)
-output_plain = re.sub("/html/", "/txt/", input_file)
-output_plain = re.sub(r"\.html?f?", ".txt", output_plain)
+#output_plain = re.sub("/html/", "/txt/", input_file)
+#output_plain = re.sub(r"\.html?f?", ".txt", output_plain)
 
 
 if not os.path.exists(os.path.dirname(output_file)):
     os.makedirs(os.path.dirname(output_file))
     
-if not os.path.exists(os.path.dirname(output_plain)):
-    os.makedirs(os.path.dirname(output_plain))
+#if not os.path.exists(os.path.dirname(output_plain)):
+#    os.makedirs(os.path.dirname(output_plain))
 
 
 with open(input_file) as file:
@@ -30,17 +30,17 @@ fulltitle = fulltitle.replace("&", "")
 matches = re.match(r"(.*)(: | - )(.*)", fulltitle)
 
 
-author = "Josef Stalin"
+author = "Wladimir Lenin"
 
 if matches is not None:
     title = matches[3]
     #author = matches[1]
 else:
     title = fulltitle
-dig_source_name = "J.W. Stalin – Werke und Texte"
-dig_source_url = "https://web.archive.org/web/20180319113921/http://stalinwerke.de/"
-dig_source_licence = "N/A"
-dig_source_licence_url = "N/A"
+dig_source_name = "Marxist Internet Archive"
+dig_source_url = "https://www.marxists.org/deutsch/index.htm"
+dig_source_licence = "CC-BY-SA-2.0"
+dig_source_licence_url = "https://www.marxists.org/admin/legal/cc/by-sa.htm"
 
 print("Extract body")
 try:
@@ -97,8 +97,8 @@ tei = f"""<?xml version="1.0" encoding="UTF-8"?>
 
 
 
-with open(output_plain, "w") as file:
-    file.write(text)
+#with open(output_plain, "w") as file:
+#    file.write(text)
 
 with open(output_file, "w") as file:
     file.write(tei)
