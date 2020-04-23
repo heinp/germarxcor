@@ -79,8 +79,10 @@ for file in args.files:
 
         text_paragraphs = new_text.split("\n")
         for text_p in text_paragraphs:
-            new_para = ET.SubElement(body, "p")
-            new_para.text = text_p
+            text_p = text_p.strip()
+            if text_p != "Anfang der Seite":
+                new_para = ET.SubElement(body, "p")
+                new_para.text = text_p
 
         outfile = file[:-4] + "_clean.xml"
         tree.write(outfile, encoding="utf-8", method="xml", xml_declaration=True, pretty_print=True)
