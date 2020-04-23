@@ -80,7 +80,7 @@ for file in args.files:
         text_paragraphs = new_text.split("\n")
         for text_p in text_paragraphs:
             text_p = text_p.strip()
-            if text_p != "Anfang der Seite":
+            if text_p != "Anfang der Seite" and "marxists' internet archive" not in text_p.lower():
                 new_para = ET.SubElement(body, "p")
                 new_para.text = text_p
 
