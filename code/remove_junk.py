@@ -33,7 +33,7 @@ def remove(f, l, text):
             lines.append(line.strip() + " ")
     # check for validity of parameters
     if len(lines) < (f+l+1):
-        raise ValueError("Text shorter than f+l")
+        raise ValueError(f"Text in file {file} shorter than f+l")
     if f < 0 or l < 0:
         raise ValueError("Line parameters must be positive")
 
