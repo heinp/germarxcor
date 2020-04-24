@@ -1,51 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Die "Koelnische Zeitung"</title>
-                <author>"Neue Rheinische Zeitung"</author>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>Pascal Hein</publisher>
-                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-                <availability>
-                    <licence>
-                        <ab>CC-BY-4.0</ab>
-                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-                    </licence>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <name>Stimmen der proletarischen Revolution</name>
-                    <idno type="URL">http://www.mlwerke.de</idno>
-                    <availability>
-                        <licence>
-                            <ab>N/A</ab>
-                            <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
-                        </licence>
-                    </availability>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <p>
-                
-Die Bekenntnisse einer schönen Seele | Inhalt | Keine Steuern mehr!!!
-Seitenzahlen verweisen auf: Karl Marx - Friedrich Engels - Werke, Band 6, S. 29
-Dietz Verlag, Berlin/DDR 1959
-Die "Kölnische Zeitung"
-["Neue Rheinische Zeitung" Nr. 145 vom 17. November 1848]
- *Köln, 16. November. Die Redaktion der "Kölnischen Zeitung" in der Nummer vom 16. Nov. In der "N.Rh.Ztg.": 15 Nov. charakterisiert sich selbst in folgender genialer Weise:
-"Bei unserem Hin- und Herschwanken zwischen Furcht vor Anarchie heute und Furcht vor Reaktion morgen wird man lebhaft an Luthers Wort erinnert: 'Der Mensch ist wie ein betrunkener Bauer; steigt er an einer Seite zu Pferde, stürzt er an der andern wieder herunter'."
-Die Furcht ist das Pathos der "Kölnischen Zeitung".
-Geschrieben von Karl Marx.
-
-
-            </p>
-        </body>
-    </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Die "Koelnische Zeitung"</title>
+        <author>"Neue Rheinische Zeitung"</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Pascal Hein</publisher>
+        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+        <availability>
+          <licence>
+            <ab>CC-BY-4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Stimmen der proletarischen Revolution</name>
+          <idno type="URL">http://www.mlwerke.de</idno>
+          <availability>
+            <licence>
+              <ab>N/A</ab>
+              <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>["Neue Rheinische Zeitung" Nr. 145 vom 17. November 1848] *Köln, 16. November. Die Redaktion der "Kölnischen Zeitung" in der Nummer vom 16. Nov. In der "N.Rh.Ztg.": 15 Nov. charakterisiert sich selbst in folgender genialer Weise: "Bei unserem Hin- und Herschwanken zwischen Furcht vor Anarchie heute und Furcht vor Reaktion morgen wird man lebhaft an Luthers Wort erinnert: 'Der Mensch ist wie ein betrunkener Bauer; steigt er an einer Seite zu Pferde, stürzt er an der andern wieder herunter'." Die Furcht ist das Pathos der "Kölnischen Zeitung". Geschrieben von Karl Marx.</p>
+    </body>
+  </text>
 </TEI>
