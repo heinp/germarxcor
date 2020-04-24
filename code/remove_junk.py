@@ -4,7 +4,6 @@ from argparse import ArgumentParser
 # from xml.etree import ElementTree as ET
 from lxml import etree as ET
 import html
-from xml.dom import minidom
 
 
 class bcolors:
