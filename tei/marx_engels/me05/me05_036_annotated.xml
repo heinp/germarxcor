@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Die Reaktion</title>
+                <author>"Neue Rheinische Zeitung"</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Stimmen der proletarischen Revolution</name>
+                    <idno type="URL">http://www.mlwerke.de</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="[" type="no_stopword">[</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="Neues" type="stopword">Neue</w>
+                    <w pos="ADJ" lemma="rheinisch" type="no_stopword">Rheinische</w>
+                    <w pos="NOUN" lemma="Zeitung" type="no_stopword">Zeitung</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="6" type="no_stopword">6</w>
+                    <w pos="ADP" lemma="vom" type="stopword">vom</w>
+                    <w pos="NUM" lemma="6." type="no_stopword">6.</w>
+                    <w pos="NOUN" lemma="Juni" type="no_stopword">Juni</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="ADV" lemma="]" type="no_stopword">]</w>
+                    <w pos="PROPN" lemma="*Köln" type="no_stopword">*Köln</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="5." type="no_stopword">5.</w>
+                    <w pos="NOUN" lemma="Juni" type="no_stopword">Juni</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Tote" type="no_stopword">Toten</w>
+                    <w pos="VERB" lemma="reiten" type="no_stopword">reiten</w>
+                    <w pos="ADJ" lemma="schnellen" type="no_stopword">schnell</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Herr" type="no_stopword">Herr</w>
+                    <w pos="PROPN" lemma="Camphausen" type="no_stopword">Camphausen</w>
+                    <w pos="VERB" lemma="desavouiert" type="no_stopword">desavouiert</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Revolution" type="no_stopword">Revolution</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Reaktion" type="no_stopword">Reaktion</w>
+                    <w pos="VERB" lemma="wagen" type="no_stopword">wagt</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Vereinbarungsversammlung" type="no_stopword">Vereinbarungsversammlung</w>
+                    <w pos="VERB" lemma="vorschlagen" type="no_stopword">vorzuschlagen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="DET" lemma="ein" type="stopword">einen</w>
+                    <w pos="NOUN" lemma="Aufruhr" type="no_stopword">Aufruhr</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="brandmarken" type="no_stopword">brandmarken</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Ein" type="stopword">Ein</w>
+                    <w pos="NOUN" lemma="Deputierter" type="no_stopword">Deputierter</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="PRON" lemma="mein" type="stopword">ihr</w>
+                    <w pos="ADP" lemma="am" type="stopword">am</w>
+                    <w pos="ADJ" lemma="3." type="no_stopword">3.</w>
+                    <w pos="NOUN" lemma="Juni" type="no_stopword">Juni</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Antrag" type="no_stopword">Antrag</w>
+                    <w pos="VERB" lemma="machen" type="stopword">gemacht</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">den</w>
+                    <w pos="ADP" lemma="am" type="stopword">am</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="NOUN" lemma="März" type="no_stopword">März</w>
+                    <w pos="ADJ" lemma="gefallen" type="no_stopword">gefallenen</w>
+                    <w pos="NOUN" lemma="Soldat" type="no_stopword">Soldaten</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="NOUN" lemma="Denkmal" type="no_stopword">Denkmal</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="setzen" type="no_stopword">setzen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Der X. Parteitag der KPR(B)</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="PROPN" lemma="X." type="no_stopword">X.</w>
+                    <w pos="PROPN" lemma="PARTEITAG" type="no_stopword">PARTEITAG</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="PROPN" lemma="KPR" type="no_stopword">KPR</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="X" lemma="B" type="no_stopword">B</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="NOUN" lemma="[" type="no_stopword">[</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                    <w pos="ADV" lemma="]" type="no_stopword">]</w>
+                    <w pos="NUM" lemma="8.16." type="no_stopword">8.16.</w>
+                    <w pos="NOUN" lemma="März" type="no_stopword">März</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Der</w>
+                    <w pos="ADJ" lemma="zehne" type="no_stopword">zehne</w>
+                    <w pos="NOUN" lemma="Parteitag" type="no_stopword">Parteitag</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Kommunistische" type="no_stopword">Kommunistischen</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Partei</w>
+                    <w pos="PROPN" lemma="Rußland" type="no_stopword">Rußlands</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="Stenografischer" type="no_stopword">Stenografischer</w>
+                    <w pos="NOUN" lemma="Bericht" type="no_stopword">Bericht</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Moskau" type="no_stopword">Moskau</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="ADV" lemma="1" type="no_stopword">1</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Referat" type="no_stopword">Referat</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="nächst" type="no_stopword">nächsten</w>
+                    <w pos="NOUN" lemma="Aufgabe" type="no_stopword">Aufgaben</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Partei</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="national" type="no_stopword">nationalen</w>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Frage</w>
+                    <w pos="NUM" lemma="2" type="no_stopword">2</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Schlusswort" type="no_stopword">Schlusswort</w>
+                </s>
+            </p>
+        </body>
+    </text>
+</TEI>

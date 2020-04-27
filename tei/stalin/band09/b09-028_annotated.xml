@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An die "Prawda"</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="ADP" lemma="AN" type="stopword">AN</w>
+                    <w pos="DET" lemma="DIE" type="stopword">DIE</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="PROPN" lemma="PRAWDA" type="no_stopword">PRAWDA</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="Zum" type="stopword">Zum</w>
+                    <w pos="ADJ" lemma="5" type="no_stopword">5</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Jahrestag" type="no_stopword">Jahrestag</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="ADJ" lemma="Flammende" type="no_stopword">Flammenden</w>
+                    <w pos="NOUN" lemma="Gruß" type="no_stopword">Gruß</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="PROPN" lemma="Prawda" type="no_stopword">Prawda</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Hüterin" type="no_stopword">Hüterin</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Vermächtnisses" type="no_stopword">Vermächtnisses</w>
+                    <w pos="PROPN" lemma="Lenin" type="no_stopword">Lenins</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Bannerträgerin" type="no_stopword">Bannerträgerin</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="revolutionär" type="no_stopword">revolutionären</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kampfes</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Proletariat" type="no_stopword">Proletariats</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Kommunismus" type="no_stopword">Kommunismus</w>
+                    <w pos="PUNCT" lemma="!" type="no_stopword">!</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="PROPN" lemma="Prawda" type="no_stopword">Prawda</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="9" type="no_stopword">9</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="5." type="no_stopword">5.</w>
+                    <w pos="NOUN" lemma="Mai" type="no_stopword">Mai</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Schreiben des ZK der KPdSU an das ZK der KPJ</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Band" type="no_stopword">Band</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="NOUN" lemma="SCHREIBEN" type="no_stopword">SCHREIBEN</w>
+                    <w pos="DET" lemma="DES" type="stopword">DES</w>
+                    <w pos="NOUN" lemma="ZK" type="no_stopword">ZK</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="PROPN" lemma="KPDSU" type="no_stopword">KPDSU</w>
+                    <w pos="ADP" lemma="AN" type="stopword">AN</w>
+                    <w pos="DET" lemma="DAS" type="stopword">DAS</w>
+                    <w pos="NOUN" lemma="ZK" type="no_stopword">ZK</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="PROPN" lemma="KPJ" type="no_stopword">KPJ</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                    <w pos="NOUN" lemma="März" type="no_stopword">März</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="NUM" lemma="4." type="no_stopword">4.</w>
+                    <w pos="NOUN" lemma="Mai" type="no_stopword">Mai</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="NUM" lemma="2" type="no_stopword">2</w>
+                    <w pos="NOUN" lemma="Mai" type="no_stopword">Mai</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                </s>
+            </p>
+        </body>
+    </text>
+</TEI>
