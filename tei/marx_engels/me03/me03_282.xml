@@ -29,6 +29,14 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2020-04-23" who="Pascal Hein">Navigation bars removed</change>
+            <change when="2020-04-23" who="Pascal Hein">Paragraphs from original estimated and marked up.</change>
+            <change when="2020-04-27" who="Pascal Hein">Seperated sentences using <gi>s</gi> and tokenized using <gi>w</gi> using spaCy.</change>
+            <change when="2020-04-27" who="Pascal Hein">POS-Tags added to <att>pos</att> of <gi>w</gi> using spaCy.</change>
+            <change when="2020-04-27" who="Pascal Hein">Lemma added to <att>lemma</att> of <gi>w</gi> using spaCy.</change>
+            <change when="2020-04-27" who="Pascal Hein">Stop word inidcator added to <att>type</att> of <gi>w</gi> using spaCy.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -2240,7 +2248,7 @@
                     <w pos="PUNCT" lemma="}" type="no_stopword">}</w>
                 </s>
             </p>
-            <p></p>
+            <p/>
             <p>
                 <s>
                     <w pos="NOUN" lemma="{" type="no_stopword">{</w>
@@ -2275,7 +2283,7 @@
                     <w pos="NOUN" lemma="Macht" type="stopword">Macht</w>
                 </s>
             </p>
-            <p></p>
+            <p/>
             <p>
                 <s>
                     <w pos="NOUN" lemma="Eigenheit" type="no_stopword">Eigenheit</w>
@@ -2442,7 +2450,7 @@
                     <w pos="PUNCT" lemma="}" type="no_stopword">}</w>
                 </s>
             </p>
-            <p></p>
+            <p/>
             <p>
                 <s>
                     <w pos="NOUN" lemma="{" type="no_stopword">{</w>
@@ -15955,7 +15963,7 @@
                     <w pos="PUNCT" lemma="}" type="no_stopword">}</w>
                 </s>
             </p>
-            <p></p>
+            <p/>
             <p>
                 <s>
                     <w pos="NOUN" lemma="{" type="no_stopword">{</w>
@@ -17758,7 +17766,7 @@
                     <w pos="PUNCT" lemma="}" type="no_stopword">}</w>
                 </s>
             </p>
-            <p></p>
+            <p/>
             <p>
                 <s>
                     <w pos="NOUN" lemma="{" type="no_stopword">{</w>
