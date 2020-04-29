@@ -1,39 +1,356 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Kapitaen</title>
-        <author>Friedrich Engels</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Stimmen der proletarischen Revolution</name>
-          <idno type="URL">http://www.mlwerke.de</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Geschrieben um den 7. Januar 1858. Aus dem Englischen.</p>
-      <p>["The New American Cyclopædia", Band IV] Kapitän - der Rang, der den Kommandeur einer Infanteriekompanie oder einer Kavallerieeskadron oder den Chefoffizier eines Kriegsschiffs bezeichnet. In den meisten Armeen des europäischen Kontinents werden die Kapitäne [bzw. Hauptleute] als Subalterne angesehen; in der britischen Armee bilden sie einen Mittelrang zwischen dem Stabs- und dem Subalternoffizier, wobei zur letzten Kategorie nur jene Offiziere gehören, die das Offizierspatent haben, aber kein ihrem Range entsprechendes direktes und ständiges Kommando ausüben. In der Armee der Vereinigten Staaten ist der Kapitän für Waffen, Munition, Bekleidung usw. der unter seinem Kommando stehenden Kompanie verantwortlich. Die Pflichten eines Kapitäns in der Kriegsmarine sind sehr umfassend, und sein Posten ist ein sehr verantwortlicher. In der britischen Flotte steht er bis zum Ablauf von 3 Jahren vom Datum seiner Bestallung ab im gleichen Rang wie ein Oberstleutnant in der Armee und rückt dann in den Rang eines Obersten auf. Früher war es dem Kapitän in der französischen Flotte bei Todesstrafe verboten, sein Schiff zu verlassen, und er mußte es eher in die Luft sprengen, als es in die Hände des Feindes fallen zu lassen. Kapitäne werden auch die Schiffsführer von Kauffahrtei- oder Passagierschiffen genannt und verschiedene niedere Offiziere auf Linienschiffen, wie Kapitän des Vorderdecks, des Schiffsraums, des Großmars', des Vormars' etc. Das Wort Kapitän ist italienischen Ursprungs ital.: capitano und bezeichnet einen Mann, der irgendwo an der Spitze steht, und in diesem Sinne wird es oft als Synonym für Oberbefehlshaber gebraucht, besonders hinsichtlich seiner Fähigkeiten als Feldherr.´</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kapitaen</title>
+                <author>Friedrich Engels</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Stimmen der proletarischen Revolution</name>
+                    <idno type="URL">http://www.mlwerke.de</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="VERB" lemma="Geschrieben" type="no_stopword">Geschrieben</w>
+                    <w pos="ADP" lemma="um" type="stopword">um</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="7." type="no_stopword">7.</w>
+                    <w pos="NOUN" lemma="Januar" type="no_stopword">Januar</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Aus" type="stopword">Aus</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Englische" type="no_stopword">Englischen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PROPN" lemma="[" type="no_stopword">[</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="PROPN" lemma="The" type="no_stopword">The</w>
+                    <w pos="PROPN" lemma="New" type="no_stopword">New</w>
+                    <w pos="PROPN" lemma="American" type="no_stopword">American</w>
+                    <w pos="PROPN" lemma="Cyclopædia" type="no_stopword">Cyclopædia</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Band" type="no_stopword">Band</w>
+                    <w pos="NUM" lemma="IV" type="no_stopword">IV</w>
+                    <w pos="PROPN" lemma="]" type="no_stopword">]</w>
+                    <w pos="PROPN" lemma="Kapitän" type="no_stopword">Kapitän</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Rang" type="no_stopword">Rang</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">der</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Kommandeur" type="no_stopword">Kommandeur</w>
+                    <w pos="DET" lemma="einer" type="stopword">einer</w>
+                    <w pos="NOUN" lemma="Infanteriekompanie" type="no_stopword">Infanteriekompanie</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="DET" lemma="einer" type="stopword">einer</w>
+                    <w pos="NOUN" lemma="Kavallerieeskadron" type="no_stopword">Kavallerieeskadron</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Chefoffizier" type="no_stopword">Chefoffizier</w>
+                    <w pos="DET" lemma="ein" type="stopword">eines</w>
+                    <w pos="NOUN" lemma="Kriegsschiffs" type="no_stopword">Kriegsschiffs</w>
+                    <w pos="VERB" lemma="bezeichnen" type="no_stopword">bezeichnet</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="In" type="stopword">In</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="DET" lemma="meist" type="no_stopword">meisten</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armeen</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="europäisch" type="no_stopword">europäischen</w>
+                    <w pos="NOUN" lemma="Kontinent" type="no_stopword">Kontinents</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Kapitän" type="no_stopword">Kapitäne</w>
+                    <w pos="NOUN" lemma="[" type="no_stopword">[</w>
+                    <w pos="CCONJ" lemma="bzw." type="no_stopword">bzw.</w>
+                    <w pos="NOUN" lemma="Hauptleute" type="no_stopword">Hauptleute</w>
+                    <w pos="ADV" lemma="]" type="no_stopword">]</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Subalterne" type="no_stopword">Subalterne</w>
+                    <w pos="VERB" lemma="ansehen" type="no_stopword">angesehen</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="britisch" type="no_stopword">britischen</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armee</w>
+                    <w pos="VERB" lemma="bilden" type="no_stopword">bilden</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="DET" lemma="ein" type="stopword">einen</w>
+                    <w pos="NOUN" lemma="Mittelrang" type="no_stopword">Mittelrang</w>
+                    <w pos="ADP" lemma="zwischen" type="stopword">zwischen</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="PROPN" lemma="Stab" type="no_stopword">Stabs</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Subalternoffizier" type="no_stopword">Subalternoffizier</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="wobei" type="no_stopword">wobei</w>
+                    <w pos="ADP" lemma="zur" type="stopword">zur</w>
+                    <w pos="ADJ" lemma="letzt" type="no_stopword">letzten</w>
+                    <w pos="NOUN" lemma="Kategorie" type="no_stopword">Kategorie</w>
+                    <w pos="ADV" lemma="nur" type="stopword">nur</w>
+                    <w pos="DET" lemma="jen" type="stopword">jene</w>
+                    <w pos="NOUN" lemma="Offizier" type="no_stopword">Offiziere</w>
+                    <w pos="VERB" lemma="gehören" type="no_stopword">gehören</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="NOUN" lemma="Offizierspatent" type="no_stopword">Offizierspatent</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="aber" type="stopword">aber</w>
+                    <w pos="DET" lemma="kein" type="stopword">kein</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihrem</w>
+                    <w pos="NOUN" lemma="Rang" type="no_stopword">Range</w>
+                    <w pos="ADJ" lemma="entsprechend" type="no_stopword">entsprechendes</w>
+                    <w pos="ADJ" lemma="direkt" type="no_stopword">direktes</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="ständig" type="no_stopword">ständiges</w>
+                    <w pos="NOUN" lemma="Kommando" type="no_stopword">Kommando</w>
+                    <w pos="VERB" lemma="ausüben" type="no_stopword">ausüben</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="In" type="stopword">In</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armee</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Vereinigte" type="no_stopword">Vereinigten</w>
+                    <w pos="NOUN" lemma="Staat" type="no_stopword">Staaten</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Kapitän" type="no_stopword">Kapitän</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="NOUN" lemma="Waffe" type="no_stopword">Waffen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Munition" type="no_stopword">Munition</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Bekleidung" type="no_stopword">Bekleidung</w>
+                    <w pos="ADV" lemma="usw." type="no_stopword">usw.</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADP" lemma="unter" type="stopword">unter</w>
+                    <w pos="DET" lemma="mein" type="stopword">seinem</w>
+                    <w pos="NOUN" lemma="Kommando" type="no_stopword">Kommando</w>
+                    <w pos="ADJ" lemma="stehend" type="no_stopword">stehenden</w>
+                    <w pos="NOUN" lemma="Kompanie" type="no_stopword">Kompanie</w>
+                    <w pos="ADJ" lemma="verantwortlich" type="no_stopword">verantwortlich</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Pflicht" type="no_stopword">Pflichten</w>
+                    <w pos="DET" lemma="ein" type="stopword">eines</w>
+                    <w pos="NOUN" lemma="Kapitän" type="no_stopword">Kapitäns</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Kriegsmarine" type="no_stopword">Kriegsmarine</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="ADV" lemma="sehr" type="stopword">sehr</w>
+                    <w pos="ADJ" lemma="umfassen" type="no_stopword">umfassend</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="mein" type="stopword">sein</w>
+                    <w pos="NOUN" lemma="Posten" type="no_stopword">Posten</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="ADV" lemma="sehr" type="stopword">sehr</w>
+                    <w pos="ADJ" lemma="verantwortlich" type="no_stopword">verantwortlicher</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="In" type="stopword">In</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="britisch" type="no_stopword">britischen</w>
+                    <w pos="NOUN" lemma="Flotte" type="no_stopword">Flotte</w>
+                    <w pos="VERB" lemma="stehen" type="no_stopword">steht</w>
+                    <w pos="PRON" lemma="ich" type="stopword">er</w>
+                    <w pos="ADP" lemma="bis" type="stopword">bis</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="NOUN" lemma="Ablauf" type="no_stopword">Ablauf</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NUM" lemma="3" type="no_stopword">3</w>
+                    <w pos="NOUN" lemma="Jahr" type="stopword">Jahren</w>
+                    <w pos="ADP" lemma="vom" type="stopword">vom</w>
+                    <w pos="NOUN" lemma="Datum" type="no_stopword">Datum</w>
+                    <w pos="DET" lemma="sich" type="stopword">seiner</w>
+                    <w pos="NOUN" lemma="Bestallung" type="no_stopword">Bestallung</w>
+                    <w pos="ADP" lemma="ab" type="stopword">ab</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="ADJ" lemma="gleich" type="no_stopword">gleichen</w>
+                    <w pos="NOUN" lemma="Rang" type="no_stopword">Rang</w>
+                    <w pos="CCONJ" lemma="wie" type="stopword">wie</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="NOUN" lemma="Oberstleutnant" type="no_stopword">Oberstleutnant</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armee</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="VERB" lemma="rücken" type="no_stopword">rückt</w>
+                    <w pos="ADV" lemma="dann" type="stopword">dann</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Rang" type="no_stopword">Rang</w>
+                    <w pos="DET" lemma="ein" type="stopword">eines</w>
+                    <w pos="NOUN" lemma="Oberste" type="no_stopword">Obersten</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="Früher" type="stopword">Früher</w>
+                    <w pos="AUX" lemma="sein" type="stopword">war</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Kapitän" type="no_stopword">Kapitän</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="französisch" type="no_stopword">französischen</w>
+                    <w pos="NOUN" lemma="Flotte" type="no_stopword">Flotte</w>
+                    <w pos="ADP" lemma="bei" type="stopword">bei</w>
+                    <w pos="NOUN" lemma="Todesstrafe" type="no_stopword">Todesstrafe</w>
+                    <w pos="VERB" lemma="verbieten" type="no_stopword">verboten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="mein" type="stopword">sein</w>
+                    <w pos="NOUN" lemma="Schiff" type="no_stopword">Schiff</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="verlassen" type="no_stopword">verlassen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PRON" lemma="ich" type="stopword">er</w>
+                    <w pos="VERB" lemma="müssen" type="no_stopword">mußte</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="ADV" lemma="eher" type="no_stopword">eher</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Luft" type="no_stopword">Luft</w>
+                    <w pos="VERB" lemma="sprengen" type="no_stopword">sprengen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="als" type="stopword">als</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Hand" type="no_stopword">Hände</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Feind" type="no_stopword">Feindes</w>
+                    <w pos="VERB" lemma="fallen" type="no_stopword">fallen</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="lassen" type="no_stopword">lassen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Kapitän" type="no_stopword">Kapitäne</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="ADV" lemma="auch" type="stopword">auch</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Schiffsführer" type="no_stopword">Schiffsführer</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Kauffahrtei" type="no_stopword">Kauffahrtei</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="NOUN" lemma="Passagierschiffen" type="no_stopword">Passagierschiffen</w>
+                    <w pos="VERB" lemma="nennen" type="no_stopword">genannt</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="verschieden" type="no_stopword">verschiedene</w>
+                    <w pos="ADJ" lemma="niedere" type="no_stopword">niedere</w>
+                    <w pos="NOUN" lemma="Offizier" type="no_stopword">Offiziere</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="NOUN" lemma="Linienschiffen" type="no_stopword">Linienschiffen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="wie" type="stopword">wie</w>
+                    <w pos="PROPN" lemma="Kapitän" type="no_stopword">Kapitän</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Vorderdeck" type="no_stopword">Vorderdecks</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Schiffsraums" type="no_stopword">Schiffsraums</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Großmars" type="no_stopword">Großmars</w>
+                    <w pos="PUNCT" lemma="'" type="no_stopword">'</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Vormars" type="no_stopword">Vormars</w>
+                    <w pos="PUNCT" lemma="'" type="no_stopword">'</w>
+                    <w pos="PROPN" lemma="etc" type="no_stopword">etc</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Das</w>
+                    <w pos="NOUN" lemma="Wort" type="no_stopword">Wort</w>
+                    <w pos="PROPN" lemma="Kapitän" type="no_stopword">Kapitän</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADJ" lemma="italienisch" type="no_stopword">italienischen</w>
+                    <w pos="NOUN" lemma="Ursprung" type="no_stopword">Ursprungs</w>
+                    <w pos="PROPN" lemma="ital" type="no_stopword">ital</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="capitano" type="no_stopword">capitano</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="VERB" lemma="bezeichnen" type="no_stopword">bezeichnet</w>
+                    <w pos="DET" lemma="ein" type="stopword">einen</w>
+                    <w pos="NOUN" lemma="Mann" type="no_stopword">Mann</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">der</w>
+                    <w pos="ADV" lemma="irgendwo" type="no_stopword">irgendwo</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="spitzen" type="no_stopword">Spitze</w>
+                    <w pos="VERB" lemma="stehen" type="no_stopword">steht</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="dies" type="stopword">diesem</w>
+                    <w pos="NOUN" lemma="Sinn" type="no_stopword">Sinne</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="ADV" lemma="oft" type="stopword">oft</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Synonym" type="no_stopword">Synonym</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="NOUN" lemma="Oberbefehlshaber" type="no_stopword">Oberbefehlshaber</w>
+                    <w pos="VERB" lemma="gebrauchen" type="no_stopword">gebraucht</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="besonders" type="stopword">besonders</w>
+                    <w pos="ADP" lemma="hinsichtlich" type="no_stopword">hinsichtlich</w>
+                    <w pos="DET" lemma="sich" type="stopword">seiner</w>
+                    <w pos="NOUN" lemma="Fähigkeit" type="no_stopword">Fähigkeiten</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Feldherr.´" type="no_stopword">Feldherr.´</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

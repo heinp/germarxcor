@@ -1,38 +1,208 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Entwurf eines Beschlusses über die Einberufung der zweiten sozialistischen Konferenz</title>
-        <author>Wladimir Lenin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Stimmen der proletarischen Revolution</name>
-          <idno type="URL">http://www.mlwerke.de</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="http://www.mlwerke.de/ies/kontakt.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>|120| Nach Beratung mit einer Reihe von Vertretern der einzelnen Länder beschließt das Büro (ISK), die zweite Konferenz der Sozialisten, die auf dem Boden der Zimmerwalder Beschlüsse stehen, einzuberufen. Tagesordnung: 1. Kampf gegen den Krieg; 2. internationale Vereinigung der Sozialisten, die dem Krieg und dem Nationalismus feindlich gegenüberstehen; 3. praktische Maßnahmen der Organisation, der Agitation und des Kampfes gegen die Regierungen; 4. Weiterentwicklung der Zimmerwalder Beschlüsse. Der Einberufungstermin wird auf den 15. April 1916 festgesetzt. Dieser Beschluß wird veröffentlicht (wobei als Termin der 15. März bekanntzugeben ist). Alle auf dem Boden der Zimmerwalder Beschlüsse stehenden Organisationen der Sozialisten werden zur Erörterung (Diskussion) aller Tagesordnungspunkte und Resolutionsentwürfe aufgefordert. Die Entwürfe werden (bei Unterschrift durch 2 bis 3 Delegierte) in der "Berner Tagwacht" veröffentlicht.</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Entwurf eines Beschlusses über die Einberufung der zweiten sozialistischen Konferenz</title>
+                <author>Wladimir Lenin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Stimmen der proletarischen Revolution</name>
+                    <idno type="URL">http://www.mlwerke.de</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="http://www.mlwerke.de/ies/kontakt.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="PUNCT" lemma="|120|" type="no_stopword">|120|</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Nach" type="stopword">Nach</w>
+                    <w pos="NOUN" lemma="Beratung" type="no_stopword">Beratung</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="einer" type="stopword">einer</w>
+                    <w pos="NOUN" lemma="Reihe" type="no_stopword">Reihe</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Vertreter" type="no_stopword">Vertretern</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="einzeln" type="no_stopword">einzelnen</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Länder</w>
+                    <w pos="VERB" lemma="beschließen" type="no_stopword">beschließt</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="NOUN" lemma="Büro" type="no_stopword">Büro</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="PROPN" lemma="ISK" type="no_stopword">ISK</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="zweite" type="stopword">zweite</w>
+                    <w pos="NOUN" lemma="Konferenz" type="no_stopword">Konferenz</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Sozialist" type="no_stopword">Sozialisten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Boden" type="no_stopword">Boden</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Zimmerwalder" type="no_stopword">Zimmerwalder</w>
+                    <w pos="NOUN" lemma="Beschluß" type="no_stopword">Beschlüsse</w>
+                    <w pos="VERB" lemma="stehen" type="no_stopword">stehen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="einberufen" type="no_stopword">einzuberufen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Tagesordnung" type="no_stopword">Tagesordnung</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="ADV" lemma="1" type="no_stopword">1</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kampf</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Krieg" type="no_stopword">Krieg</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                </s>
+                <s>
+                    <w pos="NUM" lemma="2." type="no_stopword">2.</w>
+                    <w pos="ADJ" lemma="internationale" type="no_stopword">internationale</w>
+                    <w pos="NOUN" lemma="Vereinigung" type="no_stopword">Vereinigung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Sozialist" type="no_stopword">Sozialisten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Krieg" type="no_stopword">Krieg</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Nationalismus" type="no_stopword">Nationalismus</w>
+                    <w pos="ADJ" lemma="feindlich" type="no_stopword">feindlich</w>
+                    <w pos="VERB" lemma="gegenüberstehen" type="no_stopword">gegenüberstehen</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                </s>
+                <s>
+                    <w pos="NUM" lemma="3." type="no_stopword">3.</w>
+                    <w pos="ADJ" lemma="praktische" type="no_stopword">praktische</w>
+                    <w pos="NOUN" lemma="Maßnahme" type="no_stopword">Maßnahmen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Organisation" type="no_stopword">Organisation</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Agitation" type="no_stopword">Agitation</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kampfes</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Regierung" type="no_stopword">Regierungen</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="4" type="no_stopword">4</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                    <w pos="NOUN" lemma="Weiterentwicklung" type="no_stopword">Weiterentwicklung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Zimmerwalder" type="no_stopword">Zimmerwalder</w>
+                    <w pos="NOUN" lemma="Beschluß" type="no_stopword">Beschlüsse</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Der</w>
+                    <w pos="NOUN" lemma="Einberufungstermin" type="no_stopword">Einberufungstermin</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="NOUN" lemma="April" type="no_stopword">April</w>
+                    <w pos="NUM" lemma="6" type="no_stopword">6</w>
+                    <w pos="VERB" lemma="festsetzen" type="no_stopword">festgesetzt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Dieser" type="stopword">Dieser</w>
+                    <w pos="NOUN" lemma="Beschluß" type="no_stopword">Beschluß</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="VERB" lemma="veröffentlichen" type="no_stopword">veröffentlicht</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADV" lemma="wobei" type="no_stopword">wobei</w>
+                    <w pos="CCONJ" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Termin" type="no_stopword">Termin</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="NOUN" lemma="März" type="no_stopword">März</w>
+                    <w pos="VERB" lemma="bekanntgeben" type="no_stopword">bekanntzugeben</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="all" type="stopword">Alle</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Boden" type="no_stopword">Boden</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Zimmerwalder" type="no_stopword">Zimmerwalder</w>
+                    <w pos="NOUN" lemma="Beschluß" type="no_stopword">Beschlüsse</w>
+                    <w pos="ADJ" lemma="stehend" type="no_stopword">stehenden</w>
+                    <w pos="NOUN" lemma="Organisation" type="no_stopword">Organisationen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Sozialist" type="no_stopword">Sozialisten</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="ADP" lemma="zur" type="stopword">zur</w>
+                    <w pos="NOUN" lemma="Erörterung" type="no_stopword">Erörterung</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="NOUN" lemma="Diskussion" type="no_stopword">Diskussion</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="DET" lemma="all" type="stopword">aller</w>
+                    <w pos="NOUN" lemma="Tagesordnungspunkte" type="no_stopword">Tagesordnungspunkte</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Resolutionsentwürfe" type="no_stopword">Resolutionsentwürfe</w>
+                    <w pos="VERB" lemma="auffordern" type="no_stopword">aufgefordert</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Entwurf" type="no_stopword">Entwürfe</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="bei" type="stopword">bei</w>
+                    <w pos="NOUN" lemma="Unterschrift" type="no_stopword">Unterschrift</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="NUM" lemma="2" type="no_stopword">2</w>
+                    <w pos="CCONJ" lemma="bis" type="stopword">bis</w>
+                    <w pos="NUM" lemma="3" type="no_stopword">3</w>
+                    <w pos="NOUN" lemma="delegiert" type="no_stopword">Delegierte</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="Berner" type="no_stopword">Berner</w>
+                    <w pos="NOUN" lemma="Tagwacht" type="no_stopword">Tagwacht</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="VERB" lemma="veröffentlichen" type="no_stopword">veröffentlicht</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

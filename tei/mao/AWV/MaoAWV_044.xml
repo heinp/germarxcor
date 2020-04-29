@@ -1,40 +1,194 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>DIE CHINESISCHEN VOLKSFREIWILLIGEN</title>
-        <author>Mao Zedong</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Werke Mao Tse-tungs</name>
-          <idno type="URL">http://www.infopartisan.net/archive/maowerke/maoAWges.htm</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Die chinesischen Genossen müssen sich mit den koreanischen Genossen brüderlich aufs engste zusammenschließen, Freude und Leid mit ihnen teilen, in Leben und Tod mit ihnen zusammenstehen und so lange kämpfen, bis der gemeinsame Feind endgültig besiegt ist. Die chinesi­schen Genossen müssen die Sache Koreas als ihre eigene betrachten, und alle Kommandeure und Kämpfer müssen dazu erzogen werden, jeden Berg, jeden Fluß, jeden Baum und jeden Grashalm in Korea zu schützen und dem koreanischen Volk nicht eine einzige Nadel und nicht einen Faden wegzunehmen  ihre Einstellung und ihr Verhalten müssen also genauso wie im eigenen Land sein. Das ist die politische Grundlage für den Sieg. Handeln wir so, ist uns der endgültige Sieg sicher.</p>
-      <p>ANMERKUNGEN:</p>
-      <p>* Eine Direktive von Genossen Mao Tsetung an die</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DIE CHINESISCHEN VOLKSFREIWILLIGEN</title>
+                <author>Mao Zedong</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Werke Mao Tse-tungs</name>
+                    <idno type="URL">http://www.infopartisan.net/archive/maowerke/maoAWges.htm</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="chinesisch" type="no_stopword">chinesischen</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genossen</w>
+                    <w pos="VERB" lemma="müssen" type="stopword">müssen</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="koreanischen" type="no_stopword">koreanischen</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genossen</w>
+                    <w pos="ADJ" lemma="brüderlich" type="no_stopword">brüderlich</w>
+                    <w pos="ADP" lemma="aufs" type="no_stopword">aufs</w>
+                    <w pos="ADJ" lemma="eng" type="no_stopword">engste</w>
+                    <w pos="VERB" lemma="zusammenschließen" type="no_stopword">zusammenschließen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Freude" type="no_stopword">Freude</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Leid" type="no_stopword">Leid</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ihnen</w>
+                    <w pos="VERB" lemma="teilen" type="no_stopword">teilen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="NOUN" lemma="Leben" type="no_stopword">Leben</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Tod" type="no_stopword">Tod</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ihnen</w>
+                    <w pos="ADJ" lemma="zusammenstehen" type="no_stopword">zusammenstehen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADV" lemma="so" type="stopword">so</w>
+                    <w pos="ADV" lemma="lang" type="stopword">lange</w>
+                    <w pos="VERB" lemma="kämpfen" type="no_stopword">kämpfen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="bis" type="stopword">bis</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="gemeinsam" type="no_stopword">gemeinsame</w>
+                    <w pos="NOUN" lemma="Feind" type="no_stopword">Feind</w>
+                    <w pos="ADJ" lemma="endgültig" type="no_stopword">endgültig</w>
+                    <w pos="VERB" lemma="besiegen" type="no_stopword">besiegt</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="chinesisch" type="no_stopword">chinesischen</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genossen</w>
+                    <w pos="VERB" lemma="müssen" type="stopword">müssen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Sache" type="no_stopword">Sache</w>
+                    <w pos="PROPN" lemma="Koreas" type="no_stopword">Koreas</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihre</w>
+                    <w pos="ADJ" lemma="eigene" type="stopword">eigene</w>
+                    <w pos="VERB" lemma="betrachten" type="no_stopword">betrachten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="all" type="stopword">alle</w>
+                    <w pos="NOUN" lemma="Kommandeure" type="no_stopword">Kommandeure</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Kämpfer" type="no_stopword">Kämpfer</w>
+                    <w pos="VERB" lemma="müssen" type="stopword">müssen</w>
+                    <w pos="ADV" lemma="dazu" type="stopword">dazu</w>
+                    <w pos="VERB" lemma="erziehen" type="no_stopword">erzogen</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="jed" type="stopword">jeden</w>
+                    <w pos="NOUN" lemma="Berg" type="no_stopword">Berg</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="jed" type="stopword">jeden</w>
+                    <w pos="NOUN" lemma="Fluß" type="no_stopword">Fluß</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="jed" type="stopword">jeden</w>
+                    <w pos="NOUN" lemma="Baum" type="no_stopword">Baum</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="jed" type="stopword">jeden</w>
+                    <w pos="NOUN" lemma="Grashalm" type="no_stopword">Grashalm</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Korea" type="no_stopword">Korea</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="schützen" type="no_stopword">schützen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="koreanischen" type="no_stopword">koreanischen</w>
+                    <w pos="NOUN" lemma="Volk" type="no_stopword">Volk</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="ADJ" lemma="einzig" type="no_stopword">einzige</w>
+                    <w pos="NOUN" lemma="Nadel" type="no_stopword">Nadel</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="DET" lemma="ein" type="stopword">einen</w>
+                    <w pos="NOUN" lemma="Fade" type="no_stopword">Faden</w>
+                    <w pos="VERB" lemma="wegnehmen" type="no_stopword">wegzunehmen</w>
+                    <w pos="PUNCT" lemma="" type="no_stopword"></w>
+                    <w pos="DET" lemma="mein" type="stopword">ihre</w>
+                    <w pos="NOUN" lemma="Einstellung" type="no_stopword">Einstellung</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihr</w>
+                    <w pos="NOUN" lemma="Verhalten" type="no_stopword">Verhalten</w>
+                    <w pos="VERB" lemma="müssen" type="stopword">müssen</w>
+                    <w pos="ADV" lemma="also" type="stopword">also</w>
+                    <w pos="ADV" lemma="genauso" type="no_stopword">genauso</w>
+                    <w pos="CCONJ" lemma="wie" type="stopword">wie</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="ADJ" lemma="eigen" type="stopword">eigenen</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Land</w>
+                    <w pos="AUX" lemma="mein" type="stopword">sein</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="der" type="stopword">Das</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="politische" type="no_stopword">politische</w>
+                    <w pos="NOUN" lemma="Grundlage" type="no_stopword">Grundlage</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Sieg" type="no_stopword">Sieg</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="VERB" lemma="Handeln" type="no_stopword">Handeln</w>
+                    <w pos="PRON" lemma="ich" type="stopword">wir</w>
+                    <w pos="ADV" lemma="so" type="stopword">so</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="PRON" lemma="sich" type="stopword">uns</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="endgültig" type="no_stopword">endgültige</w>
+                    <w pos="NOUN" lemma="Sieg" type="no_stopword">Sieg</w>
+                    <w pos="ADJ" lemma="sichern" type="no_stopword">sicher</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PROPN" lemma="ANMERKUNGEN" type="no_stopword">ANMERKUNGEN</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="X" lemma="*" type="no_stopword">*</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Eine" type="stopword">Eine</w>
+                    <w pos="NOUN" lemma="Direktive" type="no_stopword">Direktive</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genossen</w>
+                    <w pos="PROPN" lemma="Mao" type="no_stopword">Mao</w>
+                    <w pos="NOUN" lemma="Tsetung" type="no_stopword">Tsetung</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

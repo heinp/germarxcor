@@ -1,38 +1,235 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>An die Swerdlow-Universität</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>AN DIE SWERDLOW-UNIVERSITÄT Zum zehnten Jahrestag ihres Bestehens Das zehnjährige Bestehen der Swerdlow-Universität[14] ist eine gewaltige Errungenschaft der Partei an der Front des Kampfes für die Heranbildung neuer leninistischer Kader. In diesen zehn Jahren hat die Swerdlow-Universität der Partei Hunderte und Tausende der Sache des Kommunismus ergebene junge Funktionäre zugeführt, die die alte Garde der Bolschewiki ablösen. In den zehn Jahren ihres Bestehens hat sich die Universität voll und ganz bewährt und somit gezeigt, dass sie nicht umsonst den Namen ihres Gründers, des Vorkämpfers für den Kommunismus, J. M. Swerdlows, trägt. Die Arbeiterfunktionäre der Partei lehren, die wissenschaftliche Methode von Marx und Lenin zu meistern und sie beim sozialistischen Aufbau richtig anzuwenden - das ist die Aufgabe, die die Swerdlow-Universität in Ehren erfüllt hat, erfüllt und erfüllen wird. Gruß den ehemaligen und jetzigen Swerdlow-Studenten zum zehnten Jahrestag der Kommunistischen J.-M.-Swerdlow-Universität! Gruß dem Jubiläumslehrgang der Swerdlow-Studenten - dem neuen Trupp von Erbauern des Sozialismus! J. Stalin „Prawda“ Nr. 122, 27. Mai 1928.</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An die Swerdlow-Universität</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="ADP" lemma="AN" type="stopword">AN</w>
+                    <w pos="DET" lemma="DIE" type="stopword">DIE</w>
+                    <w pos="PROPN" lemma="SWERDLOWUNIVERSITÄT" type="no_stopword">SWERDLOWUNIVERSITÄT</w>
+                    <w pos="ADP" lemma="Zum" type="stopword">Zum</w>
+                    <w pos="ADJ" lemma="zehnten" type="stopword">zehnten</w>
+                    <w pos="NOUN" lemma="Jahrestag" type="no_stopword">Jahrestag</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihres</w>
+                    <w pos="NOUN" lemma="Bestehen" type="no_stopword">Bestehens</w>
+                    <w pos="DET" lemma="der" type="stopword">Das</w>
+                    <w pos="ADJ" lemma="zehnjährige" type="no_stopword">zehnjährige</w>
+                    <w pos="NOUN" lemma="Bestehen" type="no_stopword">Bestehen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="SwerdlowUniversität" type="no_stopword">SwerdlowUniversität</w>
+                    <w pos="NOUN" lemma="[" type="no_stopword">[</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                    <w pos="ADV" lemma="]" type="no_stopword">]</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="ADJ" lemma="gewaltig" type="no_stopword">gewaltige</w>
+                    <w pos="NOUN" lemma="Errungenschaft" type="no_stopword">Errungenschaft</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Partei</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Front" type="no_stopword">Front</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kampfes</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Heranbildung" type="no_stopword">Heranbildung</w>
+                    <w pos="ADJ" lemma="neu" type="no_stopword">neuer</w>
+                    <w pos="ADJ" lemma="leninistischer" type="no_stopword">leninistischer</w>
+                    <w pos="NOUN" lemma="Kader" type="no_stopword">Kader</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="In" type="stopword">In</w>
+                    <w pos="DET" lemma="dies" type="stopword">diesen</w>
+                    <w pos="NUM" lemma="zehn" type="stopword">zehn</w>
+                    <w pos="NOUN" lemma="Jahr" type="stopword">Jahren</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="SwerdlowUniversität" type="no_stopword">SwerdlowUniversität</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Partei</w>
+                    <w pos="NOUN" lemma="Hunderte" type="no_stopword">Hunderte</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Tausende" type="no_stopword">Tausende</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Sache" type="no_stopword">Sache</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Kommunismus" type="no_stopword">Kommunismus</w>
+                    <w pos="ADJ" lemma="ergeben" type="no_stopword">ergebene</w>
+                    <w pos="ADJ" lemma="junge" type="no_stopword">junge</w>
+                    <w pos="NOUN" lemma="Funktionär" type="no_stopword">Funktionäre</w>
+                    <w pos="VERB" lemma="zuführen" type="no_stopword">zugeführt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="alt" type="no_stopword">alte</w>
+                    <w pos="NOUN" lemma="Garde" type="no_stopword">Garde</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Bolschewiki" type="no_stopword">Bolschewiki</w>
+                    <w pos="VERB" lemma="ablösen" type="no_stopword">ablösen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="In" type="stopword">In</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NUM" lemma="zehn" type="stopword">zehn</w>
+                    <w pos="NOUN" lemma="Jahr" type="stopword">Jahren</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihres</w>
+                    <w pos="NOUN" lemma="Bestehen" type="no_stopword">Bestehens</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Universität" type="no_stopword">Universität</w>
+                    <w pos="ADJ" lemma="voll" type="no_stopword">voll</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADV" lemma="ganz" type="stopword">ganz</w>
+                    <w pos="VERB" lemma="bewähren" type="no_stopword">bewährt</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADV" lemma="somit" type="no_stopword">somit</w>
+                    <w pos="VERB" lemma="zeigen" type="no_stopword">gezeigt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="dass" type="stopword">dass</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="ADV" lemma="umsonst" type="no_stopword">umsonst</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Name" type="no_stopword">Namen</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihres</w>
+                    <w pos="NOUN" lemma="Gründer" type="no_stopword">Gründers</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Vorkämpfers" type="no_stopword">Vorkämpfers</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Kommunismus" type="no_stopword">Kommunismus</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="X" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="M." type="no_stopword">M.</w>
+                    <w pos="PROPN" lemma="Swerdlows" type="no_stopword">Swerdlows</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="tragen" type="no_stopword">trägt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Arbeiterfunktionäre" type="no_stopword">Arbeiterfunktionäre</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Partei</w>
+                    <w pos="VERB" lemma="lehren" type="no_stopword">lehren</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="wissenschaftliche" type="no_stopword">wissenschaftliche</w>
+                    <w pos="NOUN" lemma="Methode" type="no_stopword">Methode</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Lenin" type="no_stopword">Lenin</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="meistern" type="no_stopword">meistern</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="ADP" lemma="beim" type="stopword">beim</w>
+                    <w pos="ADJ" lemma="sozialistisch" type="no_stopword">sozialistischen</w>
+                    <w pos="NOUN" lemma="Aufbau" type="no_stopword">Aufbau</w>
+                    <w pos="ADJ" lemma="richtig" type="stopword">richtig</w>
+                    <w pos="VERB" lemma="anwenden" type="no_stopword">anzuwenden</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="PRON" lemma="der" type="stopword">das</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Aufgabe" type="no_stopword">Aufgabe</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="SwerdlowUniversität" type="no_stopword">SwerdlowUniversität</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="NOUN" lemma="Ehre" type="no_stopword">Ehren</w>
+                    <w pos="VERB" lemma="erfüllen" type="no_stopword">erfüllt</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="erfüllen" type="no_stopword">erfüllt</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="VERB" lemma="erfüllen" type="no_stopword">erfüllen</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Gruß" type="no_stopword">Gruß</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="ehemalig" type="no_stopword">ehemaligen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="jetzig" type="no_stopword">jetzigen</w>
+                    <w pos="NOUN" lemma="SwerdlowStudenten" type="no_stopword">SwerdlowStudenten</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="ADJ" lemma="zehnten" type="stopword">zehnten</w>
+                    <w pos="NOUN" lemma="Jahrestag" type="no_stopword">Jahrestag</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Kommunistische" type="no_stopword">Kommunistischen</w>
+                    <w pos="NOUN" lemma="J.M.SwerdlowUniversität" type="no_stopword">J.M.SwerdlowUniversität</w>
+                    <w pos="PUNCT" lemma="!" type="no_stopword">!</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Gruß" type="no_stopword">Gruß</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Jubiläumslehrgang" type="no_stopword">Jubiläumslehrgang</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="SwerdlowStudenten" type="no_stopword">SwerdlowStudenten</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="neu" type="stopword">neuen</w>
+                    <w pos="NOUN" lemma="Trupp" type="no_stopword">Trupp</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Erbauer" type="no_stopword">Erbauern</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Sozialismus" type="no_stopword">Sozialismus</w>
+                    <w pos="PUNCT" lemma="!" type="no_stopword">!</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="PROPN" lemma="Prawda" type="no_stopword">Prawda</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="2" type="no_stopword">2</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                    <w pos="NOUN" lemma="Mai" type="no_stopword">Mai</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

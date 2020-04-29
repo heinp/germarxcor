@@ -1,42 +1,125 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Kautskys Buch wider Bernstein (September 1899)</title>
-        <author>Rosa Luxemburg</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Marxist Internet Archive</name>
-          <idno type="URL">https://www.marxists.org/deutsch/index.htm</idno>
-          <availability>
-            <licence>
-              <ab>CC-BY-SA-2.0</ab>
-              <ref target="https://www.marxists.org/admin/legal/cc/by-sa.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Kautskys Buch wider Bernstein (1899)</p>
-      <p>Zuerst veröffentlicht in Leipziger Volkszeitung, Nr. 218–221, 20. 23. September 1899. Rosa Luxemburg, Gesammelte Werke, Bd. 1, Erster Halbbd., Dietz Verlag, Berlin 1982, S. 537–554. Transkription u. HTML-Markierung: Einde O’Callaghan für das Marxists’ Internet Archive.</p>
-      <p>I</p>
-      <p>II</p>
-      <p>III</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kautskys Buch wider Bernstein (September 1899)</title>
+                <author>Rosa Luxemburg</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Marxist Internet Archive</name>
+                    <idno type="URL">https://www.marxists.org/deutsch/index.htm</idno>
+                    <availability>
+                        <licence>
+                            <ab>CC-BY-SA-2.0</ab>
+                            <ref target="https://www.marxists.org/admin/legal/cc/by-sa.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="PROPN" lemma="Kautskys" type="no_stopword">Kautskys</w>
+                    <w pos="NOUN" lemma="Buch" type="no_stopword">Buch</w>
+                    <w pos="ADP" lemma="widern" type="no_stopword">wider</w>
+                    <w pos="NOUN" lemma="Bernstein" type="no_stopword">Bernstein</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="NUM" lemma="9" type="no_stopword">9</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="ADV" lemma="Zuerst" type="stopword">Zuerst</w>
+                    <w pos="VERB" lemma="veröffentlichen" type="no_stopword">veröffentlicht</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="ADJ" lemma="Leipziger" type="no_stopword">Leipziger</w>
+                    <w pos="NOUN" lemma="Volkszeitung" type="no_stopword">Volkszeitung</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="0" type="no_stopword">0</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                    <w pos="NUM" lemma="3" type="no_stopword">3</w>
+                    <w pos="NOUN" lemma="September" type="no_stopword">September</w>
+                    <w pos="NUM" lemma="9" type="no_stopword">9</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Rosa" type="no_stopword">Rosa</w>
+                    <w pos="PROPN" lemma="Luxemburg" type="no_stopword">Luxemburg</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="Gesammelte" type="no_stopword">Gesammelte</w>
+                    <w pos="NOUN" lemma="Werk" type="no_stopword">Werke</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Bd." type="no_stopword">Bd.</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Erster" type="stopword">Erster</w>
+                    <w pos="NOUN" lemma="Halbbd." type="no_stopword">Halbbd.</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Dietz" type="no_stopword">Dietz</w>
+                    <w pos="NOUN" lemma="Verlag" type="no_stopword">Verlag</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Berlin" type="no_stopword">Berlin</w>
+                    <w pos="NUM" lemma="2" type="no_stopword">2</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="S" type="no_stopword">S</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                    <w pos="ADV" lemma="4" type="no_stopword">4</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                    <w pos="NOUN" lemma="Transkription" type="no_stopword">Transkription</w>
+                    <w pos="ADP" lemma="u." type="no_stopword">u.</w>
+                    <w pos="NOUN" lemma="HTMLMarkierung" type="no_stopword">HTMLMarkierung</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Einde" type="no_stopword">Einde</w>
+                    <w pos="PROPN" lemma="O" type="no_stopword">O</w>
+                    <w pos="PROPN" lemma="’" type="no_stopword">’</w>
+                    <w pos="PROPN" lemma="Callaghan" type="no_stopword">Callaghan</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="PROPN" lemma="Marxists" type="no_stopword">Marxists</w>
+                    <w pos="PROPN" lemma="’" type="no_stopword">’</w>
+                    <w pos="PROPN" lemma="Internet" type="no_stopword">Internet</w>
+                    <w pos="PROPN" lemma="Archiv" type="no_stopword">Archive</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="X" lemma="I" type="no_stopword">I</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PROPN" lemma="II" type="no_stopword">II</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PROPN" lemma="III" type="no_stopword">III</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

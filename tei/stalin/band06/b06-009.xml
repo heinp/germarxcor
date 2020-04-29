@@ -1,39 +1,154 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Über die Grundlagen des Leninismus</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>ÜBER DIE GRUNDLAGEN DES LENINISMUS[15] Vorlesungen an der Swerdlow-Universität DEM LENIN-AUFGEBOT GEWIDMET J. STALIN "Prawda" Nr. 96, 97, 103 105, 107, 108, 111, 26. und 30. April, 9., 11., 14., 15. und 18. Mai 1924</p>
-      <p>Einleitung I. Die historischen Wurzeln des Leninismus II. Die Methode III. Die Theorie IV. Die Diktatur des Proletariats V. Die Bauernfrage VI. Die nationale Frage VII. Strategie und Taktik VIII. Die Partei IX. Der Arbeitsstil</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Über die Grundlagen des Leninismus</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="ADP" lemma="ÜBER" type="stopword">ÜBER</w>
+                    <w pos="DET" lemma="DIE" type="stopword">DIE</w>
+                    <w pos="NOUN" lemma="GRUNDLAGEN" type="no_stopword">GRUNDLAGEN</w>
+                    <w pos="PROPN" lemma="DES" type="stopword">DES</w>
+                    <w pos="PROPN" lemma="LENINISMUS" type="no_stopword">LENINISMUS</w>
+                    <w pos="NOUN" lemma="[" type="no_stopword">[</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="ADV" lemma="]" type="no_stopword">]</w>
+                    <w pos="NOUN" lemma="Vorlesungen" type="no_stopword">Vorlesungen</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="SwerdlowUniversität" type="no_stopword">SwerdlowUniversität</w>
+                    <w pos="DET" lemma="DEM" type="stopword">DEM</w>
+                    <w pos="PROPN" lemma="LENINAUFGEBOT" type="no_stopword">LENINAUFGEBOT</w>
+                    <w pos="VERB" lemma="GEWIDMET" type="no_stopword">GEWIDMET</w>
+                    <w pos="PROPN" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="STALIN" type="no_stopword">STALIN</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="PROPN" lemma="Prawda" type="no_stopword">Prawda</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="6" type="no_stopword">6</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="3" type="no_stopword">3</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="6" type="no_stopword">6</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="NOUN" lemma="April" type="no_stopword">April</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="9." type="no_stopword">9.</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="NOUN" lemma="Mai" type="no_stopword">Mai</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Einleitung" type="no_stopword">Einleitung</w>
+                    <w pos="X" lemma="I" type="no_stopword">I</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="historisch" type="no_stopword">historischen</w>
+                    <w pos="NOUN" lemma="Wurzel" type="no_stopword">Wurzeln</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Leninismus" type="no_stopword">Leninismus</w>
+                    <w pos="NUM" lemma="II" type="no_stopword">II</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Methode" type="no_stopword">Methode</w>
+                    <w pos="NUM" lemma="III" type="no_stopword">III</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Theorie" type="no_stopword">Theorie</w>
+                    <w pos="NOUN" lemma="IV" type="no_stopword">IV</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Diktatur" type="no_stopword">Diktatur</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Proletariat" type="no_stopword">Proletariats</w>
+                    <w pos="PROPN" lemma="V." type="no_stopword">V.</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Bauernfrage" type="no_stopword">Bauernfrage</w>
+                    <w pos="X" lemma="VI" type="no_stopword">VI</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="national" type="no_stopword">nationale</w>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Frage</w>
+                    <w pos="PROPN" lemma="VII" type="no_stopword">VII</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Strategie" type="no_stopword">Strategie</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Taktik" type="no_stopword">Taktik</w>
+                    <w pos="NOUN" lemma="VIII" type="no_stopword">VIII</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Partei</w>
+                    <w pos="PROPN" lemma="IX" type="no_stopword">IX</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Der</w>
+                    <w pos="NOUN" lemma="Arbeitsstil" type="no_stopword">Arbeitsstil</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

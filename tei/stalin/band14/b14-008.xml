@@ -1,38 +1,139 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Über den Entwurf der Verfassung der Union der SSR</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>An dieser Stelle im Band 14 der Werke Stalins, herausgegeben 1976 in Dortmund, befand sich ursprünglich die Verfassung der UdSSR mit dem Hinweis „ Am 5. 12. 1936 gebilligt vom 8. Sowjetkongress“. Da dies jedoch die bis 1958 immer wieder durch verschiedene Gesetze geänderte Fassung war (z.B. kamen Artikel 29a und 29b erst 1940 dazu), habe ich diese herausgenommen. Die Verfassung der UdSSR kann im Internet unter http://www.verfassungen.de/su/ nachgelesen werden. Daniel Weigelt</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Über den Entwurf der Verfassung der Union der SSR</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="ADP" lemma="an" type="stopword">An</w>
+                    <w pos="DET" lemma="dies" type="stopword">dieser</w>
+                    <w pos="NOUN" lemma="Stelle" type="no_stopword">Stelle</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Band" type="no_stopword">Band</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Werk" type="no_stopword">Werke</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalins</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="herausgeben" type="no_stopword">herausgegeben</w>
+                    <w pos="NUM" lemma="6" type="no_stopword">6</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Dortmund" type="no_stopword">Dortmund</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="befinden" type="no_stopword">befand</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADJ" lemma="ursprünglich" type="no_stopword">ursprünglich</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Verfassung" type="no_stopword">Verfassung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="UdSSR" type="no_stopword">UdSSR</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Hinweis" type="no_stopword">Hinweis</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="ADP" lemma="Am" type="stopword">Am</w>
+                    <w pos="ADJ" lemma="5" type="no_stopword">5</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="2" type="no_stopword">2</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NUM" lemma="6" type="no_stopword">6</w>
+                    <w pos="VERB" lemma="billigen" type="no_stopword">gebilligt</w>
+                    <w pos="ADP" lemma="vom" type="stopword">vom</w>
+                    <w pos="ADJ" lemma="8" type="no_stopword">8</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Sowjetkongress" type="no_stopword">Sowjetkongress</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="SCONJ" lemma="da" type="stopword">Da</w>
+                    <w pos="PRON" lemma="dies" type="stopword">dies</w>
+                    <w pos="ADV" lemma="jedoch" type="stopword">jedoch</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="bis" type="stopword">bis</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="ADV" lemma="immer" type="stopword">immer</w>
+                    <w pos="ADV" lemma="wieder" type="stopword">wieder</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="ADJ" lemma="verschieden" type="no_stopword">verschiedene</w>
+                    <w pos="NOUN" lemma="Gesetz" type="no_stopword">Gesetze</w>
+                    <w pos="ADJ" lemma="geändert" type="no_stopword">geänderte</w>
+                    <w pos="NOUN" lemma="Fassung" type="no_stopword">Fassung</w>
+                    <w pos="AUX" lemma="sein" type="stopword">war</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="PROPN" lemma="z.B." type="no_stopword">z.B.</w>
+                    <w pos="VERB" lemma="kommen" type="no_stopword">kamen</w>
+                    <w pos="NOUN" lemma="Artikel" type="no_stopword">Artikel</w>
+                    <w pos="PROPN" lemma="a" type="stopword">a</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="X" lemma="b" type="no_stopword">b</w>
+                    <w pos="ADV" lemma="erst" type="stopword">erst</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="ADV" lemma="dazu" type="stopword">dazu</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="AUX" lemma="habe" type="stopword">habe</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="PRON" lemma="dies" type="stopword">diese</w>
+                    <w pos="VERB" lemma="herausgenommen" type="no_stopword">herausgenommen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Verfassung" type="no_stopword">Verfassung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="UdSSR" type="no_stopword">UdSSR</w>
+                    <w pos="VERB" lemma="können" type="stopword">kann</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Internet" type="no_stopword">Internet</w>
+                    <w pos="ADP" lemma="unter" type="stopword">unter</w>
+                    <w pos="NOUN" lemma="http" type="no_stopword">http</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="NOUN" lemma="//www.verfassungen.de/su/" type="no_stopword">//www.verfassungen.de/su/</w>
+                    <w pos="VERB" lemma="nachlesen" type="no_stopword">nachgelesen</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Daniel" type="no_stopword">Daniel</w>
+                    <w pos="PROPN" lemma="Weigelt" type="no_stopword">Weigelt</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

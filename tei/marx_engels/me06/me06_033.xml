@@ -1,38 +1,243 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>[Aufforderung des Rheinischen Kreisauschusses der Demokraten zur Steuerverweigerung]</title>
-        <author>"Neue Rheinische Zeitung"</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Stimmen der proletarischen Revolution</name>
-          <idno type="URL">http://www.mlwerke.de</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>["Neue Rheinische Zeitung" Nr. 147 vom 19. November 1848, Zweite Ausgabe] Aufruf Köln, 18. November. Der Rheinische Kreisausschuß der Demokraten fordert alle demokratischen Vereine der Rheinprovinz auf, die Beschlußnahme und Durchführung folgender Maßregeln zu bewerkstelligen: 1. Nachdem die preußische Nationalversammlung selbst die Steuerverweigerung beschlossen hat Siehe "Keine Steuern mehr!!!", ist ihre gewaltsame Eintreibung überall durch jede Art des Widerstandes zurückzuweisen. 2. Der Landsturm zur Abwehr des Feindes ist überall zu organisieren. Für die Unbemittelten sind Waffen und Munition auf Gemeindekosten oder durch freiwillige Beiträge zu beschaffen. 3. Die Behörden sind überall aufzufordern, sich öffentlich darüber zu erklären, ob sie die Beschlüsse der Nationalversammlung anerkennen und ausführen wollen. Im Weigerungsfalle sind Sicherheitsausschüsse zu ernennen, und zwar wo möglich im Einverständnisse mit den Gemeinderäten. Der gesetzgebenden Versammlung widerstrebende Gemeinderäte sind durch allgemeine Volkswahl zu erneuern. Köln, den 18. November Im Namen des Rheinischen Kreisausschusses der Demokraten Karl Marx - Karl Schapper - Schneider II</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Aufforderung des Rheinischen Kreisauschusses der Demokraten zur Steuerverweigerung]</title>
+                <author>"Neue Rheinische Zeitung"</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Stimmen der proletarischen Revolution</name>
+                    <idno type="URL">http://www.mlwerke.de</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="[" type="no_stopword">[</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="Neues" type="stopword">Neue</w>
+                    <w pos="ADJ" lemma="rheinisch" type="no_stopword">Rheinische</w>
+                    <w pos="NOUN" lemma="Zeitung" type="no_stopword">Zeitung</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                    <w pos="ADP" lemma="vom" type="stopword">vom</w>
+                    <w pos="NUM" lemma="9" type="no_stopword">9</w>
+                    <w pos="NOUN" lemma="November" type="no_stopword">November</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="Zweiter" type="stopword">Zweite</w>
+                    <w pos="NOUN" lemma="Ausgabe" type="no_stopword">Ausgabe</w>
+                    <w pos="ADP" lemma="]" type="no_stopword">]</w>
+                    <w pos="NOUN" lemma="Aufruf" type="no_stopword">Aufruf</w>
+                    <w pos="PROPN" lemma="Köln" type="no_stopword">Köln</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="NOUN" lemma="November" type="no_stopword">November</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Der</w>
+                    <w pos="ADJ" lemma="rheinisch" type="no_stopword">Rheinische</w>
+                    <w pos="NOUN" lemma="Kreisausschuß" type="no_stopword">Kreisausschuß</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Demokrat" type="no_stopword">Demokraten</w>
+                    <w pos="VERB" lemma="fordern" type="no_stopword">fordert</w>
+                    <w pos="DET" lemma="all" type="stopword">alle</w>
+                    <w pos="ADJ" lemma="demokratisch" type="no_stopword">demokratischen</w>
+                    <w pos="NOUN" lemma="Verein" type="no_stopword">Vereine</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Rheinprovinz" type="no_stopword">Rheinprovinz</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Beschlußnahme" type="no_stopword">Beschlußnahme</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Durchführung" type="no_stopword">Durchführung</w>
+                    <w pos="ADJ" lemma="folgend" type="no_stopword">folgender</w>
+                    <w pos="NOUN" lemma="Maßregeln" type="no_stopword">Maßregeln</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="bewerkstelligen" type="no_stopword">bewerkstelligen</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="ADV" lemma="1" type="no_stopword">1</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="SCONJ" lemma="nachdem" type="stopword">Nachdem</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="preußische" type="no_stopword">preußische</w>
+                    <w pos="NOUN" lemma="Nationalversammlung" type="no_stopword">Nationalversammlung</w>
+                    <w pos="ADV" lemma="selbst" type="stopword">selbst</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Steuerverweigerung" type="no_stopword">Steuerverweigerung</w>
+                    <w pos="VERB" lemma="beschließen" type="no_stopword">beschlossen</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="VERB" lemma="Siehe" type="no_stopword">Siehe</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="kein" type="stopword">Keine</w>
+                    <w pos="NOUN" lemma="Steuer" type="no_stopword">Steuern</w>
+                    <w pos="ADV" lemma="mehr" type="stopword">mehr</w>
+                    <w pos="PUNCT" lemma="!" type="no_stopword">!</w>
+                    <w pos="PUNCT" lemma="!" type="no_stopword">!</w>
+                    <w pos="PUNCT" lemma="!" type="no_stopword">!</w>
+                </s>
+                <s>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihre</w>
+                    <w pos="ADJ" lemma="gewaltsam" type="no_stopword">gewaltsame</w>
+                    <w pos="NOUN" lemma="Eintreibung" type="no_stopword">Eintreibung</w>
+                    <w pos="ADV" lemma="überall" type="no_stopword">überall</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="jed" type="stopword">jede</w>
+                    <w pos="NOUN" lemma="Art" type="no_stopword">Art</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Widerstand" type="no_stopword">Widerstandes</w>
+                    <w pos="VERB" lemma="zurückweisen" type="no_stopword">zurückzuweisen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="2" type="no_stopword">2</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Der</w>
+                    <w pos="NOUN" lemma="Landsturm" type="no_stopword">Landsturm</w>
+                    <w pos="ADP" lemma="zur" type="stopword">zur</w>
+                    <w pos="NOUN" lemma="Abwehr" type="no_stopword">Abwehr</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Feind" type="no_stopword">Feindes</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADV" lemma="überall" type="no_stopword">überall</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="organisieren" type="no_stopword">organisieren</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Für" type="stopword">Für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Unbemittelten" type="no_stopword">Unbemittelten</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="NOUN" lemma="Waffe" type="no_stopword">Waffen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Munition" type="no_stopword">Munition</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="NOUN" lemma="Gemeindekosten" type="no_stopword">Gemeindekosten</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="ADJ" lemma="freiwillige" type="no_stopword">freiwillige</w>
+                    <w pos="NOUN" lemma="Beitrag" type="no_stopword">Beiträge</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="beschaffen" type="no_stopword">beschaffen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="3" type="no_stopword">3</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Behörde" type="no_stopword">Behörden</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="ADV" lemma="überall" type="no_stopword">überall</w>
+                    <w pos="VERB" lemma="auffordern" type="no_stopword">aufzufordern</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADJ" lemma="öffentlich" type="no_stopword">öffentlich</w>
+                    <w pos="ADV" lemma="darüber" type="stopword">darüber</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="erklären" type="no_stopword">erklären</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="ob" type="stopword">ob</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Beschluß" type="no_stopword">Beschlüsse</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Nationalversammlung" type="no_stopword">Nationalversammlung</w>
+                    <w pos="VERB" lemma="anerkennen" type="no_stopword">anerkennen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="VERB" lemma="ausfahren" type="no_stopword">ausführen</w>
+                    <w pos="VERB" lemma="wollen" type="stopword">wollen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Im" type="stopword">Im</w>
+                    <w pos="NOUN" lemma="Weigerungsfalle" type="no_stopword">Weigerungsfalle</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="NOUN" lemma="Sicherheitsausschüsse" type="no_stopword">Sicherheitsausschüsse</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="ernennen" type="no_stopword">ernennen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADV" lemma="zwar" type="stopword">zwar</w>
+                    <w pos="ADV" lemma="wo" type="stopword">wo</w>
+                    <w pos="ADJ" lemma="möglich" type="stopword">möglich</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Einverständnisse" type="no_stopword">Einverständnisse</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Gemeinderäten" type="no_stopword">Gemeinderäten</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Der</w>
+                    <w pos="ADJ" lemma="gesetzgebenden" type="no_stopword">gesetzgebenden</w>
+                    <w pos="NOUN" lemma="Versammlung" type="no_stopword">Versammlung</w>
+                    <w pos="ADJ" lemma="widerstrebend" type="no_stopword">widerstrebende</w>
+                    <w pos="NOUN" lemma="Gemeinderäte" type="no_stopword">Gemeinderäte</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="ADJ" lemma="allgemein" type="no_stopword">allgemeine</w>
+                    <w pos="NOUN" lemma="Volkswahl" type="no_stopword">Volkswahl</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="erneuern" type="no_stopword">erneuern</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Köln" type="no_stopword">Köln</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="NOUN" lemma="November" type="no_stopword">November</w>
+                    <w pos="ADP" lemma="Im" type="stopword">Im</w>
+                    <w pos="NOUN" lemma="Name" type="no_stopword">Namen</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="Rheinische" type="no_stopword">Rheinischen</w>
+                    <w pos="NOUN" lemma="Kreisausschusses" type="no_stopword">Kreisausschusses</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Demokrat" type="no_stopword">Demokraten</w>
+                    <w pos="PROPN" lemma="Karl" type="no_stopword">Karl</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="PROPN" lemma="Karl" type="no_stopword">Karl</w>
+                    <w pos="PROPN" lemma="Schapper" type="no_stopword">Schapper</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="PROPN" lemma="Schneider" type="no_stopword">Schneider</w>
+                    <w pos="NUM" lemma="II" type="no_stopword">II</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

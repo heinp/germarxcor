@@ -1,39 +1,79 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>An den Deutschen Bildungsverein für Arbeiter in London</title>
-        <author>Friedrich Engels</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Stimmen der proletarischen Revolution</name>
-          <idno type="URL">http://www.mlwerke.de</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>[An den Deutschen Bildungsverein für Arbeiter in London] Nach der Handschrift.</p>
-      <p>|414| London, 1. Dezember 1893 122, Regent's Park Road, N.W. Werter Genosse,</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An den Deutschen Bildungsverein für Arbeiter in London</title>
+                <author>Friedrich Engels</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Stimmen der proletarischen Revolution</name>
+                    <idno type="URL">http://www.mlwerke.de</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="[" type="no_stopword">[</w>
+                    <w pos="ADP" lemma="an" type="stopword">An</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="Deutsche" type="no_stopword">Deutschen</w>
+                    <w pos="NOUN" lemma="Bildungsverein" type="no_stopword">Bildungsverein</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="London" type="no_stopword">London</w>
+                    <w pos="ADJ" lemma="]" type="no_stopword">]</w>
+                    <w pos="ADP" lemma="Nach" type="stopword">Nach</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Handschrift" type="no_stopword">Handschrift</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="|414|" type="no_stopword">|414|</w>
+                    <w pos="PROPN" lemma="London" type="no_stopword">London</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="1." type="no_stopword">1.</w>
+                    <w pos="NOUN" lemma="Dezember" type="no_stopword">Dezember</w>
+                    <w pos="NUM" lemma="3" type="no_stopword">3</w>
+                    <w pos="NUM" lemma="2" type="no_stopword">2</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Regent" type="no_stopword">Regent</w>
+                    <w pos="PROPN" lemma="'s" type="no_stopword">'s</w>
+                    <w pos="PROPN" lemma="Park" type="no_stopword">Park</w>
+                    <w pos="PROPN" lemma="Road" type="no_stopword">Road</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="N.W" type="no_stopword">N.W</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="Werter" type="no_stopword">Werter</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genosse</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

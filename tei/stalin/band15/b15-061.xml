@@ -1,38 +1,219 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Antwort auf vier Fragen einer Gruppe von Redakteuren amerikanischer Zeitungen</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Band 15 ANTWORT AUF VIER FRAGEN EINER GRUPPE VON REDAKTEUREN AMERIKANISCHER ZEITUNGEN 31. März 1952 Frage: Ist ein dritter Weltkrieg gegenwärtig näher als vor zwei oder drei Jahren? Antwort: Nein, das ist er nicht. Frage: Würde eine Zusammenkunft der Staatsoberhäupter der Großmächte von Nutzen sein? Antwort: Möglicherweise würde sie von Nutzen sein. Frage: Sind Sie der Meinung, dass der gegenwärtige Zeitpunkt für die Vereinigung Deutschlands geeignet ist? Antwort: Ja, ich bin der Meinung. Frage: Auf welcher Grundlage ist ein Nebeneinanderbestehen von Kapitalismus und Kommunismus möglich? Antwort: Ein friedliches Nebeneinanderbestehen von Kapitalismus und Kommunismus ist durchaus möglich, wenn der beiderseitige Wunsch nach Zusammenarbeit und die Bereitschaft vorhanden sind, die übernommenen Verpflichtungen zu erfüllen, wenn der Grundsatz der Gleichberechtigung und der Nichteinmischung in die inneren Angelegenheiten anderer Staaten gewahrt wird. „Einheit“, Heft 5 / Mai 1952, Seite 417</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Antwort auf vier Fragen einer Gruppe von Redakteuren amerikanischer Zeitungen</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Band" type="no_stopword">Band</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="NOUN" lemma="ANTWORT" type="no_stopword">ANTWORT</w>
+                    <w pos="ADP" lemma="AUF" type="stopword">AUF</w>
+                    <w pos="NUM" lemma="VIER" type="stopword">VIER</w>
+                    <w pos="NOUN" lemma="FRAGEN" type="no_stopword">FRAGEN</w>
+                    <w pos="DET" lemma="EINER" type="stopword">EINER</w>
+                    <w pos="NOUN" lemma="GRUPPE" type="no_stopword">GRUPPE</w>
+                    <w pos="ADP" lemma="VON" type="stopword">VON</w>
+                    <w pos="PROPN" lemma="REDAKTEUREN" type="no_stopword">REDAKTEUREN</w>
+                    <w pos="ADJ" lemma="AMERIKANISCHER" type="no_stopword">AMERIKANISCHER</w>
+                    <w pos="PROPN" lemma="ZEITUNGEN" type="no_stopword">ZEITUNGEN</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="NOUN" lemma="März" type="no_stopword">März</w>
+                    <w pos="NUM" lemma="2" type="no_stopword">2</w>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Frage</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="AUX" lemma="sein" type="stopword">Ist</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="ADJ" lemma="dritt" type="stopword">dritter</w>
+                    <w pos="NOUN" lemma="Weltkrieg" type="no_stopword">Weltkrieg</w>
+                    <w pos="ADJ" lemma="gegenwärtig" type="no_stopword">gegenwärtig</w>
+                    <w pos="ADJ" lemma="nähern" type="no_stopword">näher</w>
+                    <w pos="CCONJ" lemma="als" type="stopword">als</w>
+                    <w pos="ADP" lemma="vor" type="stopword">vor</w>
+                    <w pos="NUM" lemma="zwei" type="stopword">zwei</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="NUM" lemma="drei" type="stopword">drei</w>
+                    <w pos="NOUN" lemma="Jahr" type="stopword">Jahren</w>
+                    <w pos="PUNCT" lemma="?" type="no_stopword">?</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Antwort" type="no_stopword">Antwort</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="PART" lemma="Nein" type="stopword">Nein</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">das</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="PRON" lemma="ich" type="stopword">er</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Frage</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="AUX" lemma="Würde" type="stopword">Würde</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="NOUN" lemma="Zusammenkunft" type="no_stopword">Zusammenkunft</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Staatsoberhäupter" type="no_stopword">Staatsoberhäupter</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Großmacht" type="no_stopword">Großmächte</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Nutzen" type="no_stopword">Nutzen</w>
+                    <w pos="AUX" lemma="mein" type="stopword">sein</w>
+                    <w pos="PUNCT" lemma="?" type="no_stopword">?</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Antwort" type="no_stopword">Antwort</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="ADV" lemma="Möglicherweise" type="no_stopword">Möglicherweise</w>
+                    <w pos="AUX" lemma="werden" type="stopword">würde</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Nutzen" type="no_stopword">Nutzen</w>
+                    <w pos="AUX" lemma="mein" type="stopword">sein</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Frage</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="AUX" lemma="sein" type="stopword">Sind</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Sie</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Meinung" type="no_stopword">Meinung</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="dass" type="stopword">dass</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="gegenwärtige" type="no_stopword">gegenwärtige</w>
+                    <w pos="NOUN" lemma="Zeitpunkt" type="no_stopword">Zeitpunkt</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Vereinigung" type="no_stopword">Vereinigung</w>
+                    <w pos="PROPN" lemma="Deutschland" type="no_stopword">Deutschlands</w>
+                    <w pos="ADJ" lemma="eignen" type="no_stopword">geeignet</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="PUNCT" lemma="?" type="no_stopword">?</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Antwort" type="no_stopword">Antwort</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="PART" lemma="Ja" type="stopword">Ja</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="AUX" lemma="sein" type="stopword">bin</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Meinung" type="no_stopword">Meinung</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Frage</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="ADP" lemma="Auf" type="stopword">Auf</w>
+                    <w pos="DET" lemma="welch" type="stopword">welcher</w>
+                    <w pos="NOUN" lemma="Grundlage" type="no_stopword">Grundlage</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="NOUN" lemma="Nebeneinanderbestehen" type="no_stopword">Nebeneinanderbestehen</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Kapitalismus" type="no_stopword">Kapitalismus</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Kommunismus" type="no_stopword">Kommunismus</w>
+                    <w pos="ADJ" lemma="möglich" type="stopword">möglich</w>
+                    <w pos="PUNCT" lemma="?" type="no_stopword">?</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Antwort" type="no_stopword">Antwort</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="DET" lemma="Ein" type="stopword">Ein</w>
+                    <w pos="ADJ" lemma="friedlich" type="no_stopword">friedliches</w>
+                    <w pos="NOUN" lemma="Nebeneinanderbestehen" type="no_stopword">Nebeneinanderbestehen</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Kapitalismus" type="no_stopword">Kapitalismus</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Kommunismus" type="no_stopword">Kommunismus</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADV" lemma="durchaus" type="stopword">durchaus</w>
+                    <w pos="ADJ" lemma="möglich" type="stopword">möglich</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="wenn" type="stopword">wenn</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="beiderseitig" type="no_stopword">beiderseitige</w>
+                    <w pos="NOUN" lemma="Wunsch" type="no_stopword">Wunsch</w>
+                    <w pos="ADP" lemma="nach" type="stopword">nach</w>
+                    <w pos="NOUN" lemma="Zusammenarbeit" type="no_stopword">Zusammenarbeit</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Bereitschaft" type="no_stopword">Bereitschaft</w>
+                    <w pos="ADJ" lemma="vorhanden" type="no_stopword">vorhanden</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="übernommen" type="no_stopword">übernommenen</w>
+                    <w pos="NOUN" lemma="Verpflichtung" type="no_stopword">Verpflichtungen</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="erfüllen" type="no_stopword">erfüllen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="wenn" type="stopword">wenn</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Grundsatz" type="no_stopword">Grundsatz</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Gleichberechtigung" type="no_stopword">Gleichberechtigung</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Nichteinmischung" type="no_stopword">Nichteinmischung</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="inner" type="no_stopword">inneren</w>
+                    <w pos="NOUN" lemma="Angelegenheit" type="no_stopword">Angelegenheiten</w>
+                    <w pos="ADJ" lemma="ander" type="no_stopword">anderer</w>
+                    <w pos="NOUN" lemma="Staat" type="no_stopword">Staaten</w>
+                    <w pos="VERB" lemma="wahren" type="no_stopword">gewahrt</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Einheit" type="no_stopword">Einheit</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Heft" type="no_stopword">Heft</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="NOUN" lemma="/" type="no_stopword">/</w>
+                    <w pos="NOUN" lemma="Mai" type="no_stopword">Mai</w>
+                    <w pos="NUM" lemma="2" type="no_stopword">2</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Seite" type="no_stopword">Seite</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

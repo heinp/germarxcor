@@ -1,39 +1,171 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Resolution über die Verlegung des Tagungsortes des Kongresses der Internationale 1868</title>
-        <author>Karl Marx</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Stimmen der proletarischen Revolution</name>
-          <idno type="URL">http://www.mlwerke.de</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>[Resolution über die Verlegung des Tagungsortes des Kongresses der Internationale 1868] Nach dem Protokollbuch. Aus dem Englischen.</p>
-      <p>|310| In Erwägung, 1. daß das belgische Parlament soeben das Gesetz, wonach jeder Ausländer durch die belgische Exekutivgewalt des Landes verwiesen werden kann, um drei Jahre verlängert hat; 2. daß es unvereinbar ist mit der Würde der Internationalen Arbeiterassoziation, den Kongreß an einem Ort einzuberufen, wo er sich in der Gewalt der örtlichen Polizei befände; 3. daß Artikel 3 der Statuten der Internationalen Arbeiterassoziation festlegt, der Generalrat könne im Notfall den Ort der Zusammenkunft des Kongresses verlegen; beschließt der Generalrat, den Kongreß der Internationalen Arbeiterassoziation zum 5. September 1868 nach London einzuberufen.</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Resolution über die Verlegung des Tagungsortes des Kongresses der Internationale 1868</title>
+                <author>Karl Marx</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Stimmen der proletarischen Revolution</name>
+                    <idno type="URL">http://www.mlwerke.de</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="[" type="no_stopword">[</w>
+                    <w pos="NOUN" lemma="Resolution" type="no_stopword">Resolution</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Verlegung" type="no_stopword">Verlegung</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Tagungsortes" type="no_stopword">Tagungsortes</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Kongreß" type="no_stopword">Kongresses</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Internationale" type="no_stopword">Internationale</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="ADV" lemma="]" type="no_stopword">]</w>
+                    <w pos="ADP" lemma="Nach" type="stopword">Nach</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Protokollbuch" type="no_stopword">Protokollbuch</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Aus" type="stopword">Aus</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Englische" type="no_stopword">Englischen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="|310|" type="no_stopword">|310|</w>
+                    <w pos="ADP" lemma="In" type="stopword">In</w>
+                    <w pos="NOUN" lemma="Erwägung" type="no_stopword">Erwägung</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="1." type="no_stopword">1.</w>
+                    <w pos="SCONJ" lemma="daß" type="stopword">daß</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="ADJ" lemma="belgische" type="no_stopword">belgische</w>
+                    <w pos="NOUN" lemma="Parlament" type="no_stopword">Parlament</w>
+                    <w pos="ADV" lemma="soeben" type="no_stopword">soeben</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="NOUN" lemma="Gesetz" type="no_stopword">Gesetz</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="wonach" type="no_stopword">wonach</w>
+                    <w pos="DET" lemma="jed" type="stopword">jeder</w>
+                    <w pos="NOUN" lemma="Ausländer" type="no_stopword">Ausländer</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="belgische" type="no_stopword">belgische</w>
+                    <w pos="NOUN" lemma="Exekutivgewalt" type="no_stopword">Exekutivgewalt</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Landes</w>
+                    <w pos="VERB" lemma="verweisen" type="no_stopword">verwiesen</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="VERB" lemma="können" type="stopword">kann</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="um" type="stopword">um</w>
+                    <w pos="NUM" lemma="drei" type="stopword">drei</w>
+                    <w pos="NOUN" lemma="Jahr" type="stopword">Jahre</w>
+                    <w pos="VERB" lemma="verlängern" type="no_stopword">verlängert</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                    <w pos="NUM" lemma="2." type="no_stopword">2.</w>
+                    <w pos="SCONJ" lemma="daß" type="stopword">daß</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="ADJ" lemma="unvereinbar" type="no_stopword">unvereinbar</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Würde" type="stopword">Würde</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Internationale" type="no_stopword">Internationalen</w>
+                    <w pos="NOUN" lemma="Arbeiterassoziation" type="no_stopword">Arbeiterassoziation</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Kongreß" type="no_stopword">Kongreß</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="einer" type="stopword">einem</w>
+                    <w pos="NOUN" lemma="Ort" type="no_stopword">Ort</w>
+                    <w pos="VERB" lemma="einberufen" type="no_stopword">einzuberufen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="wo" type="stopword">wo</w>
+                    <w pos="PRON" lemma="ich" type="stopword">er</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Gewalt" type="no_stopword">Gewalt</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="örtlich" type="no_stopword">örtlichen</w>
+                    <w pos="NOUN" lemma="Polizei" type="no_stopword">Polizei</w>
+                    <w pos="VERB" lemma="befinden" type="no_stopword">befände</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                    <w pos="NUM" lemma="3." type="no_stopword">3.</w>
+                    <w pos="SCONJ" lemma="daß" type="stopword">daß</w>
+                    <w pos="NOUN" lemma="Artikel" type="no_stopword">Artikel</w>
+                    <w pos="NUM" lemma="3" type="no_stopword">3</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Statuten" type="no_stopword">Statuten</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Internationale" type="no_stopword">Internationalen</w>
+                    <w pos="NOUN" lemma="Arbeiterassoziation" type="no_stopword">Arbeiterassoziation</w>
+                    <w pos="VERB" lemma="festlegen" type="no_stopword">festlegt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Generalrat" type="no_stopword">Generalrat</w>
+                    <w pos="VERB" lemma="können" type="no_stopword">könne</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Notfall" type="no_stopword">Notfall</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Ort" type="no_stopword">Ort</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Zusammenkunft" type="no_stopword">Zusammenkunft</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Kongreß" type="no_stopword">Kongresses</w>
+                    <w pos="VERB" lemma="verlegen" type="no_stopword">verlegen</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                    <w pos="VERB" lemma="beschließen" type="no_stopword">beschließt</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Generalrat" type="no_stopword">Generalrat</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Kongreß" type="no_stopword">Kongreß</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Internationale" type="no_stopword">Internationalen</w>
+                    <w pos="NOUN" lemma="Arbeiterassoziation" type="no_stopword">Arbeiterassoziation</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="NUM" lemma="5." type="no_stopword">5.</w>
+                    <w pos="NOUN" lemma="September" type="no_stopword">September</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="ADP" lemma="nach" type="stopword">nach</w>
+                    <w pos="PROPN" lemma="London" type="no_stopword">London</w>
+                    <w pos="VERB" lemma="einberufen" type="no_stopword">einzuberufen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

@@ -1,38 +1,255 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Antwort an Kingsbury Smith auf die Frage über ein Zusammentreffen mit Truman </title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Band 15 ANTWORT AN KINGSBURY SMITH AUF DIE FRAGE ÜBER EIN ZUSAMMENTREFFEN MIT TRUMAN 2. Februar 1949 An Herrn Kingsbury Smith, Europäischer Generaldirektor der Agentur „International News Service“ Ihr Telegramm vom 1. Februar habe ich erhalten. Ich danke Präsident Truman für die Einladung nach Washington. Eine Reise nach Washington ist schon längst mein Wunsch, was ich seinerzeit Präsident Roosevelt in Jalta und Präsident Truman in Potsdam gesagt habe. Leider habe ich gegenwärtig nicht die Möglichkeit, diesen meinen Wunsch zu verwirklichen, da die Ärzte entschieden dagegen sind, dass ich eine längere Reise, besonders zur See oder mit dem Flugzeug. mache. Die Regierung der Sowjetunion würde einen Besuch des Präsidenten in der UdSSR begrüßen. Man könnte eine Beratung in Moskau, Leningrad oder in Kaliningrad, in Odessa oder in Jalta abhalten, nach Wahl des Präsidenten, natürlich soweit dies dem Präsidenten keine Unbequemlichkeiten bereitet, Wenn jedoch dieser Vorschlag auf Einwendung stößt, könnte man eine Zusammenkunft in Polen oder in der Tschechoslowakei veranstalten, nach Ermessen des Präsidenten. Achtungsvoll J. Stalin „Neue Welt“, Heft 3 / Februar 1949, Seite 4</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Antwort an Kingsbury Smith auf die Frage über ein Zusammentreffen mit Truman </title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Band" type="no_stopword">Band</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="NOUN" lemma="ANTWORT" type="no_stopword">ANTWORT</w>
+                    <w pos="ADP" lemma="AN" type="stopword">AN</w>
+                    <w pos="PROPN" lemma="KINGSBURY" type="no_stopword">KINGSBURY</w>
+                    <w pos="PROPN" lemma="SMITH" type="no_stopword">SMITH</w>
+                    <w pos="ADP" lemma="AUF" type="stopword">AUF</w>
+                    <w pos="DET" lemma="DIE" type="stopword">DIE</w>
+                    <w pos="PROPN" lemma="FRAGE" type="no_stopword">FRAGE</w>
+                    <w pos="ADP" lemma="ÜBER" type="stopword">ÜBER</w>
+                    <w pos="DET" lemma="EIN" type="stopword">EIN</w>
+                    <w pos="NOUN" lemma="ZUSAMMENTREFFEN" type="no_stopword">ZUSAMMENTREFFEN</w>
+                    <w pos="ADP" lemma="MIT" type="stopword">MIT</w>
+                    <w pos="PROPN" lemma="TRUMAN" type="no_stopword">TRUMAN</w>
+                    <w pos="NUM" lemma="2." type="no_stopword">2.</w>
+                    <w pos="NOUN" lemma="Februar" type="no_stopword">Februar</w>
+                    <w pos="NUM" lemma="9" type="no_stopword">9</w>
+                    <w pos="ADP" lemma="an" type="stopword">An</w>
+                    <w pos="NOUN" lemma="Herrn" type="no_stopword">Herrn</w>
+                    <w pos="PROPN" lemma="Kingsbury" type="no_stopword">Kingsbury</w>
+                    <w pos="PROPN" lemma="Smith" type="no_stopword">Smith</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="Europäischer" type="no_stopword">Europäischer</w>
+                    <w pos="NOUN" lemma="Generaldirektor" type="no_stopword">Generaldirektor</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Agentur" type="no_stopword">Agentur</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="X" lemma="International" type="no_stopword">International</w>
+                    <w pos="PROPN" lemma="News" type="no_stopword">News</w>
+                    <w pos="PROPN" lemma="Service" type="no_stopword">Service</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="DET" lemma="mein" type="stopword">Ihr</w>
+                    <w pos="NOUN" lemma="Telegramm" type="no_stopword">Telegramm</w>
+                    <w pos="ADP" lemma="vom" type="stopword">vom</w>
+                    <w pos="ADJ" lemma="1." type="no_stopword">1.</w>
+                    <w pos="NOUN" lemma="Februar" type="no_stopword">Februar</w>
+                    <w pos="AUX" lemma="habe" type="stopword">habe</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="VERB" lemma="erhalten" type="no_stopword">erhalten</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="danke" type="no_stopword">danke</w>
+                    <w pos="NOUN" lemma="Präsident" type="no_stopword">Präsident</w>
+                    <w pos="PROPN" lemma="Truman" type="no_stopword">Truman</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Einladung" type="no_stopword">Einladung</w>
+                    <w pos="ADP" lemma="nach" type="stopword">nach</w>
+                    <w pos="PROPN" lemma="Washington" type="no_stopword">Washington</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Eine" type="stopword">Eine</w>
+                    <w pos="NOUN" lemma="Reise" type="no_stopword">Reise</w>
+                    <w pos="ADP" lemma="nach" type="stopword">nach</w>
+                    <w pos="PROPN" lemma="Washington" type="no_stopword">Washington</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADV" lemma="schon" type="stopword">schon</w>
+                    <w pos="ADV" lemma="längst" type="no_stopword">längst</w>
+                    <w pos="DET" lemma="meinen" type="stopword">mein</w>
+                    <w pos="NOUN" lemma="Wunsch" type="no_stopword">Wunsch</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="was" type="stopword">was</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="ADV" lemma="seinerzeit" type="no_stopword">seinerzeit</w>
+                    <w pos="NOUN" lemma="Präsident" type="no_stopword">Präsident</w>
+                    <w pos="NOUN" lemma="Roosevelt" type="no_stopword">Roosevelt</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Jalta" type="no_stopword">Jalta</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Präsident" type="no_stopword">Präsident</w>
+                    <w pos="PROPN" lemma="Truman" type="no_stopword">Truman</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Potsdam" type="no_stopword">Potsdam</w>
+                    <w pos="VERB" lemma="sagen" type="stopword">gesagt</w>
+                    <w pos="AUX" lemma="habe" type="stopword">habe</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="Leider" type="stopword">Leider</w>
+                    <w pos="AUX" lemma="habe" type="stopword">habe</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="ADJ" lemma="gegenwärtig" type="no_stopword">gegenwärtig</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Möglichkeit" type="no_stopword">Möglichkeit</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="dies" type="stopword">diesen</w>
+                    <w pos="DET" lemma="mein" type="stopword">meinen</w>
+                    <w pos="NOUN" lemma="Wunsch" type="no_stopword">Wunsch</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="verwirklichen" type="no_stopword">verwirklichen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="da" type="stopword">da</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Arzt" type="no_stopword">Ärzte</w>
+                    <w pos="VERB" lemma="entscheiden" type="no_stopword">entschieden</w>
+                    <w pos="ADV" lemma="dagegen" type="stopword">dagegen</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="dass" type="stopword">dass</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="ADJ" lemma="lang" type="no_stopword">längere</w>
+                    <w pos="NOUN" lemma="Reise" type="no_stopword">Reise</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="besonders" type="stopword">besonders</w>
+                    <w pos="ADP" lemma="zur" type="stopword">zur</w>
+                    <w pos="NOUN" lemma="See" type="no_stopword">See</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Flugzeug" type="no_stopword">Flugzeug</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="VERB" lemma="machen" type="no_stopword">mache</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Regierung" type="no_stopword">Regierung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="Sowjetunion" type="no_stopword">Sowjetunion</w>
+                    <w pos="AUX" lemma="werden" type="stopword">würde</w>
+                    <w pos="DET" lemma="ein" type="stopword">einen</w>
+                    <w pos="NOUN" lemma="Besuch" type="no_stopword">Besuch</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Präsident" type="no_stopword">Präsidenten</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="UdSSR" type="no_stopword">UdSSR</w>
+                    <w pos="VERB" lemma="begrüßen" type="no_stopword">begrüßen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Man" type="stopword">Man</w>
+                    <w pos="VERB" lemma="können" type="stopword">könnte</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="NOUN" lemma="Beratung" type="no_stopword">Beratung</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Moskau" type="no_stopword">Moskau</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Leningrad" type="no_stopword">Leningrad</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Kaliningrad" type="no_stopword">Kaliningrad</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Odessa" type="no_stopword">Odessa</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Jalta" type="no_stopword">Jalta</w>
+                    <w pos="VERB" lemma="abhalten" type="no_stopword">abhalten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="nach" type="stopword">nach</w>
+                    <w pos="NOUN" lemma="Wahl" type="no_stopword">Wahl</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Präsident" type="no_stopword">Präsidenten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="natürlich" type="stopword">natürlich</w>
+                    <w pos="SCONJ" lemma="soweit" type="no_stopword">soweit</w>
+                    <w pos="PRON" lemma="dies" type="stopword">dies</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Präsident" type="no_stopword">Präsidenten</w>
+                    <w pos="DET" lemma="kein" type="stopword">keine</w>
+                    <w pos="NOUN" lemma="Unbequemlichkeiten" type="no_stopword">Unbequemlichkeiten</w>
+                    <w pos="VERB" lemma="bereiten" type="no_stopword">bereitet</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="Wenn" type="stopword">Wenn</w>
+                    <w pos="ADV" lemma="jedoch" type="stopword">jedoch</w>
+                    <w pos="DET" lemma="dies" type="stopword">dieser</w>
+                    <w pos="NOUN" lemma="Vorschlag" type="no_stopword">Vorschlag</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="NOUN" lemma="Einwendung" type="no_stopword">Einwendung</w>
+                    <w pos="VERB" lemma="stoßen" type="no_stopword">stößt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="können" type="stopword">könnte</w>
+                    <w pos="PRON" lemma="man" type="stopword">man</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="NOUN" lemma="Zusammenkunft" type="no_stopword">Zusammenkunft</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Pol" type="no_stopword">Polen</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="Tschechoslowakei" type="no_stopword">Tschechoslowakei</w>
+                    <w pos="VERB" lemma="veranstalten" type="no_stopword">veranstalten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="nach" type="stopword">nach</w>
+                    <w pos="NOUN" lemma="Ermessen" type="no_stopword">Ermessen</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Präsident" type="no_stopword">Präsidenten</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="Achtungsvoll" type="no_stopword">Achtungsvoll</w>
+                    <w pos="PROPN" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="ADJ" lemma="Neues" type="stopword">Neue</w>
+                    <w pos="NOUN" lemma="Welt" type="no_stopword">Welt</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Heft" type="no_stopword">Heft</w>
+                    <w pos="NUM" lemma="3" type="no_stopword">3</w>
+                    <w pos="NOUN" lemma="/" type="no_stopword">/</w>
+                    <w pos="NOUN" lemma="Februar" type="no_stopword">Februar</w>
+                    <w pos="NUM" lemma="9" type="no_stopword">9</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Seite" type="no_stopword">Seite</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

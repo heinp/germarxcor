@@ -1,39 +1,318 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>IV</title>
-        <author>Mao Zedong</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Werke Mao Tse-tungs</name>
-          <idno type="URL">http://www.infopartisan.net/archive/maowerke/maoAWges.htm</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>ROTE MACHT BESTEHEN?</p>
-      <p>IV. DIE BEDEUTUNG DER SELBSTÄNDIGEN MACHT IM HUNAN-KIANGSI-GRENZGEBIET FÜR DIE PROVINZEN HUNAN, HUPEH UND KIANGSI Die Bedeutung der bewaffneten selbständigen Macht der Arbeiter und Bauern im Hunan-Kiangsi-Grenzgebiet, mit Ninggang als Zentrum, ist keineswegs auf die wenigen Grenzkreise beschränkt. Diese Macht wird im Prozeß der Machtergreifung in Hunan, Hupeh und Kiangsi durch Aufstände der Arbeiter und Bauern in diesen drei Provinzen eine gewaltige Rolle spielen. Die äußerst wichtigen Aufgaben der Partei im Grenzgebiet bei der Entfaltung der Aufstände |074| in Hunan, Hupeh und Kiangsi sind: den Einfluß der Agrarrevolution und der Volksmacht des Grenzgebiets auf die am Unterlauf des Hsiang-Flusses und des Gan-Flusses gelegenen Teile der Provinzen Hunan und Kiangsi und sogar auf die Provinz Hupeh auszudehnen; die Rote Armee im Verlauf der Kämpfe ununterbrochen zahlenmäßig zu vergrößern und qualitativ zu verbessern, damit sie die ihr übertragene Aufgabe beim künftigen allgemeinen Aufstand in den drei Provinzen erfüllen kann; die örtlichen bewaffneten Kräfte in den verschiedenen Kreisen - die Rote Garde und die Abteilungen der aufständischen Arbeiter und Bauern - zahlenmäßig zu vergrößern und qualitativ zu verbessern, damit sie gegenwärtig gegen die Hofwehren der Grundherren und gegen kleinere Truppenteile kämpfen und künftig die Macht im Grenzgebiet verteidigen können; die örtlichen Kader allmählich von der Hilfe der Funktionäre der Roten Armee unabhängig zu machen, damit diese Kader ganz und gar aus eigener Kraft die Arbeit im Grenzgebiet leisten und später sogar der Roten Armee und dem zu</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>IV</title>
+                <author>Mao Zedong</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Werke Mao Tse-tungs</name>
+                    <idno type="URL">http://www.infopartisan.net/archive/maowerke/maoAWges.htm</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="ROTE" type="no_stopword">ROTE</w>
+                    <w pos="NOUN" lemma="MACHT" type="stopword">MACHT</w>
+                    <w pos="PROPN" lemma="BESTEHEN" type="no_stopword">BESTEHEN</w>
+                    <w pos="PUNCT" lemma="?" type="no_stopword">?</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="ADV" lemma="IV" type="no_stopword">IV</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="DIE" type="stopword">DIE</w>
+                    <w pos="PROPN" lemma="BEDEUTUNG" type="no_stopword">BEDEUTUNG</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="PROPN" lemma="SELBSTÄNDIGEN" type="no_stopword">SELBSTÄNDIGEN</w>
+                    <w pos="VERB" lemma="MACHT" type="stopword">MACHT</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="IM" type="stopword">IM</w>
+                    <w pos="PROPN" lemma="HUNANKIANGSIGRENZGEBIET" type="no_stopword">HUNANKIANGSIGRENZGEBIET</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="FÜR" type="stopword">FÜR</w>
+                    <w pos="DET" lemma="DIE" type="stopword">DIE</w>
+                    <w pos="NOUN" lemma="PROVINZEN" type="no_stopword">PROVINZEN</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="HUNAN" type="no_stopword">HUNAN</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="HUPEH" type="no_stopword">HUPEH</w>
+                    <w pos="CCONJ" lemma="UND" type="stopword">UND</w>
+                    <w pos="PROPN" lemma="KIANGSI" type="no_stopword">KIANGSI</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Bedeutung" type="no_stopword">Bedeutung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="bewaffnen" type="no_stopword">bewaffneten</w>
+                    <w pos="ADJ" lemma="selbständig" type="no_stopword">selbständigen</w>
+                    <w pos="NOUN" lemma="Macht" type="stopword">Macht</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Bauer" type="no_stopword">Bauern</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="PROPN" lemma="HunanKiangsiGrenzgebiet" type="no_stopword">HunanKiangsiGrenzgebiet</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="NOUN" lemma="Ninggang" type="no_stopword">Ninggang</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Zentrum" type="no_stopword">Zentrum</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADV" lemma="keineswegs" type="no_stopword">keineswegs</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="wenig" type="no_stopword">wenigen</w>
+                    <w pos="NOUN" lemma="Grenzkreise" type="no_stopword">Grenzkreise</w>
+                    <w pos="VERB" lemma="beschränken" type="no_stopword">beschränkt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Diese" type="stopword">Diese</w>
+                    <w pos="NOUN" lemma="Macht" type="stopword">Macht</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Prozeß" type="no_stopword">Prozeß</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Machtergreifung" type="no_stopword">Machtergreifung</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Hunan" type="no_stopword">Hunan</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Hupeh" type="no_stopword">Hupeh</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Kiangsi" type="no_stopword">Kiangsi</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="NOUN" lemma="Aufstand" type="no_stopword">Aufstände</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Bauer" type="no_stopword">Bauern</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="dies" type="stopword">diesen</w>
+                    <w pos="NUM" lemma="drei" type="stopword">drei</w>
+                    <w pos="NOUN" lemma="Provinz" type="no_stopword">Provinzen</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="ADJ" lemma="gewaltig" type="no_stopword">gewaltige</w>
+                    <w pos="NOUN" lemma="Rolle" type="no_stopword">Rolle</w>
+                    <w pos="VERB" lemma="spielen" type="no_stopword">spielen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADV" lemma="äußern" type="no_stopword">äußerst</w>
+                    <w pos="ADJ" lemma="wichtig" type="no_stopword">wichtigen</w>
+                    <w pos="NOUN" lemma="Aufgabe" type="no_stopword">Aufgaben</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Partei</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Grenzgebiet" type="no_stopword">Grenzgebiet</w>
+                    <w pos="ADP" lemma="bei" type="stopword">bei</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Entfaltung" type="no_stopword">Entfaltung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Aufstand" type="no_stopword">Aufstände</w>
+                    <w pos="PROPN" lemma="|074|" type="no_stopword">|074|</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Hunan" type="no_stopword">Hunan</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Hupeh" type="no_stopword">Hupeh</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Kiangsi" type="no_stopword">Kiangsi</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Einfluß" type="no_stopword">Einfluß</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Agrarrevolution" type="no_stopword">Agrarrevolution</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Volksmacht" type="no_stopword">Volksmacht</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Grenzgebiet" type="no_stopword">Grenzgebiets</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="am" type="stopword">am</w>
+                    <w pos="NOUN" lemma="Unterlauf" type="no_stopword">Unterlauf</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="HsiangFlusses" type="no_stopword">HsiangFlusses</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="PROPN" lemma="GanFlusses" type="no_stopword">GanFlusses</w>
+                    <w pos="ADJ" lemma="gelegen" type="no_stopword">gelegenen</w>
+                    <w pos="NOUN" lemma="Teil" type="no_stopword">Teile</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Provinz" type="no_stopword">Provinzen</w>
+                    <w pos="PROPN" lemma="Hunan" type="no_stopword">Hunan</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Kiangsi" type="no_stopword">Kiangsi</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADV" lemma="sogar" type="no_stopword">sogar</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Provinz" type="no_stopword">Provinz</w>
+                    <w pos="PROPN" lemma="Hupeh" type="no_stopword">Hupeh</w>
+                    <w pos="VERB" lemma="ausdehnen" type="no_stopword">auszudehnen</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="rot" type="no_stopword">Rote</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armee</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Verlauf" type="no_stopword">Verlauf</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kämpfe</w>
+                    <w pos="ADJ" lemma="ununterbrochen" type="no_stopword">ununterbrochen</w>
+                    <w pos="ADJ" lemma="zahlenmäßig" type="no_stopword">zahlenmäßig</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="vergrößern" type="no_stopword">vergrößern</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="qualitativ" type="no_stopword">qualitativ</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="verbessern" type="no_stopword">verbessern</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="damit" type="stopword">damit</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihr</w>
+                    <w pos="ADJ" lemma="übertragen" type="no_stopword">übertragene</w>
+                    <w pos="NOUN" lemma="Aufgabe" type="no_stopword">Aufgabe</w>
+                    <w pos="ADP" lemma="beim" type="stopword">beim</w>
+                    <w pos="ADJ" lemma="künftig" type="no_stopword">künftigen</w>
+                    <w pos="ADJ" lemma="allgemein" type="stopword">allgemeinen</w>
+                    <w pos="NOUN" lemma="Aufstand" type="no_stopword">Aufstand</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NUM" lemma="drei" type="stopword">drei</w>
+                    <w pos="NOUN" lemma="Provinz" type="no_stopword">Provinzen</w>
+                    <w pos="VERB" lemma="erfüllen" type="no_stopword">erfüllen</w>
+                    <w pos="VERB" lemma="können" type="stopword">kann</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="örtlich" type="no_stopword">örtlichen</w>
+                    <w pos="ADJ" lemma="bewaffnen" type="no_stopword">bewaffneten</w>
+                    <w pos="NOUN" lemma="Kraft" type="no_stopword">Kräfte</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="verschieden" type="no_stopword">verschiedenen</w>
+                    <w pos="NOUN" lemma="Kreis" type="no_stopword">Kreisen</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="rot" type="no_stopword">Rote</w>
+                    <w pos="NOUN" lemma="Garde" type="no_stopword">Garde</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Abteilung" type="no_stopword">Abteilungen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="aufständisch" type="no_stopword">aufständischen</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Bauer" type="no_stopword">Bauern</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="ADJ" lemma="zahlenmäßig" type="no_stopword">zahlenmäßig</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="vergrößern" type="no_stopword">vergrößern</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="qualitativ" type="no_stopword">qualitativ</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="verbessern" type="no_stopword">verbessern</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="damit" type="stopword">damit</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="ADJ" lemma="gegenwärtig" type="no_stopword">gegenwärtig</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Hofwehren" type="no_stopword">Hofwehren</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Grundherren" type="no_stopword">Grundherren</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="ADJ" lemma="klein" type="no_stopword">kleinere</w>
+                    <w pos="NOUN" lemma="Truppenteile" type="no_stopword">Truppenteile</w>
+                    <w pos="VERB" lemma="kämpfen" type="no_stopword">kämpfen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="künftig" type="no_stopword">künftig</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Macht" type="stopword">Macht</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Grenzgebiet" type="no_stopword">Grenzgebiet</w>
+                    <w pos="VERB" lemma="verteidigen" type="no_stopword">verteidigen</w>
+                    <w pos="VERB" lemma="können" type="stopword">können</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="örtlich" type="no_stopword">örtlichen</w>
+                    <w pos="NOUN" lemma="Kader" type="no_stopword">Kader</w>
+                    <w pos="ADJ" lemma="allmählich" type="no_stopword">allmählich</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Hilfe" type="no_stopword">Hilfe</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Funktionär" type="no_stopword">Funktionäre</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Rote" type="no_stopword">Roten</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armee</w>
+                    <w pos="ADJ" lemma="unabhängig" type="no_stopword">unabhängig</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="machen" type="stopword">machen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="damit" type="stopword">damit</w>
+                    <w pos="DET" lemma="dies" type="stopword">diese</w>
+                    <w pos="NOUN" lemma="Kader" type="no_stopword">Kader</w>
+                    <w pos="ADV" lemma="ganz" type="stopword">ganz</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADV" lemma="gar" type="stopword">gar</w>
+                    <w pos="ADP" lemma="aus" type="stopword">aus</w>
+                    <w pos="ADJ" lemma="eigen" type="stopword">eigener</w>
+                    <w pos="NOUN" lemma="Kraft" type="no_stopword">Kraft</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Arbeit" type="no_stopword">Arbeit</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Grenzgebiet" type="no_stopword">Grenzgebiet</w>
+                    <w pos="VERB" lemma="leisten" type="no_stopword">leisten</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="spät" type="stopword">später</w>
+                    <w pos="ADV" lemma="sogar" type="no_stopword">sogar</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Rote" type="no_stopword">Roten</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armee</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PRON" lemma="der" type="stopword">dem</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

@@ -1,42 +1,300 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Über den Staatskapitalismus</title>
-        <author>Mao Zedong</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Werke Mao Tse-tungs</name>
-          <idno type="URL">http://www.infopartisan.net/archive/maowerke/maoAWges.htm</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Juli 1953) Diese Version aus: Mao Tse-tung, Ausgewählte Werke Band V, Verlag für fremdsprachige Literatur, Peking 1978, S.111</p>
-      <p>|111|</p>
-      <p>Die gegenwärtige kapitalistische Wirtschaft Chinas ist eine kapitalistische Wirtschaft, die zum größten Teil unter der Kontrolle der Volksregierung steht, in verschiedenen Formen mit der staatlichen sozialistischen Wirtschaft verbunden ist und von den Arbeitern beaufsichtigt wird. Sie ist keine gewöhnliche kapitalistische Wirtschaft, sondern eine besonderer Art, nämlich eine staatskapitalistische Wirtschaft neuen Typs. Ihre Existenz dient vor allem der Deckung des Bedarfs von Volk und Staat und nicht der Profitmacherei der Kapitalisten. Stimmt, ein Teil der von den Arbeitern geschaffenen Gewinne geht an die Kapitalisten, aber das ist nur ein kleiner Teil des Ganzen, ein Viertel etwa; die übrigen drei Viertel gehen an die Arbeiter (in Form des Wohlfahrtsfonds), an den Staat (in Form der Einkommensteuer) und in die Ausweitung der Produktionskapazitäten (woraus nur zu geringem Teil wieder Profite für die Kapitalisten entstehen). Deshalb trägt diese staatskapitalistische Wirtschaft neuen Typs in sehr hohem Grad sozialistischen Charakter und nützt den Arbeitern wie dem Staat.</p>
-      <p>ANMERKUNGEN: * Schriftlicher Kommentar von Genossen Mao Tsetung zu eioem Dokument der Nationalen Finanz- und Wirtschaftskonferenz im Sommer 1955.</p>
-      <p>Mao AW Band V</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Über den Staatskapitalismus</title>
+                <author>Mao Zedong</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Werke Mao Tse-tungs</name>
+                    <idno type="URL">http://www.infopartisan.net/archive/maowerke/maoAWges.htm</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Juli" type="no_stopword">Juli</w>
+                    <w pos="NUM" lemma="3" type="no_stopword">3</w>
+                </s>
+                <s>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Diese" type="stopword">Diese</w>
+                    <w pos="NOUN" lemma="Version" type="no_stopword">Version</w>
+                    <w pos="ADP" lemma="aus" type="stopword">aus</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="PROPN" lemma="Mao" type="no_stopword">Mao</w>
+                    <w pos="NOUN" lemma="Tsetung" type="no_stopword">Tsetung</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="Ausgewählte" type="no_stopword">Ausgewählte</w>
+                    <w pos="NOUN" lemma="Werk" type="no_stopword">Werke</w>
+                    <w pos="NOUN" lemma="Band" type="no_stopword">Band</w>
+                    <w pos="ADP" lemma="V" type="no_stopword">V</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Verlag" type="no_stopword">Verlag</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="ADJ" lemma="fremdsprachig" type="no_stopword">fremdsprachige</w>
+                    <w pos="NOUN" lemma="Literatur" type="no_stopword">Literatur</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Peking" type="no_stopword">Peking</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="S.111" type="no_stopword">S.111</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="|111|" type="no_stopword">|111|</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="gegenwärtige" type="no_stopword">gegenwärtige</w>
+                    <w pos="ADJ" lemma="kapitalistische" type="no_stopword">kapitalistische</w>
+                    <w pos="NOUN" lemma="Wirtschaft" type="no_stopword">Wirtschaft</w>
+                    <w pos="PROPN" lemma="China" type="no_stopword">Chinas</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="ADJ" lemma="kapitalistische" type="no_stopword">kapitalistische</w>
+                    <w pos="NOUN" lemma="Wirtschaft" type="no_stopword">Wirtschaft</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="ADJ" lemma="groß" type="no_stopword">größten</w>
+                    <w pos="NOUN" lemma="Teil" type="stopword">Teil</w>
+                    <w pos="ADP" lemma="unter" type="stopword">unter</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Kontrolle" type="no_stopword">Kontrolle</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Volksregierung" type="no_stopword">Volksregierung</w>
+                    <w pos="VERB" lemma="stehen" type="no_stopword">steht</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="ADJ" lemma="verschieden" type="no_stopword">verschiedenen</w>
+                    <w pos="NOUN" lemma="Form" type="no_stopword">Formen</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="staatlich" type="no_stopword">staatlichen</w>
+                    <w pos="ADJ" lemma="sozialistisch" type="no_stopword">sozialistischen</w>
+                    <w pos="NOUN" lemma="Wirtschaft" type="no_stopword">Wirtschaft</w>
+                    <w pos="VERB" lemma="verbinden" type="no_stopword">verbunden</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeitern</w>
+                    <w pos="VERB" lemma="beaufsichtigen" type="no_stopword">beaufsichtigt</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="ich" type="stopword">Sie</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="DET" lemma="kein" type="stopword">keine</w>
+                    <w pos="ADJ" lemma="gewöhnlich" type="no_stopword">gewöhnliche</w>
+                    <w pos="ADJ" lemma="kapitalistische" type="no_stopword">kapitalistische</w>
+                    <w pos="NOUN" lemma="Wirtschaft" type="no_stopword">Wirtschaft</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="sondern" type="stopword">sondern</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="ADJ" lemma="besonder" type="no_stopword">besonderer</w>
+                    <w pos="NOUN" lemma="Art" type="no_stopword">Art</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="nämlich" type="no_stopword">nämlich</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="ADJ" lemma="staatskapitalistische" type="no_stopword">staatskapitalistische</w>
+                    <w pos="NOUN" lemma="Wirtschaft" type="no_stopword">Wirtschaft</w>
+                    <w pos="ADJ" lemma="neu" type="stopword">neuen</w>
+                    <w pos="NOUN" lemma="Typ" type="no_stopword">Typs</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="mein" type="stopword">Ihre</w>
+                    <w pos="NOUN" lemma="Existenz" type="no_stopword">Existenz</w>
+                    <w pos="VERB" lemma="dienen" type="no_stopword">dient</w>
+                    <w pos="ADP" lemma="vor" type="stopword">vor</w>
+                    <w pos="PRON" lemma="alle" type="stopword">allem</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Deckung" type="no_stopword">Deckung</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Bedarf" type="no_stopword">Bedarfs</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Volk" type="no_stopword">Volk</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Staat" type="no_stopword">Staat</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Profitmacherei" type="no_stopword">Profitmacherei</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Kapitalist" type="no_stopword">Kapitalisten</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="VERB" lemma="Stimmt" type="no_stopword">Stimmt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="NOUN" lemma="Teil" type="stopword">Teil</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeitern</w>
+                    <w pos="ADJ" lemma="geschaffen" type="no_stopword">geschaffenen</w>
+                    <w pos="NOUN" lemma="Gewinn" type="no_stopword">Gewinne</w>
+                    <w pos="VERB" lemma="gehen" type="stopword">geht</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Kapitalist" type="no_stopword">Kapitalisten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="aber" type="stopword">aber</w>
+                    <w pos="PRON" lemma="der" type="stopword">das</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADV" lemma="nur" type="stopword">nur</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="ADJ" lemma="klein" type="stopword">kleiner</w>
+                    <w pos="NOUN" lemma="Teil" type="stopword">Teil</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Ganze" type="stopword">Ganzen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="NOUN" lemma="Viertel" type="no_stopword">Viertel</w>
+                    <w pos="ADV" lemma="etwa" type="stopword">etwa</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="übrig" type="no_stopword">übrigen</w>
+                    <w pos="NUM" lemma="drei" type="stopword">drei</w>
+                    <w pos="NOUN" lemma="Viertel" type="no_stopword">Viertel</w>
+                    <w pos="VERB" lemma="gehen" type="stopword">gehen</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="NOUN" lemma="Form" type="no_stopword">Form</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Wohlfahrtsfonds" type="no_stopword">Wohlfahrtsfonds</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Staat" type="no_stopword">Staat</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="NOUN" lemma="Form" type="no_stopword">Form</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Einkommensteuer" type="no_stopword">Einkommensteuer</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Ausweitung" type="no_stopword">Ausweitung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Produktionskapazitäten" type="no_stopword">Produktionskapazitäten</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADV" lemma="woraus" type="no_stopword">woraus</w>
+                    <w pos="ADV" lemma="nur" type="stopword">nur</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                    <w pos="ADJ" lemma="gering" type="no_stopword">geringem</w>
+                    <w pos="NOUN" lemma="Teil" type="stopword">Teil</w>
+                    <w pos="ADV" lemma="wieder" type="stopword">wieder</w>
+                    <w pos="NOUN" lemma="Profit" type="no_stopword">Profite</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Kapitalist" type="no_stopword">Kapitalisten</w>
+                    <w pos="VERB" lemma="entstehen" type="no_stopword">entstehen</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="deshalb" type="stopword">Deshalb</w>
+                    <w pos="VERB" lemma="tragen" type="no_stopword">trägt</w>
+                    <w pos="DET" lemma="dies" type="stopword">diese</w>
+                    <w pos="ADJ" lemma="staatskapitalistische" type="no_stopword">staatskapitalistische</w>
+                    <w pos="NOUN" lemma="Wirtschaft" type="no_stopword">Wirtschaft</w>
+                    <w pos="ADJ" lemma="neu" type="stopword">neuen</w>
+                    <w pos="NOUN" lemma="Typ" type="no_stopword">Typs</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="ADV" lemma="sehr" type="stopword">sehr</w>
+                    <w pos="ADJ" lemma="hoch" type="no_stopword">hohem</w>
+                    <w pos="NOUN" lemma="Grad" type="no_stopword">Grad</w>
+                    <w pos="ADJ" lemma="sozialistisch" type="no_stopword">sozialistischen</w>
+                    <w pos="NOUN" lemma="Charakter" type="no_stopword">Charakter</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="VERB" lemma="nützen" type="no_stopword">nützt</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeitern</w>
+                    <w pos="CCONJ" lemma="wie" type="stopword">wie</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Staat" type="no_stopword">Staat</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PROPN" lemma="ANMERKUNGEN" type="no_stopword">ANMERKUNGEN</w>
+                </s>
+                <s>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                </s>
+                <s>
+                    <w pos="X" lemma="*" type="no_stopword">*</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="Schriftlicher" type="no_stopword">Schriftlicher</w>
+                    <w pos="NOUN" lemma="Kommentar" type="no_stopword">Kommentar</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genossen</w>
+                    <w pos="PROPN" lemma="Mao" type="no_stopword">Mao</w>
+                    <w pos="NOUN" lemma="Tsetung" type="no_stopword">Tsetung</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                    <w pos="PROPN" lemma="eioem" type="no_stopword">eioem</w>
+                    <w pos="NOUN" lemma="Dokument" type="no_stopword">Dokument</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Nationale" type="no_stopword">Nationalen</w>
+                    <w pos="NOUN" lemma="Finanz" type="no_stopword">Finanz</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Wirtschaftskonferenz" type="no_stopword">Wirtschaftskonferenz</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Sommer" type="no_stopword">Sommer</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PROPN" lemma="Mao" type="no_stopword">Mao</w>
+                    <w pos="PROPN" lemma="AW" type="no_stopword">AW</w>
+                    <w pos="PROPN" lemma="Band" type="no_stopword">Band</w>
+                </s>
+                <s>
+                    <w pos="X" lemma="V" type="no_stopword">V</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

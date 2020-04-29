@@ -1,40 +1,419 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Zu den Ergebnissen der Arbeiten der XIV. Konferenz der KPR(B)</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>ZU DEN ERGEBNISSEN DER ARBEITEN DER XIV. KONFERENZ DER KPR(B) Referat vor dem Aktiv der Moskauer Organisation der KPR(B) 9. Mai 1925 Genossen! Ich glaube, es hat keinen Sinn, hier die von der XIV. Konferenz unserer Partei[25] angenommenen Resolutionen ausführlich zu analysieren. Das würde viel Zeit in Anspruch nehmen und ist auch gar nicht notwendig. Ich glaube, wir könnten uns darauf beschränken, die Hauptlinien aufzuzeigen, die sich wie ein roter Faden durch diese Resolutionen ziehen. Das würde uns ermöglichen, die sich aus den angenommenen Resolutionen ergebenden grundlegenden Schlussfolgerungen hervorzuheben. Und dies wiederum würde fernerhin das Studium dieser Resolutionen erleichtern. Wenn wir uns den Resolutionen zuwenden, so ließen sich die in ihnen berührten mannigfaltigen Fragen in sechs grundlegenden Fragengruppen zusammenfassen. Die erste Fragengruppe bilden die Fragen, die die internationale Lage betreffen. Die zweite Fragengruppe bilden die Fragen, die die nächsten Aufgaben der kommunistischen Parteien der kapitalistischen Länder betreffen. Die dritte Fragengruppe bilden die Fragen, die die nächsten Aufgaben der kommunistischen Elemente der kolonialen und abhängigen Länder betreffen. Die vierte Fragengruppe bilden die Fragen, die das Schicksal des Sozialismus in unserem Lande im Zusammenhang mit der gegenwärtigen internationalen Lage betreffen. Die fünfte Fragengruppe bilden die Fragen, die unsere Parteipolitik im Dorfe und die Aufgaben der Parteiführung unter den neuen Verhältnissen betreffen. Und die sechste Fragengruppe bilden schließlich die Fragen, die den Hauptnerv unserer ganzen Industrie, nämlich die Metallindustrie, betreffen.</p>
-      <p>I. Die internationale Lage II. Die nächsten Aufgaben der Kommunistischen Parteien der kapitalistischen Länder III. Die nächsten Aufgaben der Kommunistischen Parteien der kolonialen und abhängigen Länder IV. Über das Schicksal der Sozialismus in der Sowjetunion V. Die Politik der Partei auf dem Lande VI. Über die Metallindustrie</p>
-      <p>„Prawda” Nr. 106 und 107, 12. und 13. Mai 1925.</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zu den Ergebnissen der Arbeiten der XIV. Konferenz der KPR(B)</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="ADP" lemma="ZU" type="stopword">ZU</w>
+                    <w pos="PROPN" lemma="DEN" type="stopword">DEN</w>
+                    <w pos="PROPN" lemma="ERGEBNISSEN" type="no_stopword">ERGEBNISSEN</w>
+                    <w pos="PROPN" lemma="DER" type="stopword">DER</w>
+                    <w pos="NOUN" lemma="ARBEITEN" type="no_stopword">ARBEITEN</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="ADJ" lemma="XIV" type="no_stopword">XIV</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="KONFERENZ" type="no_stopword">KONFERENZ</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="PROPN" lemma="KPR" type="no_stopword">KPR</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="X" lemma="B" type="no_stopword">B</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="NOUN" lemma="Referat" type="no_stopword">Referat</w>
+                    <w pos="ADP" lemma="vor" type="stopword">vor</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Aktiv" type="no_stopword">Aktiv</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Moskauer" type="no_stopword">Moskauer</w>
+                    <w pos="NOUN" lemma="Organisation" type="no_stopword">Organisation</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="KPR" type="no_stopword">KPR</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="X" lemma="B" type="no_stopword">B</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="NUM" lemma="9." type="no_stopword">9.</w>
+                    <w pos="NOUN" lemma="Mai" type="no_stopword">Mai</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genossen</w>
+                    <w pos="PUNCT" lemma="!" type="no_stopword">!</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="glauben" type="no_stopword">glaube</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="DET" lemma="kein" type="stopword">keinen</w>
+                    <w pos="NOUN" lemma="Sinn" type="no_stopword">Sinn</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="hier" type="stopword">hier</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="XIV" type="no_stopword">XIV</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Konferenz" type="no_stopword">Konferenz</w>
+                    <w pos="DET" lemma="mein" type="stopword">unserer</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Partei</w>
+                    <w pos="NOUN" lemma="[" type="no_stopword">[</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="ADV" lemma="]" type="no_stopword">]</w>
+                    <w pos="ADJ" lemma="angenommen" type="no_stopword">angenommenen</w>
+                    <w pos="NOUN" lemma="Resolution" type="no_stopword">Resolutionen</w>
+                    <w pos="ADJ" lemma="ausführlich" type="no_stopword">ausführlich</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="analysieren" type="no_stopword">analysieren</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="der" type="stopword">Das</w>
+                    <w pos="AUX" lemma="werden" type="stopword">würde</w>
+                    <w pos="DET" lemma="viel" type="stopword">viel</w>
+                    <w pos="NOUN" lemma="Zeit" type="stopword">Zeit</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="NOUN" lemma="Anspruch" type="no_stopword">Anspruch</w>
+                    <w pos="VERB" lemma="nehmen" type="no_stopword">nehmen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADV" lemma="auch" type="stopword">auch</w>
+                    <w pos="ADV" lemma="gar" type="stopword">gar</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="ADJ" lemma="notwendig" type="no_stopword">notwendig</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="glauben" type="no_stopword">glaube</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="ich" type="stopword">wir</w>
+                    <w pos="VERB" lemma="können" type="no_stopword">könnten</w>
+                    <w pos="PRON" lemma="sich" type="stopword">uns</w>
+                    <w pos="ADV" lemma="darauf" type="stopword">darauf</w>
+                    <w pos="VERB" lemma="beschränken" type="no_stopword">beschränken</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Hauptlinien" type="no_stopword">Hauptlinien</w>
+                    <w pos="VERB" lemma="aufzeigen" type="no_stopword">aufzuzeigen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="CCONJ" lemma="wie" type="stopword">wie</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="ADJ" lemma="rot" type="no_stopword">roter</w>
+                    <w pos="NOUN" lemma="Fade" type="no_stopword">Faden</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="dies" type="stopword">diese</w>
+                    <w pos="NOUN" lemma="Resolution" type="no_stopword">Resolutionen</w>
+                    <w pos="VERB" lemma="ziehen" type="no_stopword">ziehen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="der" type="stopword">Das</w>
+                    <w pos="AUX" lemma="werden" type="stopword">würde</w>
+                    <w pos="PRON" lemma="sich" type="stopword">uns</w>
+                    <w pos="VERB" lemma="ermöglichen" type="no_stopword">ermöglichen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADP" lemma="aus" type="stopword">aus</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="angenommen" type="no_stopword">angenommenen</w>
+                    <w pos="NOUN" lemma="Resolution" type="no_stopword">Resolutionen</w>
+                    <w pos="ADJ" lemma="ergebend" type="no_stopword">ergebenden</w>
+                    <w pos="ADJ" lemma="grundlegend" type="no_stopword">grundlegenden</w>
+                    <w pos="NOUN" lemma="Schlussfolgerungen" type="no_stopword">Schlussfolgerungen</w>
+                    <w pos="VERB" lemma="hervorheben" type="no_stopword">hervorzuheben</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="CCONJ" lemma="und" type="stopword">Und</w>
+                    <w pos="PRON" lemma="dies" type="stopword">dies</w>
+                    <w pos="ADV" lemma="wiederum" type="no_stopword">wiederum</w>
+                    <w pos="AUX" lemma="werden" type="stopword">würde</w>
+                    <w pos="ADV" lemma="fernerhin" type="no_stopword">fernerhin</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="NOUN" lemma="Studium" type="no_stopword">Studium</w>
+                    <w pos="DET" lemma="dies" type="stopword">dieser</w>
+                    <w pos="NOUN" lemma="Resolution" type="no_stopword">Resolutionen</w>
+                    <w pos="VERB" lemma="erleichtern" type="no_stopword">erleichtern</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="SCONJ" lemma="Wenn" type="stopword">Wenn</w>
+                    <w pos="PRON" lemma="ich" type="stopword">wir</w>
+                    <w pos="PRON" lemma="sich" type="stopword">uns</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Resolution" type="no_stopword">Resolutionen</w>
+                    <w pos="VERB" lemma="zuwenden" type="no_stopword">zuwenden</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="so" type="stopword">so</w>
+                    <w pos="VERB" lemma="lassen" type="no_stopword">ließen</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ihnen</w>
+                    <w pos="ADJ" lemma="berühren" type="no_stopword">berührten</w>
+                    <w pos="ADJ" lemma="mannigfaltig" type="no_stopword">mannigfaltigen</w>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Fragen</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="NUM" lemma="sechs" type="stopword">sechs</w>
+                    <w pos="ADJ" lemma="grundlegend" type="no_stopword">grundlegenden</w>
+                    <w pos="NOUN" lemma="Fragengruppen" type="no_stopword">Fragengruppen</w>
+                    <w pos="VERB" lemma="zusammenfassen" type="no_stopword">zusammenfassen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="erste" type="stopword">erste</w>
+                    <w pos="NOUN" lemma="Fragengruppe" type="no_stopword">Fragengruppe</w>
+                    <w pos="VERB" lemma="bilden" type="no_stopword">bilden</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Fragen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="internationale" type="no_stopword">internationale</w>
+                    <w pos="NOUN" lemma="Lage" type="no_stopword">Lage</w>
+                    <w pos="VERB" lemma="betreffen" type="no_stopword">betreffen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="zweite" type="stopword">zweite</w>
+                    <w pos="NOUN" lemma="Fragengruppe" type="no_stopword">Fragengruppe</w>
+                    <w pos="VERB" lemma="bilden" type="no_stopword">bilden</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Fragen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="nächst" type="no_stopword">nächsten</w>
+                    <w pos="NOUN" lemma="Aufgabe" type="no_stopword">Aufgaben</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="kommunistisch" type="no_stopword">kommunistischen</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Parteien</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="kapitalistisch" type="no_stopword">kapitalistischen</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Länder</w>
+                    <w pos="VERB" lemma="betreffen" type="no_stopword">betreffen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="dritt" type="stopword">dritte</w>
+                    <w pos="NOUN" lemma="Fragengruppe" type="no_stopword">Fragengruppe</w>
+                    <w pos="VERB" lemma="bilden" type="no_stopword">bilden</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Fragen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="nächst" type="no_stopword">nächsten</w>
+                    <w pos="NOUN" lemma="Aufgabe" type="no_stopword">Aufgaben</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="kommunistisch" type="no_stopword">kommunistischen</w>
+                    <w pos="NOUN" lemma="Element" type="no_stopword">Elemente</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="kolonial" type="no_stopword">kolonialen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="abhängig" type="no_stopword">abhängigen</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Länder</w>
+                    <w pos="VERB" lemma="betreffen" type="no_stopword">betreffen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="vierte" type="stopword">vierte</w>
+                    <w pos="NOUN" lemma="Fragengruppe" type="no_stopword">Fragengruppe</w>
+                    <w pos="VERB" lemma="bilden" type="no_stopword">bilden</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Fragen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="NOUN" lemma="Schicksal" type="no_stopword">Schicksal</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Sozialismus" type="no_stopword">Sozialismus</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">unserem</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Lande</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Zusammenhang" type="no_stopword">Zusammenhang</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="gegenwärtig" type="no_stopword">gegenwärtigen</w>
+                    <w pos="ADJ" lemma="international" type="no_stopword">internationalen</w>
+                    <w pos="NOUN" lemma="Lage" type="no_stopword">Lage</w>
+                    <w pos="VERB" lemma="betreffen" type="no_stopword">betreffen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="fünfte" type="stopword">fünfte</w>
+                    <w pos="NOUN" lemma="Fragengruppe" type="no_stopword">Fragengruppe</w>
+                    <w pos="VERB" lemma="bilden" type="no_stopword">bilden</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Fragen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="mein" type="stopword">unsere</w>
+                    <w pos="NOUN" lemma="Parteipolitik" type="no_stopword">Parteipolitik</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Dorf" type="no_stopword">Dorfe</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Aufgabe" type="no_stopword">Aufgaben</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Parteiführung" type="no_stopword">Parteiführung</w>
+                    <w pos="ADP" lemma="unter" type="stopword">unter</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="neu" type="stopword">neuen</w>
+                    <w pos="NOUN" lemma="Verhältnis" type="no_stopword">Verhältnissen</w>
+                    <w pos="VERB" lemma="betreffen" type="no_stopword">betreffen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="CCONJ" lemma="und" type="stopword">Und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="sechste" type="stopword">sechste</w>
+                    <w pos="NOUN" lemma="Fragengruppe" type="no_stopword">Fragengruppe</w>
+                    <w pos="VERB" lemma="bilden" type="no_stopword">bilden</w>
+                    <w pos="ADV" lemma="schließlich" type="no_stopword">schließlich</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Fragen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Hauptnerv" type="no_stopword">Hauptnerv</w>
+                    <w pos="DET" lemma="mein" type="stopword">unserer</w>
+                    <w pos="ADJ" lemma="ganz" type="stopword">ganzen</w>
+                    <w pos="NOUN" lemma="Industrie" type="no_stopword">Industrie</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="nämlich" type="no_stopword">nämlich</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Metallindustrie" type="no_stopword">Metallindustrie</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="betreffen" type="no_stopword">betreffen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="X" lemma="I" type="no_stopword">I</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="internationale" type="no_stopword">internationale</w>
+                    <w pos="NOUN" lemma="Lage" type="no_stopword">Lage</w>
+                    <w pos="NUM" lemma="II" type="no_stopword">II</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="nächst" type="no_stopword">nächsten</w>
+                    <w pos="NOUN" lemma="Aufgabe" type="no_stopword">Aufgaben</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Kommunistische" type="no_stopword">Kommunistischen</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Parteien</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="kapitalistisch" type="no_stopword">kapitalistischen</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Länder</w>
+                    <w pos="NUM" lemma="III" type="no_stopword">III</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="nächst" type="no_stopword">nächsten</w>
+                    <w pos="NOUN" lemma="Aufgabe" type="no_stopword">Aufgaben</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Kommunistische" type="no_stopword">Kommunistischen</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Parteien</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="kolonial" type="no_stopword">kolonialen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="abhängig" type="no_stopword">abhängigen</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Länder</w>
+                    <w pos="NOUN" lemma="IV" type="no_stopword">IV</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Über" type="stopword">Über</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="NOUN" lemma="Schicksal" type="no_stopword">Schicksal</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Sozialismus" type="no_stopword">Sozialismus</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="Sowjetunion" type="no_stopword">Sowjetunion</w>
+                    <w pos="PROPN" lemma="V." type="no_stopword">V.</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Politik" type="no_stopword">Politik</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Partei</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Lande</w>
+                    <w pos="PROPN" lemma="VI" type="no_stopword">VI</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Über" type="stopword">Über</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Metallindustrie" type="no_stopword">Metallindustrie</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="PROPN" lemma="Prawda" type="no_stopword">Prawda</w>
+                    <w pos="PROPN" lemma="”" type="no_stopword">”</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="6" type="no_stopword">6</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="2" type="no_stopword">2</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NUM" lemma="3" type="no_stopword">3</w>
+                    <w pos="NOUN" lemma="Mai" type="no_stopword">Mai</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

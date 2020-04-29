@@ -1,38 +1,239 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Die allgemeinen Grundsätze der Verfassung der Russischen Sozialistischen Föderativen Sowjetrepublik</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Band 4 DIE ALLGEMEINEN GRUNDSÄTZE DER VERFASSUNG DER RUSSISCHEN SOZIALISTISCHEN FÖDERATIVEN SOWJETREPUBLIK Entwurf, angenommen von der Kommission des Allrussischen Zentralexekutivkomitees zur Ausarbeitung der Verfassung der Sowjetrepublik[14] Die Hauptaufgabe der für den gegenwärtigen Übergangsmoment bestimmten Verfassung der Russischen Sozialistischen Föderativen Sowjetrepublik besteht in der Errichtung der Diktatur des städtischen und ländlichen Proletariats und der armen Bauernschaft in Gestalt einer starken Allrussischen Sowjetmacht, um die Bourgeoisie völlig niederzuringen, die Ausbeutung des Menschen durch den Menschen zu beseitigen und den Sozialismus zu errichten, unter dem es weder eine Teilung in Klassen noch eine Staatsmacht geben wird. Die Russische Republik ist die freie sozialistische Gesellschaft aller Werktätigen Rußlands, die in den städtischen und ländlichen Deputiertensowjets vereinigt sind. Die Deputiertensowjets derjenigen Gebiete, die sich durch eine besondere Lebensweise und nationale Zusammensetzung unterscheiden, werden zu autonomen Gebietsverbänden vereinigt, an deren Spitze die Gebietskongresse der Deputiertensowjets und deren Exekutivorgane stehen. Die sowjetischen Gebietsverbände werden auf der Grundlage der Föderation zur Russischen Sozialistischen Republik vereinigt, an deren Spitze der Allrussische Kongress der Deputiertensowjets und in der Periode zwischen den Kongressen das Allrussische Zentralexekutivkomitee stehen.</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Die allgemeinen Grundsätze der Verfassung der Russischen Sozialistischen Föderativen Sowjetrepublik</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Band" type="no_stopword">Band</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                    <w pos="DET" lemma="DIE" type="stopword">DIE</w>
+                    <w pos="ADJ" lemma="ALLGEMEINEN" type="stopword">ALLGEMEINEN</w>
+                    <w pos="PROPN" lemma="GRUNDSÄTZE" type="no_stopword">GRUNDSÄTZE</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="PROPN" lemma="VERFASSUNG" type="no_stopword">VERFASSUNG</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="ADJ" lemma="RUSSISCHEN" type="no_stopword">RUSSISCHEN</w>
+                    <w pos="PROPN" lemma="SOZIALISTISCHEN" type="no_stopword">SOZIALISTISCHEN</w>
+                    <w pos="ADJ" lemma="FÖDERATIVEN" type="no_stopword">FÖDERATIVEN</w>
+                    <w pos="NOUN" lemma="SOWJETREPUBLIK" type="no_stopword">SOWJETREPUBLIK</w>
+                    <w pos="NOUN" lemma="Entwurf" type="no_stopword">Entwurf</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="annehmen" type="no_stopword">angenommen</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Kommission" type="no_stopword">Kommission</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="Allrussischen" type="no_stopword">Allrussischen</w>
+                    <w pos="NOUN" lemma="Zentralexekutivkomitees" type="no_stopword">Zentralexekutivkomitees</w>
+                    <w pos="ADP" lemma="zur" type="stopword">zur</w>
+                    <w pos="NOUN" lemma="Ausarbeitung" type="no_stopword">Ausarbeitung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Verfassung" type="no_stopword">Verfassung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Sowjetrepublik" type="no_stopword">Sowjetrepublik</w>
+                    <w pos="NOUN" lemma="[" type="no_stopword">[</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                    <w pos="ADV" lemma="]" type="no_stopword">]</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Hauptaufgabe" type="no_stopword">Hauptaufgabe</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="gegenwärtig" type="no_stopword">gegenwärtigen</w>
+                    <w pos="NOUN" lemma="Übergangsmoment" type="no_stopword">Übergangsmoment</w>
+                    <w pos="ADJ" lemma="bestimmen" type="no_stopword">bestimmten</w>
+                    <w pos="NOUN" lemma="Verfassung" type="no_stopword">Verfassung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Russische" type="no_stopword">Russischen</w>
+                    <w pos="ADJ" lemma="Sozialistische" type="no_stopword">Sozialistischen</w>
+                    <w pos="ADJ" lemma="Föderativen" type="no_stopword">Föderativen</w>
+                    <w pos="NOUN" lemma="Sowjetrepublik" type="no_stopword">Sowjetrepublik</w>
+                    <w pos="VERB" lemma="bestehen" type="no_stopword">besteht</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Errichtung" type="no_stopword">Errichtung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Diktatur" type="no_stopword">Diktatur</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="städtisch" type="no_stopword">städtischen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="ländlich" type="no_stopword">ländlichen</w>
+                    <w pos="NOUN" lemma="Proletariat" type="no_stopword">Proletariats</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="arm" type="no_stopword">armen</w>
+                    <w pos="NOUN" lemma="Bauernschaft" type="no_stopword">Bauernschaft</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="NOUN" lemma="Gestalt" type="no_stopword">Gestalt</w>
+                    <w pos="DET" lemma="einer" type="stopword">einer</w>
+                    <w pos="ADJ" lemma="stark" type="no_stopword">starken</w>
+                    <w pos="ADJ" lemma="Allrussischen" type="no_stopword">Allrussischen</w>
+                    <w pos="NOUN" lemma="Sowjetmacht" type="no_stopword">Sowjetmacht</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="um" type="stopword">um</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Bourgeoisie" type="no_stopword">Bourgeoisie</w>
+                    <w pos="ADJ" lemma="völlig" type="no_stopword">völlig</w>
+                    <w pos="VERB" lemma="niederringen" type="no_stopword">niederzuringen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Ausbeutung" type="no_stopword">Ausbeutung</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Mensch" type="stopword">Menschen</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Mensch" type="stopword">Menschen</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="beseitigen" type="no_stopword">beseitigen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Sozialismus" type="no_stopword">Sozialismus</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="errichten" type="no_stopword">errichten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="unter" type="stopword">unter</w>
+                    <w pos="PRON" lemma="der" type="stopword">dem</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="CCONJ" lemma="weder" type="no_stopword">weder</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="NOUN" lemma="Teilung" type="no_stopword">Teilung</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Klasse" type="no_stopword">Klassen</w>
+                    <w pos="ADV" lemma="noch" type="stopword">noch</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="NOUN" lemma="Staatsmacht" type="no_stopword">Staatsmacht</w>
+                    <w pos="VERB" lemma="geben" type="no_stopword">geben</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="russisch" type="no_stopword">Russische</w>
+                    <w pos="NOUN" lemma="Republik" type="no_stopword">Republik</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="freie" type="no_stopword">freie</w>
+                    <w pos="ADJ" lemma="sozialistische" type="no_stopword">sozialistische</w>
+                    <w pos="NOUN" lemma="Gesellschaft" type="no_stopword">Gesellschaft</w>
+                    <w pos="DET" lemma="all" type="stopword">aller</w>
+                    <w pos="NOUN" lemma="Werktätigen" type="no_stopword">Werktätigen</w>
+                    <w pos="PROPN" lemma="Rußland" type="no_stopword">Rußlands</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="städtisch" type="no_stopword">städtischen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="ländlich" type="no_stopword">ländlichen</w>
+                    <w pos="NOUN" lemma="Deputiertensowjets" type="no_stopword">Deputiertensowjets</w>
+                    <w pos="VERB" lemma="vereinigen" type="no_stopword">vereinigt</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Deputiertensowjets" type="no_stopword">Deputiertensowjets</w>
+                    <w pos="DET" lemma="derjenige" type="stopword">derjenigen</w>
+                    <w pos="NOUN" lemma="Gebiet" type="no_stopword">Gebiete</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="ADJ" lemma="besonder" type="no_stopword">besondere</w>
+                    <w pos="NOUN" lemma="Lebensweise" type="no_stopword">Lebensweise</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="national" type="no_stopword">nationale</w>
+                    <w pos="NOUN" lemma="Zusammensetzung" type="no_stopword">Zusammensetzung</w>
+                    <w pos="VERB" lemma="unterscheiden" type="no_stopword">unterscheiden</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                    <w pos="ADJ" lemma="autonom" type="no_stopword">autonomen</w>
+                    <w pos="NOUN" lemma="Gebietsverbänden" type="no_stopword">Gebietsverbänden</w>
+                    <w pos="VERB" lemma="vereinigen" type="no_stopword">vereinigt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="der" type="stopword">deren</w>
+                    <w pos="NOUN" lemma="spitzen" type="no_stopword">Spitze</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Gebietskongresse" type="no_stopword">Gebietskongresse</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Deputiertensowjets" type="no_stopword">Deputiertensowjets</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PRON" lemma="der" type="stopword">deren</w>
+                    <w pos="NOUN" lemma="Exekutivorgane" type="no_stopword">Exekutivorgane</w>
+                    <w pos="VERB" lemma="stehen" type="no_stopword">stehen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="sowjetisch" type="no_stopword">sowjetischen</w>
+                    <w pos="NOUN" lemma="Gebietsverbände" type="no_stopword">Gebietsverbände</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Grundlage" type="no_stopword">Grundlage</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Föderation" type="no_stopword">Föderation</w>
+                    <w pos="ADP" lemma="zur" type="stopword">zur</w>
+                    <w pos="ADJ" lemma="Russische" type="no_stopword">Russischen</w>
+                    <w pos="ADJ" lemma="Sozialistische" type="no_stopword">Sozialistischen</w>
+                    <w pos="NOUN" lemma="Republik" type="no_stopword">Republik</w>
+                    <w pos="VERB" lemma="vereinigen" type="no_stopword">vereinigt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="der" type="stopword">deren</w>
+                    <w pos="NOUN" lemma="spitzen" type="no_stopword">Spitze</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Allrussische" type="no_stopword">Allrussische</w>
+                    <w pos="NOUN" lemma="Kongress" type="no_stopword">Kongress</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Deputiertensowjets" type="no_stopword">Deputiertensowjets</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Periode" type="no_stopword">Periode</w>
+                    <w pos="ADP" lemma="zwischen" type="stopword">zwischen</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Kongreß" type="no_stopword">Kongressen</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="ADJ" lemma="Allrussische" type="no_stopword">Allrussische</w>
+                    <w pos="NOUN" lemma="Zentralexekutivkomitee" type="no_stopword">Zentralexekutivkomitee</w>
+                    <w pos="VERB" lemma="stehen" type="no_stopword">stehen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

@@ -1,38 +1,428 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>4 Anschreiben und Telegramme vom Jahr 1951</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Band 15 TELEGRAMM AN DEN MINISTERPRÄSIDENTEN DER DEUTSCHEN DEMOKRATISCHEN REPUBLIK, OTTO GROTEWOHL anlässlich des 2. Jahrestages der Gründung der Deutschen Demokratischen Republik 7. Oktober 1951 An den Ministerpräsidenten der Deutschen Demokratischen Republik, Genossen Otto Grotewohl Am Tage der Nationalfeier - dem 2. Jahrestage der Gründung der Deutschen Demokratischen Republik - bitte ich Sie, Genosse Ministerpräsident, meine Glückwünsche entgegenzunehmen. Ich wünsche dem deutschen Volke, der Regierung und Ihnen persönlich weitere Erfolge beim Aufbau eines einheitlichen, unabhängigen, demokratischen, friedliebenden deutschen Staates. J. Stalin „Tägliche Rundschau“, Ausgabe 11, Nr. 234, 1. Oktober 1951 ANTWORTTELEGRAMM AN DEN VORSITZENDEN DES MINISTERKABINETTS DER KOREANISCHEN VOLKSDEMOKRATISCHEN REPUBLIK, KIM IR SEN anlässlich des 3. Jahrestages der Aufnahme diplomatischer und freundschaftlicher Beziehungen zwischen der UdSSR und der Koreanischen Volksdemokratischen Republik „Prawda“, vom 20. Oktober 1951 Ich bitte Sie, Genosse Vorsitzender, im Namen der Regierung der Sowjetunion und in meinem eigenen Namen den Dank für Ihre Grüße und guten Wünsche anlässlich des dritten Jahrestages der Herstellung diplomatischer Beziehungen zwischen unseren Ländern entgegenzunehmen. Ich wünsche dem tapferen koreanischen Volk Erfolge in seinem heldenhaften Kampf für die Freiheit und Unabhängigkeit seiner Heimat. J. Stalin „Tägliche Rundschau“, Ausgabe II, Nr. 246, 21. Oktober 1951 TELEGRAMM AN DEN MINISTERPRÄSIDENTEN DER DEUTSCHEN DEMOKRATISCHEN REPUBLIK, OTTO GROTEWOHL anlässlich des 34. Jahrestages der Großen Sozialistischen Oktoberrevolution November 1951 An den Ministerpräsidenten der Deutschen Demokratischen Republik, Genossen Otto Grotewohl Nehmen Sie, Genosse Ministerpräsident, den Dank der Sowjetregierung und meinen persönlichen Dank für die Gratulationen und die Glückwünsche zum 34. Jahrestag der Großen Sozialistischen Oktoberrevolution entgegen. J. Stalin „Neues Deutschland“, Berliner Ausgabe, Nr. 270, 20. November 1951 GLÜCKWUNSCHTELEGRAMM AN DEN PRÄSIDENTEN DER TSCHECHOSLOWAKISCHEN REPUBLIK, KLEMENT GOTTWALD anlässlich seines 55. Geburtstages 23. November 1951 Teurer Genosse Gottwald, ich übersende Ihnen meine herzlichsten Glückwünsche zu Ihrem Geburtstag und wünsche Ihnen Erfolge in Ihrer Arbeit zum Wohle des brüderlichen Volkes der Tschechoslowakei. J. Stalin „Tägliche Rundschau“, Ausgabe II, Nr. 272, 25. November 1951</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>4 Anschreiben und Telegramme vom Jahr 1951</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Band" type="no_stopword">Band</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="PROPN" lemma="TELEGRAMM" type="no_stopword">TELEGRAMM</w>
+                    <w pos="ADP" lemma="AN" type="stopword">AN</w>
+                    <w pos="DET" lemma="DEN" type="stopword">DEN</w>
+                    <w pos="PROPN" lemma="MINISTERPRÄSIDENTEN" type="no_stopword">MINISTERPRÄSIDENTEN</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="ADJ" lemma="DEUTSCHEN" type="no_stopword">DEUTSCHEN</w>
+                    <w pos="ADJ" lemma="DEMOKRATISCHEN" type="no_stopword">DEMOKRATISCHEN</w>
+                    <w pos="NOUN" lemma="REPUBLIK" type="no_stopword">REPUBLIK</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="OTTO" type="no_stopword">OTTO</w>
+                    <w pos="PROPN" lemma="GROTEWOHL" type="no_stopword">GROTEWOHL</w>
+                    <w pos="ADP" lemma="anlässlich" type="no_stopword">anlässlich</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="2" type="no_stopword">2</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Jahrestages" type="no_stopword">Jahrestages</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Gründung" type="no_stopword">Gründung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Deutsche" type="no_stopword">Deutschen</w>
+                    <w pos="ADJ" lemma="Demokratische" type="no_stopword">Demokratischen</w>
+                    <w pos="NOUN" lemma="Republik" type="no_stopword">Republik</w>
+                    <w pos="NOUN" lemma="7." type="no_stopword">7.</w>
+                    <w pos="NOUN" lemma="Oktober" type="no_stopword">Oktober</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="ADP" lemma="an" type="stopword">An</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Ministerpräsidenten" type="no_stopword">Ministerpräsidenten</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Deutsche" type="no_stopword">Deutschen</w>
+                    <w pos="ADJ" lemma="Demokratische" type="no_stopword">Demokratischen</w>
+                    <w pos="NOUN" lemma="Republik" type="no_stopword">Republik</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genossen</w>
+                    <w pos="PROPN" lemma="Otto" type="no_stopword">Otto</w>
+                    <w pos="PROPN" lemma="Grotewohl" type="no_stopword">Grotewohl</w>
+                    <w pos="ADP" lemma="Am" type="stopword">Am</w>
+                    <w pos="NOUN" lemma="Tag" type="stopword">Tage</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Nationalfeier" type="no_stopword">Nationalfeier</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="2" type="no_stopword">2</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Jahrestage" type="no_stopword">Jahrestage</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Gründung" type="no_stopword">Gründung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Deutsche" type="no_stopword">Deutschen</w>
+                    <w pos="ADJ" lemma="Demokratische" type="no_stopword">Demokratischen</w>
+                    <w pos="NOUN" lemma="Republik" type="no_stopword">Republik</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="VERB" lemma="bitte" type="no_stopword">bitte</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Sie</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genosse</w>
+                    <w pos="NOUN" lemma="Ministerpräsident" type="no_stopword">Ministerpräsident</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="meinen" type="stopword">meine</w>
+                    <w pos="NOUN" lemma="Glückwünsche" type="no_stopword">Glückwünsche</w>
+                    <w pos="VERB" lemma="entgegennehmen" type="no_stopword">entgegenzunehmen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="wünsche" type="no_stopword">wünsche</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="deutsch" type="no_stopword">deutschen</w>
+                    <w pos="NOUN" lemma="Volk" type="no_stopword">Volke</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Regierung" type="no_stopword">Regierung</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Ihnen</w>
+                    <w pos="ADJ" lemma="persönlich" type="no_stopword">persönlich</w>
+                    <w pos="ADJ" lemma="weit" type="stopword">weitere</w>
+                    <w pos="NOUN" lemma="Erfolg" type="no_stopword">Erfolge</w>
+                    <w pos="ADP" lemma="beim" type="stopword">beim</w>
+                    <w pos="NOUN" lemma="Aufbau" type="no_stopword">Aufbau</w>
+                    <w pos="DET" lemma="ein" type="stopword">eines</w>
+                    <w pos="ADJ" lemma="einheitlich" type="no_stopword">einheitlichen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="unabhängig" type="no_stopword">unabhängigen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="demokratisch" type="no_stopword">demokratischen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="friedliebend" type="no_stopword">friedliebenden</w>
+                    <w pos="ADJ" lemma="deutsch" type="no_stopword">deutschen</w>
+                    <w pos="NOUN" lemma="Staat" type="no_stopword">Staates</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="ADJ" lemma="täglich" type="no_stopword">Tägliche</w>
+                    <w pos="NOUN" lemma="Rundschau" type="no_stopword">Rundschau</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Ausgabe" type="no_stopword">Ausgabe</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="1." type="no_stopword">1.</w>
+                    <w pos="NOUN" lemma="Oktober" type="no_stopword">Oktober</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="NOUN" lemma="ANTWORTTELEGRAMM" type="no_stopword">ANTWORTTELEGRAMM</w>
+                    <w pos="ADP" lemma="AN" type="stopword">AN</w>
+                    <w pos="PROPN" lemma="DEN" type="stopword">DEN</w>
+                    <w pos="NOUN" lemma="VORSITZENDEN" type="no_stopword">VORSITZENDEN</w>
+                    <w pos="DET" lemma="DES" type="stopword">DES</w>
+                    <w pos="PROPN" lemma="MINISTERKABINETTS" type="no_stopword">MINISTERKABINETTS</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="ADJ" lemma="KOREANISCHEN" type="no_stopword">KOREANISCHEN</w>
+                    <w pos="PROPN" lemma="VOLKSDEMOKRATISCHEN" type="no_stopword">VOLKSDEMOKRATISCHEN</w>
+                    <w pos="PROPN" lemma="REPUBLIK" type="no_stopword">REPUBLIK</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="KIM" type="no_stopword">KIM</w>
+                    <w pos="PROPN" lemma="IR" type="no_stopword">IR</w>
+                    <w pos="PROPN" lemma="SEN" type="no_stopword">SEN</w>
+                    <w pos="ADP" lemma="anlässlich" type="no_stopword">anlässlich</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="3" type="no_stopword">3</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Jahrestages" type="no_stopword">Jahrestages</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Aufnahme" type="no_stopword">Aufnahme</w>
+                    <w pos="ADJ" lemma="diplomatisch" type="no_stopword">diplomatischer</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="freundschaftlich" type="no_stopword">freundschaftlicher</w>
+                    <w pos="NOUN" lemma="Beziehung" type="no_stopword">Beziehungen</w>
+                    <w pos="ADP" lemma="zwischen" type="stopword">zwischen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="UdSSR" type="no_stopword">UdSSR</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Koreanischen" type="no_stopword">Koreanischen</w>
+                    <w pos="NOUN" lemma="Volksdemokratischen" type="no_stopword">Volksdemokratischen</w>
+                    <w pos="NOUN" lemma="Republik" type="no_stopword">Republik</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="PROPN" lemma="Prawda" type="no_stopword">Prawda</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="vom" type="stopword">vom</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="NOUN" lemma="Oktober" type="no_stopword">Oktober</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="bitte" type="no_stopword">bitte</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Sie</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genosse</w>
+                    <w pos="NOUN" lemma="Vorsitzender" type="no_stopword">Vorsitzender</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Name" type="no_stopword">Namen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Regierung" type="no_stopword">Regierung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="Sowjetunion" type="no_stopword">Sowjetunion</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="mein" type="stopword">meinem</w>
+                    <w pos="ADJ" lemma="eigen" type="stopword">eigenen</w>
+                    <w pos="NOUN" lemma="Name" type="no_stopword">Namen</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Dank" type="stopword">Dank</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="mein" type="stopword">Ihre</w>
+                    <w pos="NOUN" lemma="Gruß" type="no_stopword">Grüße</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="gut" type="no_stopword">guten</w>
+                    <w pos="NOUN" lemma="Wunsch" type="no_stopword">Wünsche</w>
+                    <w pos="ADP" lemma="anlässlich" type="no_stopword">anlässlich</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="dritt" type="stopword">dritten</w>
+                    <w pos="NOUN" lemma="Jahrestages" type="no_stopword">Jahrestages</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Herstellung" type="no_stopword">Herstellung</w>
+                    <w pos="ADJ" lemma="diplomatisch" type="no_stopword">diplomatischer</w>
+                    <w pos="NOUN" lemma="Beziehung" type="no_stopword">Beziehungen</w>
+                    <w pos="ADP" lemma="zwischen" type="stopword">zwischen</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">unseren</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Ländern</w>
+                    <w pos="VERB" lemma="entgegennehmen" type="no_stopword">entgegenzunehmen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="wünsche" type="no_stopword">wünsche</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="tapfer" type="no_stopword">tapferen</w>
+                    <w pos="ADJ" lemma="koreanischen" type="no_stopword">koreanischen</w>
+                    <w pos="NOUN" lemma="Volk" type="no_stopword">Volk</w>
+                    <w pos="NOUN" lemma="Erfolg" type="no_stopword">Erfolge</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="mein" type="stopword">seinem</w>
+                    <w pos="ADJ" lemma="heldenhaft" type="no_stopword">heldenhaften</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kampf</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Freiheit" type="no_stopword">Freiheit</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Unabhängigkeit" type="no_stopword">Unabhängigkeit</w>
+                    <w pos="DET" lemma="sich" type="stopword">seiner</w>
+                    <w pos="NOUN" lemma="Heimat" type="no_stopword">Heimat</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="ADJ" lemma="täglich" type="no_stopword">Tägliche</w>
+                    <w pos="NOUN" lemma="Rundschau" type="no_stopword">Rundschau</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Ausgabe" type="no_stopword">Ausgabe</w>
+                    <w pos="NUM" lemma="II" type="no_stopword">II</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="6" type="no_stopword">6</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="NOUN" lemma="Oktober" type="no_stopword">Oktober</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="NOUN" lemma="TELEGRAMM" type="no_stopword">TELEGRAMM</w>
+                    <w pos="ADP" lemma="AN" type="stopword">AN</w>
+                    <w pos="DET" lemma="DEN" type="stopword">DEN</w>
+                    <w pos="PROPN" lemma="MINISTERPRÄSIDENTEN" type="no_stopword">MINISTERPRÄSIDENTEN</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="ADJ" lemma="DEUTSCHEN" type="no_stopword">DEUTSCHEN</w>
+                    <w pos="ADJ" lemma="DEMOKRATISCHEN" type="no_stopword">DEMOKRATISCHEN</w>
+                    <w pos="NOUN" lemma="REPUBLIK" type="no_stopword">REPUBLIK</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="OTTO" type="no_stopword">OTTO</w>
+                    <w pos="PROPN" lemma="GROTEWOHL" type="no_stopword">GROTEWOHL</w>
+                    <w pos="ADP" lemma="anlässlich" type="no_stopword">anlässlich</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="4" type="no_stopword">4</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Jahrestages" type="no_stopword">Jahrestages</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Großen" type="stopword">Großen</w>
+                    <w pos="ADJ" lemma="Sozialistische" type="no_stopword">Sozialistischen</w>
+                    <w pos="NOUN" lemma="Oktoberrevolution" type="no_stopword">Oktoberrevolution</w>
+                    <w pos="NOUN" lemma="November" type="no_stopword">November</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="ADP" lemma="an" type="stopword">An</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Ministerpräsidenten" type="no_stopword">Ministerpräsidenten</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Deutsche" type="no_stopword">Deutschen</w>
+                    <w pos="ADJ" lemma="Demokratische" type="no_stopword">Demokratischen</w>
+                    <w pos="NOUN" lemma="Republik" type="no_stopword">Republik</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genossen</w>
+                    <w pos="PROPN" lemma="Otto" type="no_stopword">Otto</w>
+                    <w pos="PROPN" lemma="Grotewohl" type="no_stopword">Grotewohl</w>
+                    <w pos="VERB" lemma="Nehmen" type="no_stopword">Nehmen</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Sie</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genosse</w>
+                    <w pos="NOUN" lemma="Ministerpräsident" type="no_stopword">Ministerpräsident</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">den</w>
+                    <w pos="ADP" lemma="Dank" type="stopword">Dank</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Sowjetregierung" type="no_stopword">Sowjetregierung</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="mein" type="stopword">meinen</w>
+                    <w pos="ADJ" lemma="persönlich" type="no_stopword">persönlichen</w>
+                    <w pos="NOUN" lemma="Dank" type="stopword">Dank</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Gratulation" type="no_stopword">Gratulationen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Glückwünsche" type="no_stopword">Glückwünsche</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="ADJ" lemma="4" type="no_stopword">4</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Jahrestag" type="no_stopword">Jahrestag</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Großen" type="stopword">Großen</w>
+                    <w pos="ADJ" lemma="Sozialistische" type="no_stopword">Sozialistischen</w>
+                    <w pos="NOUN" lemma="Oktoberrevolution" type="no_stopword">Oktoberrevolution</w>
+                    <w pos="ADP" lemma="entgegen" type="no_stopword">entgegen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="ADJ" lemma="Neues" type="no_stopword">Neues</w>
+                    <w pos="PROPN" lemma="Deutschland" type="no_stopword">Deutschland</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="Berliner" type="no_stopword">Berliner</w>
+                    <w pos="NOUN" lemma="Ausgabe" type="no_stopword">Ausgabe</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="NOUN" lemma="November" type="no_stopword">November</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="PROPN" lemma="GLÜCKWUNSCHTELEGRAMM" type="no_stopword">GLÜCKWUNSCHTELEGRAMM</w>
+                    <w pos="ADP" lemma="AN" type="stopword">AN</w>
+                    <w pos="PROPN" lemma="DEN" type="stopword">DEN</w>
+                    <w pos="NOUN" lemma="PRÄSIDENTEN" type="no_stopword">PRÄSIDENTEN</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="ADJ" lemma="TSCHECHOSLOWAKISCHEN" type="no_stopword">TSCHECHOSLOWAKISCHEN</w>
+                    <w pos="NOUN" lemma="REPUBLIK" type="no_stopword">REPUBLIK</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="KLEMENT" type="no_stopword">KLEMENT</w>
+                    <w pos="PROPN" lemma="GOTTWALD" type="no_stopword">GOTTWALD</w>
+                    <w pos="ADP" lemma="anlässlich" type="no_stopword">anlässlich</w>
+                    <w pos="DET" lemma="mein" type="stopword">seines</w>
+                    <w pos="ADJ" lemma="5" type="no_stopword">5</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Geburtstag" type="no_stopword">Geburtstages</w>
+                    <w pos="NUM" lemma="3" type="no_stopword">3</w>
+                    <w pos="NOUN" lemma="November" type="no_stopword">November</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="ADJ" lemma="Teurer" type="no_stopword">Teurer</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genosse</w>
+                    <w pos="PROPN" lemma="Gottwald" type="no_stopword">Gottwald</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="VERB" lemma="übersenden" type="no_stopword">übersende</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Ihnen</w>
+                    <w pos="DET" lemma="meinen" type="stopword">meine</w>
+                    <w pos="ADJ" lemma="herzlich" type="no_stopword">herzlichsten</w>
+                    <w pos="NOUN" lemma="Glückwünsche" type="no_stopword">Glückwünsche</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                    <w pos="DET" lemma="mein" type="stopword">Ihrem</w>
+                    <w pos="NOUN" lemma="Geburtstag" type="no_stopword">Geburtstag</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="VERB" lemma="wünsche" type="no_stopword">wünsche</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Ihnen</w>
+                    <w pos="NOUN" lemma="Erfolg" type="no_stopword">Erfolge</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="sich" type="stopword">Ihrer</w>
+                    <w pos="NOUN" lemma="Arbeit" type="no_stopword">Arbeit</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="NOUN" lemma="Wohle" type="no_stopword">Wohle</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="brüderlich" type="no_stopword">brüderlichen</w>
+                    <w pos="NOUN" lemma="Volk" type="no_stopword">Volkes</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="Tschechoslowakei" type="no_stopword">Tschechoslowakei</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="ADJ" lemma="täglich" type="no_stopword">Tägliche</w>
+                    <w pos="NOUN" lemma="Rundschau" type="no_stopword">Rundschau</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Ausgabe" type="no_stopword">Ausgabe</w>
+                    <w pos="NUM" lemma="II" type="no_stopword">II</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="2" type="no_stopword">2</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="NOUN" lemma="November" type="no_stopword">November</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

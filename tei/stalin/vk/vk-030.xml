@@ -1,38 +1,194 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Ansprache des obersten Befehlshabers Marschall der Sowjetunion J.W. Stalin an die Rote Armee und die Truppen der Verbündeten</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>ANSPRACHE DES OBERSTEN BEFEHLSHABERS MARSCHALLS DER SOWJETUNIONK J.W.STALIN AN DIE ROTE ARMEE UND DIE TRUPPEN DER VERBÜNDETEN 27. April 1945 Im Namen der Sowjetregierung wende ich mich an Sie, Kommandeure und Soldaten der Roten Armee und der Armeen unserer Verbündeten. Die siegreichen Armeen der verbündeten Großmächte, die den Befreiungskrieg in Europa führen, haben die deutschen Truppen vernichtend geschlagen und sich auf deutschem Boden vereinigt. Unsere Aufgabe und unsere Pflicht besteht darin, dem Feinde den Rest zu geben und ihn zur Waffenstreckung und zur bedingungslosen Kapitulation zu zwingen. Diese Aufgabe und diese Pflicht gegenüber unserem Volke und allen freiheitsliebenden Völkern wird die Rote Armee restlos erfüllen. Ich begrüße die heldenmütigen Truppen unserer Verbündeten, die nun Schulter an Schulter mit den Sowjettruppen auf deutschem Boden stehen und von Entschlossenheit erfüllt sind, ihre Pflicht restlos zu erfüllen.</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ansprache des obersten Befehlshabers Marschall der Sowjetunion J.W. Stalin an die Rote Armee und die Truppen der Verbündeten</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="ANSPRACHE" type="no_stopword">ANSPRACHE</w>
+                    <w pos="DET" lemma="DES" type="stopword">DES</w>
+                    <w pos="ADJ" lemma="OBERSTEN" type="no_stopword">OBERSTEN</w>
+                    <w pos="PROPN" lemma="BEFEHLSHABERS" type="no_stopword">BEFEHLSHABERS</w>
+                    <w pos="NOUN" lemma="MARSCHALLS" type="no_stopword">MARSCHALLS</w>
+                    <w pos="PROPN" lemma="DER" type="stopword">DER</w>
+                    <w pos="PROPN" lemma="SOWJETUNIONK" type="no_stopword">SOWJETUNIONK</w>
+                    <w pos="PROPN" lemma="J.W.STALIN" type="no_stopword">J.W.STALIN</w>
+                    <w pos="ADP" lemma="AN" type="stopword">AN</w>
+                    <w pos="DET" lemma="DIE" type="stopword">DIE</w>
+                    <w pos="ADJ" lemma="ROTE" type="no_stopword">ROTE</w>
+                    <w pos="PROPN" lemma="ARMEE" type="no_stopword">ARMEE</w>
+                    <w pos="CCONJ" lemma="UND" type="stopword">UND</w>
+                    <w pos="DET" lemma="DIE" type="stopword">DIE</w>
+                    <w pos="PROPN" lemma="TRUPPEN" type="no_stopword">TRUPPEN</w>
+                    <w pos="PROPN" lemma="DER" type="stopword">DER</w>
+                    <w pos="NOUN" lemma="VERBÜNDETEN" type="no_stopword">VERBÜNDETEN</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                    <w pos="NOUN" lemma="April" type="no_stopword">April</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="ADP" lemma="Im" type="stopword">Im</w>
+                    <w pos="NOUN" lemma="Name" type="no_stopword">Namen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Sowjetregierung" type="no_stopword">Sowjetregierung</w>
+                    <w pos="VERB" lemma="wenden" type="no_stopword">wende</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="PRON" lemma="sich" type="stopword">mich</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Sie</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Kommandeure" type="no_stopword">Kommandeure</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Soldat" type="no_stopword">Soldaten</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Rote" type="no_stopword">Roten</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armee</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armeen</w>
+                    <w pos="DET" lemma="mein" type="stopword">unserer</w>
+                    <w pos="NOUN" lemma="Verbündete" type="no_stopword">Verbündeten</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="siegreich" type="no_stopword">siegreichen</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armeen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="verbünden" type="no_stopword">verbündeten</w>
+                    <w pos="NOUN" lemma="Großmacht" type="no_stopword">Großmächte</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Befreiungskrieg" type="no_stopword">Befreiungskrieg</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Europa" type="no_stopword">Europa</w>
+                    <w pos="VERB" lemma="fahren" type="no_stopword">führen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="deutsch" type="no_stopword">deutschen</w>
+                    <w pos="NOUN" lemma="Truppe" type="no_stopword">Truppen</w>
+                    <w pos="ADJ" lemma="vernichten" type="no_stopword">vernichtend</w>
+                    <w pos="VERB" lemma="schlagen" type="no_stopword">geschlagen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="ADJ" lemma="deutsch" type="no_stopword">deutschem</w>
+                    <w pos="NOUN" lemma="Boden" type="no_stopword">Boden</w>
+                    <w pos="VERB" lemma="vereinigen" type="no_stopword">vereinigt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="mein" type="stopword">Unsere</w>
+                    <w pos="NOUN" lemma="Aufgabe" type="no_stopword">Aufgabe</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="mein" type="stopword">unsere</w>
+                    <w pos="NOUN" lemma="Pflicht" type="no_stopword">Pflicht</w>
+                    <w pos="VERB" lemma="bestehen" type="no_stopword">besteht</w>
+                    <w pos="ADV" lemma="darin" type="stopword">darin</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Feind" type="no_stopword">Feinde</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Rest" type="no_stopword">Rest</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="geben" type="no_stopword">geben</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ihn</w>
+                    <w pos="ADP" lemma="zur" type="stopword">zur</w>
+                    <w pos="NOUN" lemma="Waffenstreckung" type="no_stopword">Waffenstreckung</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="zur" type="stopword">zur</w>
+                    <w pos="ADJ" lemma="bedingungslos" type="no_stopword">bedingungslosen</w>
+                    <w pos="NOUN" lemma="Kapitulation" type="no_stopword">Kapitulation</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="zwingen" type="no_stopword">zwingen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Diese" type="stopword">Diese</w>
+                    <w pos="NOUN" lemma="Aufgabe" type="no_stopword">Aufgabe</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="dies" type="stopword">diese</w>
+                    <w pos="NOUN" lemma="Pflicht" type="no_stopword">Pflicht</w>
+                    <w pos="ADP" lemma="gegenüber" type="stopword">gegenüber</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">unserem</w>
+                    <w pos="NOUN" lemma="Volk" type="no_stopword">Volke</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="alle" type="stopword">allen</w>
+                    <w pos="ADJ" lemma="freiheitsliebend" type="no_stopword">freiheitsliebenden</w>
+                    <w pos="NOUN" lemma="Volk" type="no_stopword">Völkern</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="rot" type="no_stopword">Rote</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armee</w>
+                    <w pos="ADJ" lemma="restlos" type="no_stopword">restlos</w>
+                    <w pos="VERB" lemma="erfüllen" type="no_stopword">erfüllen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="begrüßen" type="no_stopword">begrüße</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="heldenmütig" type="no_stopword">heldenmütigen</w>
+                    <w pos="NOUN" lemma="Truppe" type="no_stopword">Truppen</w>
+                    <w pos="DET" lemma="mein" type="stopword">unserer</w>
+                    <w pos="NOUN" lemma="Verbündete" type="no_stopword">Verbündeten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADV" lemma="nun" type="stopword">nun</w>
+                    <w pos="NOUN" lemma="Schulter" type="no_stopword">Schulter</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="NOUN" lemma="Schulter" type="no_stopword">Schulter</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Sowjettruppen" type="no_stopword">Sowjettruppen</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="ADJ" lemma="deutsch" type="no_stopword">deutschem</w>
+                    <w pos="NOUN" lemma="Boden" type="no_stopword">Boden</w>
+                    <w pos="VERB" lemma="stehen" type="no_stopword">stehen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Entschlossenheit" type="no_stopword">Entschlossenheit</w>
+                    <w pos="VERB" lemma="erfüllen" type="no_stopword">erfüllt</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihre</w>
+                    <w pos="NOUN" lemma="Pflicht" type="no_stopword">Pflicht</w>
+                    <w pos="ADJ" lemma="restlos" type="no_stopword">restlos</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="erfüllen" type="no_stopword">erfüllen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

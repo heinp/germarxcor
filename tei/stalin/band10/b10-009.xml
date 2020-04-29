@@ -1,40 +1,83 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Unterredung mit der ersten amerikanischen Arbeiterdeligation</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>UNTERREDUNG MIT DER ERSTEN AMERIKANISCHEN ARBEITERDELEGATION 9. September 1927</p>
-      <p>Fragen der Deligation und Antworten des Genossen Stalin Fragen des Genossen Stalin und Antworten der Deligierten</p>
-      <p>„Prawda“ Nr. 210, 15. September 1927</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unterredung mit der ersten amerikanischen Arbeiterdeligation</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="PROPN" lemma="UNTERREDUNG" type="no_stopword">UNTERREDUNG</w>
+                    <w pos="ADP" lemma="MIT" type="stopword">MIT</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="ADJ" lemma="ERSTEN" type="stopword">ERSTEN</w>
+                    <w pos="ADJ" lemma="AMERIKANISCHEN" type="no_stopword">AMERIKANISCHEN</w>
+                    <w pos="PROPN" lemma="ARBEITERDELEGATION" type="no_stopword">ARBEITERDELEGATION</w>
+                    <w pos="NUM" lemma="9." type="no_stopword">9.</w>
+                    <w pos="NOUN" lemma="September" type="no_stopword">September</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Fragen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Deligation" type="no_stopword">Deligation</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Antwort" type="no_stopword">Antworten</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genossen</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Fragen</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genossen</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Antwort" type="no_stopword">Antworten</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Deligierten" type="no_stopword">Deligierten</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="PROPN" lemma="Prawda" type="no_stopword">Prawda</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="NOUN" lemma="September" type="no_stopword">September</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

@@ -1,38 +1,249 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>ÜBER DIE INTERNATIONALE EINHEITSFRONT GEGEN DEN FASCHISMUS</title>
-        <author>Mao Zedong</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Werke Mao Tse-tungs</name>
-          <idno type="URL">http://www.infopartisan.net/archive/maowerke/maoAWges.htm</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Die Aufgabe der Kommunisten in der ganzen Welt besteht jetzt darin, alle Völker zur Schaffung einer internationalen Einheitsfront zu mobilisieren, um gegen den Faschismus und für die Verteidigung der Sowjetunion, die Verteidigung Chinas, die Verteidigung der Freiheit und Unabhängigkeit aller Nationen zu kämpfen. Im gegenwärtigen Zeitabschnitt müssen alle Kräfte auf den Kampf gegen die faschistische Unterjochung konzentriert werden. Die Aufgaben der Kommunistischen Partei Chinas im ganzen Land bestehen darin: 1. an der antijapanischen nationalen Einheitsfront festzuhalten, auf der Zusammenarbeit zwischen der Kuomintang und der Kommunistischen Partei zu beharren, die japanischen Imperialisten aus China zu verjagen und damit der Sowjetunion Beistand zu leisten; 2. jede antisowjetische und antikommunistische Tätigkeit der reaktionären Elemente in den Reihen der Großbourgeoisie entschieden zu bekämpfen ; 3. auf dem außenpolitischen Gebiet sich zum Kampf gegen den gemeinsamen Feind mit allen jenen in England, in den USA und in anderen Ländern zusammenzuschließen, die gegen die faschistischen Machthaber Deutschlands, Italiens und Japans auftreten. ANMERKUNGEN * Eine parteiinterne Direktive, die Genosse Mao Tse-tung im Namen des Zentralkomitees der Kommunistischen Partei Chinas geschrieben hat.</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ÜBER DIE INTERNATIONALE EINHEITSFRONT GEGEN DEN FASCHISMUS</title>
+                <author>Mao Zedong</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Werke Mao Tse-tungs</name>
+                    <idno type="URL">http://www.infopartisan.net/archive/maowerke/maoAWges.htm</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Aufgabe" type="no_stopword">Aufgabe</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Kommunist" type="no_stopword">Kommunisten</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="ganz" type="stopword">ganzen</w>
+                    <w pos="NOUN" lemma="Welt" type="no_stopword">Welt</w>
+                    <w pos="VERB" lemma="bestehen" type="no_stopword">besteht</w>
+                    <w pos="ADV" lemma="jetzt" type="stopword">jetzt</w>
+                    <w pos="ADV" lemma="darin" type="stopword">darin</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="all" type="stopword">alle</w>
+                    <w pos="NOUN" lemma="Volk" type="no_stopword">Völker</w>
+                    <w pos="ADP" lemma="zur" type="stopword">zur</w>
+                    <w pos="NOUN" lemma="Schaffung" type="no_stopword">Schaffung</w>
+                    <w pos="DET" lemma="einer" type="stopword">einer</w>
+                    <w pos="ADJ" lemma="international" type="no_stopword">internationalen</w>
+                    <w pos="NOUN" lemma="Einheitsfront" type="no_stopword">Einheitsfront</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="mobilisieren" type="no_stopword">mobilisieren</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="um" type="stopword">um</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Faschismus" type="no_stopword">Faschismus</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Verteidigung" type="no_stopword">Verteidigung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="Sowjetunion" type="no_stopword">Sowjetunion</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Verteidigung" type="no_stopword">Verteidigung</w>
+                    <w pos="PROPN" lemma="China" type="no_stopword">Chinas</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Verteidigung" type="no_stopword">Verteidigung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Freiheit" type="no_stopword">Freiheit</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Unabhängigkeit" type="no_stopword">Unabhängigkeit</w>
+                    <w pos="DET" lemma="all" type="stopword">aller</w>
+                    <w pos="NOUN" lemma="Nation" type="no_stopword">Nationen</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="kämpfen" type="no_stopword">kämpfen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Im" type="stopword">Im</w>
+                    <w pos="ADJ" lemma="gegenwärtig" type="no_stopword">gegenwärtigen</w>
+                    <w pos="NOUN" lemma="Zeitabschnitt" type="no_stopword">Zeitabschnitt</w>
+                    <w pos="VERB" lemma="müssen" type="stopword">müssen</w>
+                    <w pos="DET" lemma="all" type="stopword">alle</w>
+                    <w pos="NOUN" lemma="Kraft" type="no_stopword">Kräfte</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kampf</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="faschistische" type="no_stopword">faschistische</w>
+                    <w pos="NOUN" lemma="Unterjochung" type="no_stopword">Unterjochung</w>
+                    <w pos="VERB" lemma="konzentrieren" type="no_stopword">konzentriert</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Aufgabe" type="no_stopword">Aufgaben</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Kommunistische" type="no_stopword">Kommunistischen</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Partei</w>
+                    <w pos="PROPN" lemma="China" type="no_stopword">Chinas</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="ADJ" lemma="ganz" type="stopword">ganzen</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Land</w>
+                    <w pos="VERB" lemma="bestehen" type="no_stopword">bestehen</w>
+                    <w pos="ADV" lemma="darin" type="stopword">darin</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                </s>
+                <s>
+                    <w pos="NUM" lemma="1." type="no_stopword">1.</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="antijapanischen" type="no_stopword">antijapanischen</w>
+                    <w pos="ADJ" lemma="national" type="no_stopword">nationalen</w>
+                    <w pos="NOUN" lemma="Einheitsfront" type="no_stopword">Einheitsfront</w>
+                    <w pos="VERB" lemma="festhalten" type="no_stopword">festzuhalten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Zusammenarbeit" type="no_stopword">Zusammenarbeit</w>
+                    <w pos="ADP" lemma="zwischen" type="stopword">zwischen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Kuomintang" type="no_stopword">Kuomintang</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Kommunistische" type="no_stopword">Kommunistischen</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Partei</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="beharren" type="no_stopword">beharren</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="japanisch" type="no_stopword">japanischen</w>
+                    <w pos="NOUN" lemma="Imperialist" type="no_stopword">Imperialisten</w>
+                    <w pos="ADP" lemma="aus" type="stopword">aus</w>
+                    <w pos="PROPN" lemma="China" type="no_stopword">China</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="verjagen" type="no_stopword">verjagen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADV" lemma="damit" type="stopword">damit</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="Sowjetunion" type="no_stopword">Sowjetunion</w>
+                    <w pos="NOUN" lemma="Beistand" type="no_stopword">Beistand</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="leisten" type="no_stopword">leisten</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="2." type="no_stopword">2.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="jed" type="stopword">jede</w>
+                    <w pos="ADJ" lemma="antisowjetische" type="no_stopword">antisowjetische</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="antikommunistische" type="no_stopword">antikommunistische</w>
+                    <w pos="NOUN" lemma="Tätigkeit" type="no_stopword">Tätigkeit</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="reaktionär" type="no_stopword">reaktionären</w>
+                    <w pos="NOUN" lemma="Element" type="no_stopword">Elemente</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Reihe" type="no_stopword">Reihen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Großbourgeoisie" type="no_stopword">Großbourgeoisie</w>
+                    <w pos="VERB" lemma="entscheiden" type="no_stopword">entschieden</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="bekämpfen" type="no_stopword">bekämpfen</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                </s>
+                <s>
+                    <w pos="NUM" lemma="3." type="no_stopword">3.</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="außenpolitisch" type="no_stopword">außenpolitischen</w>
+                    <w pos="NOUN" lemma="Gebiet" type="no_stopword">Gebiet</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kampf</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="gemeinsam" type="no_stopword">gemeinsamen</w>
+                    <w pos="NOUN" lemma="Feind" type="no_stopword">Feind</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="alle" type="stopword">allen</w>
+                    <w pos="PRON" lemma="jen" type="stopword">jenen</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="England" type="no_stopword">England</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="PROPN" lemma="USA" type="no_stopword">USA</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="ADJ" lemma="ander" type="stopword">anderen</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Ländern</w>
+                    <w pos="VERB" lemma="zusammenschließen" type="no_stopword">zusammenzuschließen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="faschistisch" type="no_stopword">faschistischen</w>
+                    <w pos="NOUN" lemma="Machthaber" type="no_stopword">Machthaber</w>
+                    <w pos="PROPN" lemma="Deutschland" type="no_stopword">Deutschlands</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Italien" type="no_stopword">Italiens</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Japan" type="no_stopword">Japans</w>
+                    <w pos="VERB" lemma="auftreten" type="no_stopword">auftreten</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="ANMERKUNGEN" type="no_stopword">ANMERKUNGEN</w>
+                </s>
+                <s>
+                    <w pos="X" lemma="*" type="no_stopword">*</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Eine" type="stopword">Eine</w>
+                    <w pos="ADJ" lemma="parteiinterne" type="no_stopword">parteiinterne</w>
+                    <w pos="NOUN" lemma="Direktive" type="no_stopword">Direktive</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genosse</w>
+                    <w pos="PROPN" lemma="Mao" type="no_stopword">Mao</w>
+                    <w pos="NOUN" lemma="Tsetung" type="no_stopword">Tsetung</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Name" type="no_stopword">Namen</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Zentralkomitees" type="no_stopword">Zentralkomitees</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Kommunistische" type="no_stopword">Kommunistischen</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Partei</w>
+                    <w pos="PROPN" lemma="China" type="no_stopword">Chinas</w>
+                    <w pos="VERB" lemma="schreiben" type="no_stopword">geschrieben</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

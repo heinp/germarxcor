@@ -1,40 +1,623 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Sacco u. Vanzetti (1927)</title>
-        <author>Ernst Thälmann</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Marxist Internet Archive</name>
-          <idno type="URL">https://www.marxists.org/deutsch/index.htm</idno>
-          <availability>
-            <licence>
-              <ab>CC-BY-SA-2.0</ab>
-              <ref target="https://www.marxists.org/admin/legal/cc/by-sa.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>(24. August 1927)</p>
-      <p>Die Rote Fahne vom 25. August 1927. Heruntergeladen mit Dank von der Marxistischen Bibliothek. HTML-Markierung: Einde O’Callaghan für das Marxists’ Internet Archive.</p>
-      <p>Wir demonstrieren heute gegen die Ermordung Saccos und Vanzettis durch die weiße Blutjustiz der amerikanischen Bourgeoisie. Diese Demonstration richtet sich gleichzeitig gegen das blutbesudelte kapitalistische System, das der wirklich Schuldige des Mordes an Sacco und Vanzetti ist. Die Abschlachtung Saccos und Vanzettis ist kein Einzelfall, sondern in allen kapitalistischen Ländern wütet die Klassenjustiz gegen die Kämpfer des revolutionären Proletariats. Wir alle denken noch an die viehische Ermordung von Rosa und Karl, von Jogiches und Levine, von Sylt und vielen anderen, die dem weißen Terror des deutschen Kapitalismus zum Opfer gefallen sind. Dieser Terror wütet nach wie vor in der gesamten kapitalistischen Welt, in Ungarn, Polen, Italien, Bulgarien, in Rumänien, Litauen, in Österreich und auch in Deutschland. Justizmord und heimtückische Abschlachtung von Proletariern sind in allen kapitalistischen Ländern an der Tagesordnung. Gleichzeitig werden Tausende von Kämpfern für das Proletariat hinter Kerkermauern gequält und oft zu Tode gefoltert. Hunderte von Arbeitern schmachten in Deutschland in den Gefängnissen, die nichts anderes begangen haben, als daß sie die Interessen der Unterdrückten und Ausgebeuteten verteidigt haben. Millionen von Arbeitern sind zum Protest gegen die geplante Ermordung von Sacco und Vanzetti auf die Straße gegangen. Aber die amerikanische Bourgeoisie fühlte sich noch stark genug, um vor der Ermordung nicht zurückzuschrecken. Freilich, der Kampf des Weltproletariats gegen das brutale Verbrechen der amerikanischen Bourgeoisie war nicht einheitlich. Die sozialdemokratischen Parteien, die II. Internationale und die Amsterdamer Gewerkschaftsinternationale haben von Anfang an diesen Kampf sabotiert. Was in ihren Kräften stand, haben sie getan, um die Arbeiterschaft in ihrer Protestaktion zu schwächen und zu hindern. Am schamlosesten hat sich die deutsche Sozialdemokratische Partei benommen. Der Vorwärts übertraf sogar einen Teil der kapitalistischen Presse, indem er die Abschlachtung Saccos und Vanzettis mit den Erschießungen konterrevolutionärer Banditen in der Sowjetunion gleichstellte. In Deutschland hat die Klassenjustiz unter der Bürgerblockregierung einen verschärften Kurs eingeschlagen. Vor kurzem hat die Niedner-Justiz in Stuttgart eine Anzahl Arbeiter zu 45 Jahren Zuchthaus verurteilt, weil sie es gewagt hatten, die württembergische Arbeiterschaft zum Kampfe gegen den Faschismus zu organisieren. Derselbe Niedner hat gegen die Zentrale der KPD einen Prozeß eingeleitet, der im Oktober stattfinden soll. Während ein Teil der Bourgeoisie und die sozialdemokratischen Führer einen Abscheu gegen die Ermordung von Sacco und Vanzetti heucheln, sind sie gleichzeitig in vielen Städten mit den brutalsten Mitteln gegen die demonstrierenden Arbeiter vorgegangen. In Paris und in Genf, in London und in Amsterdam, in Leipzig und in Halle wurden Arbeiter niedergeknüppelt und erschlagen, weil sie es wagten, nicht nur gegen die amerikanische Verbrecherjustiz, sondern gegen die Klassenjustiz im eignen Lande aufzumarschieren. In Deutschland waren es gerade sozialdemokratische Polizeipräsidenten, die sich bei dieser Niederknüppelung der Arbeiter durch schamlose Anbiederung an die kapitalistische Gesellschaft ausgezeichnet haben.</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sacco u. Vanzetti (1927)</title>
+                <author>Ernst Thälmann</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Marxist Internet Archive</name>
+                    <idno type="URL">https://www.marxists.org/deutsch/index.htm</idno>
+                    <availability>
+                        <licence>
+                            <ab>CC-BY-SA-2.0</ab>
+                            <ref target="https://www.marxists.org/admin/legal/cc/by-sa.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                    <w pos="NOUN" lemma="August" type="no_stopword">August</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="rot" type="no_stopword">Rote</w>
+                    <w pos="NOUN" lemma="Fahne" type="no_stopword">Fahne</w>
+                    <w pos="ADP" lemma="vom" type="stopword">vom</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="NOUN" lemma="August" type="no_stopword">August</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="VERB" lemma="Heruntergeladen" type="no_stopword">Heruntergeladen</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="NOUN" lemma="Dank" type="stopword">Dank</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Marxistische" type="no_stopword">Marxistischen</w>
+                    <w pos="NOUN" lemma="Bibliothek" type="no_stopword">Bibliothek</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="HTMLMarkierung" type="no_stopword">HTMLMarkierung</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="NOUN" lemma="Einde" type="no_stopword">Einde</w>
+                    <w pos="PROPN" lemma="O" type="no_stopword">O</w>
+                    <w pos="PROPN" lemma="’" type="no_stopword">’</w>
+                    <w pos="PROPN" lemma="Callaghan" type="no_stopword">Callaghan</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="PROPN" lemma="Marxists" type="no_stopword">Marxists</w>
+                    <w pos="PROPN" lemma="’" type="no_stopword">’</w>
+                    <w pos="PROPN" lemma="Internet" type="no_stopword">Internet</w>
+                    <w pos="PROPN" lemma="Archiv" type="no_stopword">Archive</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PRON" lemma="ich" type="stopword">Wir</w>
+                    <w pos="VERB" lemma="demonstrieren" type="no_stopword">demonstrieren</w>
+                    <w pos="ADV" lemma="heute" type="stopword">heute</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Ermordung" type="no_stopword">Ermordung</w>
+                    <w pos="PROPN" lemma="Saccos" type="no_stopword">Saccos</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Vanzettis" type="no_stopword">Vanzettis</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="weiße" type="no_stopword">weiße</w>
+                    <w pos="NOUN" lemma="Blutjustiz" type="no_stopword">Blutjustiz</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="amerikanisch" type="no_stopword">amerikanischen</w>
+                    <w pos="NOUN" lemma="Bourgeoisie" type="no_stopword">Bourgeoisie</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Diese" type="stopword">Diese</w>
+                    <w pos="NOUN" lemma="Demonstration" type="no_stopword">Demonstration</w>
+                    <w pos="VERB" lemma="richten" type="no_stopword">richtet</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADJ" lemma="gleichzeitig" type="no_stopword">gleichzeitig</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="NOUN" lemma="blutbesudelte" type="no_stopword">blutbesudelte</w>
+                    <w pos="ADJ" lemma="kapitalistische" type="no_stopword">kapitalistische</w>
+                    <w pos="NOUN" lemma="System" type="no_stopword">System</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">das</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="wirklich" type="stopword">wirklich</w>
+                    <w pos="NOUN" lemma="Schuldige" type="no_stopword">Schuldige</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Mord" type="no_stopword">Mordes</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="PROPN" lemma="Sacco" type="no_stopword">Sacco</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Vanzetti" type="no_stopword">Vanzetti</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Abschlachtung" type="no_stopword">Abschlachtung</w>
+                    <w pos="PROPN" lemma="Saccos" type="no_stopword">Saccos</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Vanzettis" type="no_stopword">Vanzettis</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="DET" lemma="kein" type="stopword">kein</w>
+                    <w pos="NOUN" lemma="Einzelfall" type="no_stopword">Einzelfall</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="sondern" type="stopword">sondern</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="alle" type="stopword">allen</w>
+                    <w pos="ADJ" lemma="kapitalistisch" type="no_stopword">kapitalistischen</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Ländern</w>
+                    <w pos="VERB" lemma="wüten" type="no_stopword">wütet</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Klassenjustiz" type="no_stopword">Klassenjustiz</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Kämpfer" type="no_stopword">Kämpfer</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="revolutionär" type="no_stopword">revolutionären</w>
+                    <w pos="NOUN" lemma="Proletariat" type="no_stopword">Proletariats</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="ich" type="stopword">Wir</w>
+                    <w pos="PRON" lemma="all" type="stopword">alle</w>
+                    <w pos="VERB" lemma="denken" type="no_stopword">denken</w>
+                    <w pos="ADV" lemma="noch" type="stopword">noch</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="viehische" type="no_stopword">viehische</w>
+                    <w pos="NOUN" lemma="Ermordung" type="no_stopword">Ermordung</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Rosa" type="no_stopword">Rosa</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Karl" type="no_stopword">Karl</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Jogiches" type="no_stopword">Jogiches</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Levine" type="no_stopword">Levine</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Sylt" type="no_stopword">Sylt</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="viel" type="stopword">vielen</w>
+                    <w pos="PRON" lemma="ander" type="stopword">anderen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="weiß" type="no_stopword">weißen</w>
+                    <w pos="NOUN" lemma="Terror" type="no_stopword">Terror</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="deutsch" type="no_stopword">deutschen</w>
+                    <w pos="NOUN" lemma="Kapitalismus" type="no_stopword">Kapitalismus</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="NOUN" lemma="Opfer" type="no_stopword">Opfer</w>
+                    <w pos="VERB" lemma="fallen" type="no_stopword">gefallen</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Dieser" type="stopword">Dieser</w>
+                    <w pos="NOUN" lemma="Terror" type="no_stopword">Terror</w>
+                    <w pos="VERB" lemma="wüten" type="no_stopword">wütet</w>
+                    <w pos="ADV" lemma="nach" type="stopword">nach</w>
+                    <w pos="CCONJ" lemma="wie" type="stopword">wie</w>
+                    <w pos="ADV" lemma="vor" type="stopword">vor</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="gesamt" type="no_stopword">gesamten</w>
+                    <w pos="ADJ" lemma="kapitalistisch" type="no_stopword">kapitalistischen</w>
+                    <w pos="NOUN" lemma="Welt" type="no_stopword">Welt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Ungarn" type="no_stopword">Ungarn</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Pol" type="no_stopword">Polen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Italien" type="no_stopword">Italien</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Bulgarien" type="no_stopword">Bulgarien</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Rumänien" type="no_stopword">Rumänien</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Litauen" type="no_stopword">Litauen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Österreich" type="no_stopword">Österreich</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADV" lemma="auch" type="stopword">auch</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Deutschland" type="no_stopword">Deutschland</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Justizmord" type="no_stopword">Justizmord</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="heimtückische" type="no_stopword">heimtückische</w>
+                    <w pos="NOUN" lemma="Abschlachtung" type="no_stopword">Abschlachtung</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Proletarier" type="no_stopword">Proletariern</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="alle" type="stopword">allen</w>
+                    <w pos="ADJ" lemma="kapitalistisch" type="no_stopword">kapitalistischen</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Ländern</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Tagesordnung" type="no_stopword">Tagesordnung</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="Gleichzeitig" type="no_stopword">Gleichzeitig</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="NOUN" lemma="Tausende" type="no_stopword">Tausende</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Kämpfer" type="no_stopword">Kämpfern</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="NOUN" lemma="Proletariat" type="no_stopword">Proletariat</w>
+                    <w pos="ADP" lemma="hinter" type="stopword">hinter</w>
+                    <w pos="NOUN" lemma="Kerkermauern" type="no_stopword">Kerkermauern</w>
+                    <w pos="VERB" lemma="quälen" type="no_stopword">gequält</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADV" lemma="oft" type="stopword">oft</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                    <w pos="NOUN" lemma="Tod" type="no_stopword">Tode</w>
+                    <w pos="VERB" lemma="foltern" type="no_stopword">gefoltert</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Hunderte" type="no_stopword">Hunderte</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeitern</w>
+                    <w pos="VERB" lemma="schmachten" type="no_stopword">schmachten</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Deutschland" type="no_stopword">Deutschland</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Gefängnis" type="no_stopword">Gefängnissen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="nichts" type="stopword">nichts</w>
+                    <w pos="PRON" lemma="ander" type="no_stopword">anderes</w>
+                    <w pos="VERB" lemma="begehen" type="no_stopword">begangen</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="als" type="stopword">als</w>
+                    <w pos="SCONJ" lemma="daß" type="stopword">daß</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Interesse" type="no_stopword">Interessen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Unterdrückte" type="no_stopword">Unterdrückten</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Ausgebeutete" type="no_stopword">Ausgebeuteten</w>
+                    <w pos="VERB" lemma="verteidigen" type="no_stopword">verteidigt</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Million" type="no_stopword">Millionen</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeitern</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="NOUN" lemma="Protest" type="no_stopword">Protest</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="geplant" type="no_stopword">geplante</w>
+                    <w pos="NOUN" lemma="Ermordung" type="no_stopword">Ermordung</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Sacco" type="no_stopword">Sacco</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Vanzetti" type="no_stopword">Vanzetti</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Straße" type="no_stopword">Straße</w>
+                    <w pos="VERB" lemma="gehen" type="no_stopword">gegangen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="CCONJ" lemma="aber" type="stopword">Aber</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="amerikanische" type="no_stopword">amerikanische</w>
+                    <w pos="NOUN" lemma="Bourgeoisie" type="no_stopword">Bourgeoisie</w>
+                    <w pos="VERB" lemma="fühlen" type="no_stopword">fühlte</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADV" lemma="noch" type="stopword">noch</w>
+                    <w pos="ADJ" lemma="stark" type="no_stopword">stark</w>
+                    <w pos="ADV" lemma="genug" type="stopword">genug</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="um" type="stopword">um</w>
+                    <w pos="ADP" lemma="vor" type="stopword">vor</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Ermordung" type="no_stopword">Ermordung</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="VERB" lemma="zurückschrecken" type="no_stopword">zurückzuschrecken</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="Freilich" type="no_stopword">Freilich</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kampf</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Weltproletariats" type="no_stopword">Weltproletariats</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="ADJ" lemma="brutale" type="no_stopword">brutale</w>
+                    <w pos="NOUN" lemma="Verbrechen" type="no_stopword">Verbrechen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="amerikanisch" type="no_stopword">amerikanischen</w>
+                    <w pos="NOUN" lemma="Bourgeoisie" type="no_stopword">Bourgeoisie</w>
+                    <w pos="AUX" lemma="sein" type="stopword">war</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="ADJ" lemma="einheitlich" type="no_stopword">einheitlich</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="sozialdemokratisch" type="no_stopword">sozialdemokratischen</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Parteien</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="II" type="no_stopword">II</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="Internationale" type="no_stopword">Internationale</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="Amsterdamer" type="no_stopword">Amsterdamer</w>
+                    <w pos="NOUN" lemma="Gewerkschaftsinternationale" type="no_stopword">Gewerkschaftsinternationale</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Anfang" type="no_stopword">Anfang</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="dies" type="stopword">diesen</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kampf</w>
+                    <w pos="VERB" lemma="sabotieren" type="no_stopword">sabotiert</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Was" type="stopword">Was</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihren</w>
+                    <w pos="NOUN" lemma="Kraft" type="no_stopword">Kräften</w>
+                    <w pos="VERB" lemma="stehen" type="no_stopword">stand</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="VERB" lemma="tun" type="no_stopword">getan</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="um" type="stopword">um</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Arbeiterschaft" type="no_stopword">Arbeiterschaft</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="sich" type="stopword">ihrer</w>
+                    <w pos="NOUN" lemma="Protestaktion" type="no_stopword">Protestaktion</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="schwächen" type="no_stopword">schwächen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="hindern" type="no_stopword">hindern</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Am" type="stopword">Am</w>
+                    <w pos="NOUN" lemma="schamlos" type="no_stopword">schamlosesten</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="deutsch" type="no_stopword">deutsche</w>
+                    <w pos="ADJ" lemma="sozialdemokratisch" type="no_stopword">Sozialdemokratische</w>
+                    <w pos="NOUN" lemma="Partei" type="no_stopword">Partei</w>
+                    <w pos="VERB" lemma="benehmen" type="no_stopword">benommen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Der</w>
+                    <w pos="NOUN" lemma="Vorwärts" type="no_stopword">Vorwärts</w>
+                    <w pos="VERB" lemma="übertreffen" type="no_stopword">übertraf</w>
+                    <w pos="ADV" lemma="sogar" type="no_stopword">sogar</w>
+                    <w pos="DET" lemma="ein" type="stopword">einen</w>
+                    <w pos="NOUN" lemma="Teil" type="stopword">Teil</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="kapitalistisch" type="no_stopword">kapitalistischen</w>
+                    <w pos="NOUN" lemma="Presse" type="no_stopword">Presse</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="indem" type="stopword">indem</w>
+                    <w pos="PRON" lemma="ich" type="stopword">er</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Abschlachtung" type="no_stopword">Abschlachtung</w>
+                    <w pos="PROPN" lemma="Saccos" type="no_stopword">Saccos</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Vanzettis" type="no_stopword">Vanzettis</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Erschießungen" type="no_stopword">Erschießungen</w>
+                    <w pos="ADJ" lemma="konterrevolutionärer" type="no_stopword">konterrevolutionärer</w>
+                    <w pos="NOUN" lemma="Bandit" type="no_stopword">Banditen</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="Sowjetunion" type="no_stopword">Sowjetunion</w>
+                    <w pos="VERB" lemma="gleichstellen" type="no_stopword">gleichstellte</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="In" type="stopword">In</w>
+                    <w pos="PROPN" lemma="Deutschland" type="no_stopword">Deutschland</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Klassenjustiz" type="no_stopword">Klassenjustiz</w>
+                    <w pos="ADP" lemma="unter" type="stopword">unter</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Bürgerblockregierung" type="no_stopword">Bürgerblockregierung</w>
+                    <w pos="DET" lemma="ein" type="stopword">einen</w>
+                    <w pos="ADJ" lemma="verschärfen" type="no_stopword">verschärften</w>
+                    <w pos="NOUN" lemma="Kurs" type="no_stopword">Kurs</w>
+                    <w pos="VERB" lemma="einschlagen" type="no_stopword">eingeschlagen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Vor" type="stopword">Vor</w>
+                    <w pos="ADJ" lemma="kurz" type="no_stopword">kurzem</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="NiednerJustiz" type="no_stopword">NiednerJustiz</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Stuttgart" type="no_stopword">Stuttgart</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="NOUN" lemma="Anzahl" type="no_stopword">Anzahl</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="NOUN" lemma="Jahr" type="stopword">Jahren</w>
+                    <w pos="NOUN" lemma="Zuchthaus" type="no_stopword">Zuchthaus</w>
+                    <w pos="VERB" lemma="verurteilen" type="no_stopword">verurteilt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="weil" type="stopword">weil</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="VERB" lemma="wagen" type="no_stopword">gewagt</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hatten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="württembergisch" type="no_stopword">württembergische</w>
+                    <w pos="NOUN" lemma="Arbeiterschaft" type="no_stopword">Arbeiterschaft</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kampfe</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Faschismus" type="no_stopword">Faschismus</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="organisieren" type="no_stopword">organisieren</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="derselbe" type="stopword">Derselbe</w>
+                    <w pos="NOUN" lemma="Niedner" type="no_stopword">Niedner</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Zentrale" type="no_stopword">Zentrale</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="KPD" type="no_stopword">KPD</w>
+                    <w pos="DET" lemma="ein" type="stopword">einen</w>
+                    <w pos="NOUN" lemma="Prozeß" type="no_stopword">Prozeß</w>
+                    <w pos="VERB" lemma="einleiten" type="no_stopword">eingeleitet</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">der</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Oktober" type="no_stopword">Oktober</w>
+                    <w pos="VERB" lemma="stattfinden" type="no_stopword">stattfinden</w>
+                    <w pos="VERB" lemma="soll" type="stopword">soll</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="SCONJ" lemma="während" type="stopword">Während</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="NOUN" lemma="Teil" type="stopword">Teil</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Bourgeoisie" type="no_stopword">Bourgeoisie</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="sozialdemokratisch" type="no_stopword">sozialdemokratischen</w>
+                    <w pos="NOUN" lemma="Führer" type="no_stopword">Führer</w>
+                    <w pos="DET" lemma="ein" type="stopword">einen</w>
+                    <w pos="NOUN" lemma="Abscheu" type="no_stopword">Abscheu</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Ermordung" type="no_stopword">Ermordung</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Sacco" type="no_stopword">Sacco</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Vanzetti" type="no_stopword">Vanzetti</w>
+                    <w pos="VERB" lemma="heucheln" type="no_stopword">heucheln</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="ADJ" lemma="gleichzeitig" type="no_stopword">gleichzeitig</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="viel" type="stopword">vielen</w>
+                    <w pos="NOUN" lemma="Stadt" type="no_stopword">Städten</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="brutal" type="no_stopword">brutalsten</w>
+                    <w pos="NOUN" lemma="Mittel" type="no_stopword">Mitteln</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="demonstrierend" type="no_stopword">demonstrierenden</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="VERB" lemma="vorgehen" type="no_stopword">vorgegangen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="In" type="stopword">In</w>
+                    <w pos="PROPN" lemma="Paris" type="no_stopword">Paris</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Genf" type="no_stopword">Genf</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="London" type="no_stopword">London</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Amsterdam" type="no_stopword">Amsterdam</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Leipzig" type="no_stopword">Leipzig</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Halle" type="no_stopword">Halle</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wurden</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="VERB" lemma="niederknüppeln" type="no_stopword">niedergeknüppelt</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="VERB" lemma="erschlagen" type="no_stopword">erschlagen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="weil" type="stopword">weil</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="VERB" lemma="wagen" type="no_stopword">wagten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="ADV" lemma="nur" type="stopword">nur</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="amerikanische" type="no_stopword">amerikanische</w>
+                    <w pos="NOUN" lemma="Verbrecherjustiz" type="no_stopword">Verbrecherjustiz</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="sondern" type="stopword">sondern</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Klassenjustiz" type="no_stopword">Klassenjustiz</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="ADJ" lemma="eignen" type="no_stopword">eignen</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Lande</w>
+                    <w pos="VERB" lemma="aufmarschieren" type="no_stopword">aufzumarschieren</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="In" type="stopword">In</w>
+                    <w pos="PROPN" lemma="Deutschland" type="no_stopword">Deutschland</w>
+                    <w pos="AUX" lemma="sein" type="stopword">waren</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="ADV" lemma="gerade" type="stopword">gerade</w>
+                    <w pos="ADJ" lemma="sozialdemokratische" type="no_stopword">sozialdemokratische</w>
+                    <w pos="NOUN" lemma="Polizeipräsidenten" type="no_stopword">Polizeipräsidenten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADP" lemma="bei" type="stopword">bei</w>
+                    <w pos="DET" lemma="dies" type="stopword">dieser</w>
+                    <w pos="NOUN" lemma="Niederknüppelung" type="no_stopword">Niederknüppelung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="ADJ" lemma="schamlose" type="no_stopword">schamlose</w>
+                    <w pos="NOUN" lemma="Anbiederung" type="no_stopword">Anbiederung</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="kapitalistische" type="no_stopword">kapitalistische</w>
+                    <w pos="NOUN" lemma="Gesellschaft" type="no_stopword">Gesellschaft</w>
+                    <w pos="VERB" lemma="auszeichnen" type="no_stopword">ausgezeichnet</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

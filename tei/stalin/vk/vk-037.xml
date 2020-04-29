@@ -1,38 +1,387 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title> 19. August 1945- Befehl Nr. 51 des Obersten Befehlshabers</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>BEFEHL DES OBERSTEN BEFEHLSHABERS Nr. 51 Moskau, 19. August 1945 In dem Großen Vaterländischen Krieg des Sowjetvolkes gegen das faschistische Deutschland hat unsere Luftflotte ihre Pflicht gegenüber der Heimat in Ehren erfüllt. Die prächtigen Falken unseres Vaterlandes haben in erbitterten Luftschlachten die gepriesene deutsche Luftwaffe zerschmettert, wodurch sie der Roten Armee Aktionsfreiheit gesichert und die Bevölkerung des Landes von den feindlichen Luftbombardements befreit haben. Gemeinsam mit der ganzen Roten Armee führten sie tödliche Schläge gegen den Feind und vernichteten seine Soldaten und sein Kriegsmaterial. Die kunstgerechten Operationen unserer heldenmütigen Luftflotte förderten ständig den Erfolg der Landtruppen und halfen ihnen, die endgültige Niederwerfung des Feindes zu vollbringen. Die Sowjetflieger haben in den Kämpfen für die Freiheit und Unabhängigkeit unseres Vaterlandes nicht wenige Beispiele unübertroffener Standhaftigkeit, Kühnheit und wahren Heldenmuts geliefert. Sie haben in die Geschichte des Großen Vaterländischen Krieges viele großartige Blätter eingeschrieben. Das Sowjetvolk, das Siegervolk ist mit Recht auf den Kampfruhm seiner Flieger stolz. Im Verlauf des Krieges ist es dank dem Arbeitsenthusiasmus unserer Arbeiter, Arbeiterinnen, Ingenieure und Angestellten sowie dem Erfindergeist und Talent der Flugzeugkonstrukteure der Sowjetunion möglich geworden, unsere Luftflotte mit vielen Tausenden ausgezeichneter Kampfmaschinen zu versorgen, die auf ihren Flügeln dem Feinde den Tod und unserem großen Sowjetvolke unsterblichen Ruhm brachten. Genossen Flieger, Navigationsoffiziere und Bordschützen, Funker, Motoren- und Waffenwarte, Mechaniker, Techniker und Ingenieure, Offiziere und Generale! Arbeiter, Ingenieure, Angestellte und Konstrukteure der Flugzeugindustrie! Ich begrüße und beglückwünsche euch zum Festtag der Luftfahrt! Zur Feier des Tages der Luftfahrt und zu Ehren unserer ruhmreichen Flieger BEFEHLE ICH: Heute, am 19. August, um 20 Uhr ist in der Hauptstadt unserer Heimat, Moskau, im Namen der Heimat unseren heldenmütigen Aviatikern mit zwanzig Artilleriesalven aus zweihundertvierundzwanzig Geschützen zu salutieren. Der Oberste Befehlshaber Generalissimus der Sowjetunion J. Stalin</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> 19. August 1945- Befehl Nr. 51 des Obersten Befehlshabers</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="BEFEHL" type="no_stopword">BEFEHL</w>
+                    <w pos="DET" lemma="DES" type="stopword">DES</w>
+                    <w pos="ADJ" lemma="OBERSTEN" type="no_stopword">OBERSTEN</w>
+                    <w pos="NOUN" lemma="BEFEHLSHABERS" type="no_stopword">BEFEHLSHABERS</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="PROPN" lemma="Moskau" type="no_stopword">Moskau</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="9" type="no_stopword">9</w>
+                    <w pos="NOUN" lemma="August" type="no_stopword">August</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="ADP" lemma="In" type="stopword">In</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="Großen" type="stopword">Großen</w>
+                    <w pos="ADJ" lemma="Vaterländische" type="no_stopword">Vaterländischen</w>
+                    <w pos="NOUN" lemma="Krieg" type="no_stopword">Krieg</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Sowjetvolkes" type="no_stopword">Sowjetvolkes</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="ADJ" lemma="faschistische" type="no_stopword">faschistische</w>
+                    <w pos="PROPN" lemma="Deutschland" type="no_stopword">Deutschland</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="DET" lemma="mein" type="stopword">unsere</w>
+                    <w pos="NOUN" lemma="Luftflotte" type="no_stopword">Luftflotte</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihre</w>
+                    <w pos="NOUN" lemma="Pflicht" type="no_stopword">Pflicht</w>
+                    <w pos="ADP" lemma="gegenüber" type="stopword">gegenüber</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Heimat" type="no_stopword">Heimat</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="NOUN" lemma="Ehre" type="no_stopword">Ehren</w>
+                    <w pos="VERB" lemma="erfüllen" type="no_stopword">erfüllt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="prächtig" type="no_stopword">prächtigen</w>
+                    <w pos="NOUN" lemma="Falke" type="no_stopword">Falken</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">unseres</w>
+                    <w pos="NOUN" lemma="Vaterlandes" type="no_stopword">Vaterlandes</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="ADJ" lemma="erbitterten" type="no_stopword">erbitterten</w>
+                    <w pos="NOUN" lemma="Luftschlachten" type="no_stopword">Luftschlachten</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="gepriesen" type="no_stopword">gepriesene</w>
+                    <w pos="ADJ" lemma="deutsch" type="no_stopword">deutsche</w>
+                    <w pos="NOUN" lemma="Luftwaffe" type="no_stopword">Luftwaffe</w>
+                    <w pos="VERB" lemma="zerschmettern" type="no_stopword">zerschmettert</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="wodurch" type="no_stopword">wodurch</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Rote" type="no_stopword">Roten</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armee</w>
+                    <w pos="NOUN" lemma="Aktionsfreiheit" type="no_stopword">Aktionsfreiheit</w>
+                    <w pos="VERB" lemma="sichern" type="no_stopword">gesichert</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Bevölkerung" type="no_stopword">Bevölkerung</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Landes</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="feindlich" type="no_stopword">feindlichen</w>
+                    <w pos="NOUN" lemma="Luftbombardements" type="no_stopword">Luftbombardements</w>
+                    <w pos="VERB" lemma="befreien" type="no_stopword">befreit</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="Gemeinsam" type="no_stopword">Gemeinsam</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="ganz" type="stopword">ganzen</w>
+                    <w pos="ADJ" lemma="Rote" type="no_stopword">Roten</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armee</w>
+                    <w pos="VERB" lemma="führen" type="no_stopword">führten</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="ADJ" lemma="tödlich" type="no_stopword">tödliche</w>
+                    <w pos="NOUN" lemma="Schlag" type="no_stopword">Schläge</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Feind" type="no_stopword">Feind</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="VERB" lemma="vernichten" type="no_stopword">vernichteten</w>
+                    <w pos="DET" lemma="mein" type="stopword">seine</w>
+                    <w pos="NOUN" lemma="Soldat" type="no_stopword">Soldaten</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="mein" type="stopword">sein</w>
+                    <w pos="NOUN" lemma="Kriegsmaterial" type="no_stopword">Kriegsmaterial</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="kunstgerecht" type="no_stopword">kunstgerechten</w>
+                    <w pos="NOUN" lemma="Operation" type="no_stopword">Operationen</w>
+                    <w pos="DET" lemma="mein" type="stopword">unserer</w>
+                    <w pos="ADJ" lemma="heldenmütig" type="no_stopword">heldenmütigen</w>
+                    <w pos="NOUN" lemma="Luftflotte" type="no_stopword">Luftflotte</w>
+                    <w pos="VERB" lemma="fördern" type="no_stopword">förderten</w>
+                    <w pos="ADJ" lemma="ständig" type="no_stopword">ständig</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Erfolg" type="no_stopword">Erfolg</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Landtruppen" type="no_stopword">Landtruppen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="VERB" lemma="helfen" type="no_stopword">halfen</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ihnen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="endgültig" type="no_stopword">endgültige</w>
+                    <w pos="NOUN" lemma="Niederwerfung" type="no_stopword">Niederwerfung</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Feind" type="no_stopword">Feindes</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="vollbringen" type="no_stopword">vollbringen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Sowjetflieger" type="no_stopword">Sowjetflieger</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kämpfen</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Freiheit" type="no_stopword">Freiheit</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Unabhängigkeit" type="no_stopword">Unabhängigkeit</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">unseres</w>
+                    <w pos="NOUN" lemma="Vaterlandes" type="no_stopword">Vaterlandes</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="DET" lemma="wenig" type="stopword">wenige</w>
+                    <w pos="NOUN" lemma="Beispiel" type="no_stopword">Beispiele</w>
+                    <w pos="ADJ" lemma="unübertroffener" type="no_stopword">unübertroffener</w>
+                    <w pos="NOUN" lemma="Standhaftigkeit" type="no_stopword">Standhaftigkeit</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Kühnheit" type="no_stopword">Kühnheit</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="wahr" type="no_stopword">wahren</w>
+                    <w pos="NOUN" lemma="Heldenmuts" type="no_stopword">Heldenmuts</w>
+                    <w pos="VERB" lemma="liefern" type="no_stopword">geliefert</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="ich" type="stopword">Sie</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Geschichte" type="no_stopword">Geschichte</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="Großen" type="stopword">Großen</w>
+                    <w pos="ADJ" lemma="Vaterländische" type="no_stopword">Vaterländischen</w>
+                    <w pos="NOUN" lemma="Krieg" type="no_stopword">Krieges</w>
+                    <w pos="DET" lemma="viel" type="stopword">viele</w>
+                    <w pos="ADJ" lemma="großartige" type="no_stopword">großartige</w>
+                    <w pos="NOUN" lemma="blättern" type="no_stopword">Blätter</w>
+                    <w pos="VERB" lemma="einschreiben" type="no_stopword">eingeschrieben</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Das</w>
+                    <w pos="NOUN" lemma="Sowjetvolk" type="no_stopword">Sowjetvolk</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="NOUN" lemma="Siegervolk" type="no_stopword">Siegervolk</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="NOUN" lemma="Recht" type="stopword">Recht</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Kampfruhm" type="no_stopword">Kampfruhm</w>
+                    <w pos="DET" lemma="sich" type="stopword">seiner</w>
+                    <w pos="NOUN" lemma="Flieger" type="no_stopword">Flieger</w>
+                    <w pos="ADJ" lemma="stolz" type="no_stopword">stolz</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Im" type="stopword">Im</w>
+                    <w pos="NOUN" lemma="Verlauf" type="no_stopword">Verlauf</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Krieg" type="no_stopword">Krieges</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="ADP" lemma="danken" type="stopword">dank</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Arbeitsenthusiasmus" type="no_stopword">Arbeitsenthusiasmus</w>
+                    <w pos="DET" lemma="mein" type="stopword">unserer</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Arbeiterin" type="no_stopword">Arbeiterinnen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Ingenieur" type="no_stopword">Ingenieure</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Angestellte" type="no_stopword">Angestellten</w>
+                    <w pos="CCONJ" lemma="sowie" type="stopword">sowie</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Erfindergeist" type="no_stopword">Erfindergeist</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Talent" type="no_stopword">Talent</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Flugzeugkonstrukteure" type="no_stopword">Flugzeugkonstrukteure</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="Sowjetunion" type="no_stopword">Sowjetunion</w>
+                    <w pos="ADJ" lemma="möglich" type="stopword">möglich</w>
+                    <w pos="AUX" lemma="werden" type="stopword">geworden</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="mein" type="stopword">unsere</w>
+                    <w pos="NOUN" lemma="Luftflotte" type="no_stopword">Luftflotte</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="viel" type="stopword">vielen</w>
+                    <w pos="NOUN" lemma="Tausende" type="no_stopword">Tausenden</w>
+                    <w pos="ADJ" lemma="ausgezeichnet" type="no_stopword">ausgezeichneter</w>
+                    <w pos="NOUN" lemma="Kampfmaschinen" type="no_stopword">Kampfmaschinen</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="versorgen" type="no_stopword">versorgen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihren</w>
+                    <w pos="NOUN" lemma="Flügel" type="no_stopword">Flügeln</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Feind" type="no_stopword">Feinde</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Tod" type="no_stopword">Tod</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">unserem</w>
+                    <w pos="ADJ" lemma="groß" type="stopword">großen</w>
+                    <w pos="NOUN" lemma="Sowjetvolke" type="no_stopword">Sowjetvolke</w>
+                    <w pos="ADJ" lemma="unsterblich" type="no_stopword">unsterblichen</w>
+                    <w pos="NOUN" lemma="Ruhm" type="no_stopword">Ruhm</w>
+                    <w pos="VERB" lemma="bringen" type="no_stopword">brachten</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Genosse" type="no_stopword">Genossen</w>
+                    <w pos="NOUN" lemma="Flieger" type="no_stopword">Flieger</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Navigationsoffiziere" type="no_stopword">Navigationsoffiziere</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Bordschützen" type="no_stopword">Bordschützen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Funker" type="no_stopword">Funker</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Motor" type="no_stopword">Motoren</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Waffenwarte" type="no_stopword">Waffenwarte</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Mechaniker" type="no_stopword">Mechaniker</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Techniker" type="no_stopword">Techniker</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Ingenieur" type="no_stopword">Ingenieure</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Offizier" type="no_stopword">Offiziere</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="General" type="no_stopword">Generale</w>
+                    <w pos="PUNCT" lemma="!" type="no_stopword">!</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Ingenieur" type="no_stopword">Ingenieure</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Angestellte" type="no_stopword">Angestellte</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Konstrukteure" type="no_stopword">Konstrukteure</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Flugzeugindustrie" type="no_stopword">Flugzeugindustrie</w>
+                    <w pos="PUNCT" lemma="!" type="no_stopword">!</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="begrüßen" type="no_stopword">begrüße</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="VERB" lemma="beglückwünschen" type="no_stopword">beglückwünsche</w>
+                    <w pos="PRON" lemma="sich" type="stopword">euch</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="NOUN" lemma="Festtag" type="no_stopword">Festtag</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Luftfahrt" type="no_stopword">Luftfahrt</w>
+                    <w pos="PUNCT" lemma="!" type="no_stopword">!</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Zur" type="stopword">Zur</w>
+                    <w pos="NOUN" lemma="Feier" type="no_stopword">Feier</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Tag" type="no_stopword">Tages</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Luftfahrt" type="no_stopword">Luftfahrt</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                    <w pos="NOUN" lemma="Ehre" type="no_stopword">Ehren</w>
+                    <w pos="DET" lemma="mein" type="stopword">unserer</w>
+                    <w pos="ADJ" lemma="ruhmreich" type="no_stopword">ruhmreichen</w>
+                    <w pos="NOUN" lemma="Flieger" type="no_stopword">Flieger</w>
+                    <w pos="NOUN" lemma="BEFEHLE" type="no_stopword">BEFEHLE</w>
+                    <w pos="PROPN" lemma="ICH" type="stopword">ICH</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="ADV" lemma="Heute" type="stopword">Heute</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="am" type="stopword">am</w>
+                    <w pos="NUM" lemma="9" type="no_stopword">9</w>
+                    <w pos="NOUN" lemma="August" type="no_stopword">August</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="um" type="stopword">um</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="NOUN" lemma="Uhr" type="stopword">Uhr</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Hauptstadt" type="no_stopword">Hauptstadt</w>
+                    <w pos="DET" lemma="mein" type="stopword">unserer</w>
+                    <w pos="NOUN" lemma="Heimat" type="no_stopword">Heimat</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Moskau" type="no_stopword">Moskau</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Name" type="no_stopword">Namen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Heimat" type="no_stopword">Heimat</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">unseren</w>
+                    <w pos="ADJ" lemma="heldenmütig" type="no_stopword">heldenmütigen</w>
+                    <w pos="NOUN" lemma="Aviatikern" type="no_stopword">Aviatikern</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="NUM" lemma="zwanzig" type="stopword">zwanzig</w>
+                    <w pos="NOUN" lemma="Artilleriesalven" type="no_stopword">Artilleriesalven</w>
+                    <w pos="ADP" lemma="aus" type="stopword">aus</w>
+                    <w pos="ADV" lemma="zweihundertvierundzwanzig" type="no_stopword">zweihundertvierundzwanzig</w>
+                    <w pos="NOUN" lemma="Geschützen" type="no_stopword">Geschützen</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="salutieren" type="no_stopword">salutieren</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Der</w>
+                    <w pos="ADJ" lemma="Oberst" type="no_stopword">Oberste</w>
+                    <w pos="NOUN" lemma="Befehlshaber" type="no_stopword">Befehlshaber</w>
+                    <w pos="NOUN" lemma="Generalissimus" type="no_stopword">Generalissimus</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="Sowjetunion" type="no_stopword">Sowjetunion</w>
+                    <w pos="PROPN" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

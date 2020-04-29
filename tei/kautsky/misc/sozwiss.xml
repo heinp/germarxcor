@@ -1,40 +1,326 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Die Sozialwissenschaften (1883)</title>
-        <author>Karl Kautsky</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Marxist Internet Archive</name>
-          <idno type="URL">https://www.marxists.org/deutsch/index.htm</idno>
-          <availability>
-            <licence>
-              <ab>CC-BY-SA-2.0</ab>
-              <ref target="https://www.marxists.org/admin/legal/cc/by-sa.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Die Sozialwissenschaften (1883)</p>
-      <p>Quelle: Die neue Zeit, 1 Jg. (1883), H. 3, S. 149. Transkription u. HTML-Markierung: Einde O’Callaghan für das Marxists’ Internet Archive.</p>
-      <p>Fr. v .Bärenbach Die Sozialwissenschaften Zur Orientierung in den sozialwissenschaftlichen Schulen und Systemen der Gegenwart Kritisch und gemeinfaßlich dargestellt. Leipzig 1882, XIV. und 300 S. Eine Kritik dieses Buches würde auf die Kritik derjenigen Autoren hinauslaufen, die Herr Bärenbach abgeschrieben hat. Wir wollen zur Karakterisirung des Buches nur erwähnen, wie der Verfasser seine Leser über Marx orientirt. Marx gilt heute bei Freund und Feind als eine solche Autorität, dass selbst ein solcher Dühringschwärmer wie Herr Bärenbach ihm. mindestens ebensoviel Beachtung hätte schenken können, als z. B. H. Spencer, der doch für Deutschland eine rein akademische Bedeutung besizt. Statt dessen begnügt sich Herr Bärenbach, nebst einigen schalen Wizen über Hegelsche Dialektik und Hegelschen Stil, einige Stellen aus der Held’schen Schrift über Sozialismus, Sozialdemokratie und Sozialpolitik abzuschreiben, und überall, wo Held sich genötigt sah, mit Achtung von Marx, Engels, Lassalle zu sprechen, ein Fragezeichen hinzumachen. Originell ist in dem ganzen Buche ist nur die Furcht des Verfassers, es könne ihn irgend jemand für einen Sozialdemokraten halten. Wir können ihm die beruhigende Versicherung geben, daß wir ihn für etwas ganz Anderes halten. K. K.</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Die Sozialwissenschaften (1883)</title>
+                <author>Karl Kautsky</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Marxist Internet Archive</name>
+                    <idno type="URL">https://www.marxists.org/deutsch/index.htm</idno>
+                    <availability>
+                        <licence>
+                            <ab>CC-BY-SA-2.0</ab>
+                            <ref target="https://www.marxists.org/admin/legal/cc/by-sa.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Sozialwissenschaft" type="no_stopword">Sozialwissenschaften</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="NUM" lemma="3" type="no_stopword">3</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PROPN" lemma="Quelle" type="no_stopword">Quelle</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="neue" type="stopword">neue</w>
+                    <w pos="NOUN" lemma="Zeit" type="stopword">Zeit</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="NOUN" lemma="Jg" type="no_stopword">Jg</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                </s>
+                <s>
+                    <w pos="NUM" lemma="3" type="no_stopword">3</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="H." type="no_stopword">H.</w>
+                    <w pos="NUM" lemma="3" type="no_stopword">3</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="S." type="no_stopword">S.</w>
+                    <w pos="ADJ" lemma="9" type="no_stopword">9</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Transkription" type="no_stopword">Transkription</w>
+                    <w pos="ADP" lemma="u." type="no_stopword">u.</w>
+                    <w pos="NOUN" lemma="HTMLMarkierung" type="no_stopword">HTMLMarkierung</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="NOUN" lemma="Einde" type="no_stopword">Einde</w>
+                    <w pos="PROPN" lemma="O" type="no_stopword">O</w>
+                    <w pos="PROPN" lemma="’" type="no_stopword">’</w>
+                    <w pos="PROPN" lemma="Callaghan" type="no_stopword">Callaghan</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="PROPN" lemma="Marxists" type="no_stopword">Marxists</w>
+                    <w pos="PROPN" lemma="’" type="no_stopword">’</w>
+                    <w pos="PROPN" lemma="Internet" type="no_stopword">Internet</w>
+                    <w pos="PROPN" lemma="Archiv" type="no_stopword">Archive</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Fr." type="no_stopword">Fr.</w>
+                    <w pos="X" lemma="v" type="no_stopword">v</w>
+                    <w pos="NOUN" lemma=".Bärenbach" type="no_stopword">.Bärenbach</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Sozialwissenschaft" type="no_stopword">Sozialwissenschaften</w>
+                    <w pos="ADP" lemma="Zur" type="stopword">Zur</w>
+                    <w pos="NOUN" lemma="Orientierung" type="no_stopword">Orientierung</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="sozialwissenschaftlichen" type="no_stopword">sozialwissenschaftlichen</w>
+                    <w pos="NOUN" lemma="Schule" type="no_stopword">Schulen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="System" type="no_stopword">Systemen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Gegenwart" type="no_stopword">Gegenwart</w>
+                    <w pos="ADJ" lemma="Kritisch" type="no_stopword">Kritisch</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="gemeinfaßlich" type="no_stopword">gemeinfaßlich</w>
+                    <w pos="VERB" lemma="darstellen" type="no_stopword">dargestellt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Leipzig" type="no_stopword">Leipzig</w>
+                    <w pos="NUM" lemma="2" type="no_stopword">2</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="XIV" type="no_stopword">XIV</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="PROPN" lemma="S" type="no_stopword">S</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Eine" type="stopword">Eine</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="DET" lemma="dies" type="stopword">dieses</w>
+                    <w pos="NOUN" lemma="Buch" type="no_stopword">Buches</w>
+                    <w pos="AUX" lemma="werden" type="stopword">würde</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="ADJ" lemma="derjenige" type="stopword">derjenigen</w>
+                    <w pos="NOUN" lemma="Autor" type="no_stopword">Autoren</w>
+                    <w pos="VERB" lemma="hinauslaufen" type="no_stopword">hinauslaufen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Herr" type="no_stopword">Herr</w>
+                    <w pos="PROPN" lemma="Bärenbach" type="no_stopword">Bärenbach</w>
+                    <w pos="VERB" lemma="abschreiben" type="no_stopword">abgeschrieben</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="ich" type="stopword">Wir</w>
+                    <w pos="VERB" lemma="wollen" type="stopword">wollen</w>
+                    <w pos="ADP" lemma="zur" type="stopword">zur</w>
+                    <w pos="NOUN" lemma="Karakterisirung" type="no_stopword">Karakterisirung</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Buch" type="no_stopword">Buches</w>
+                    <w pos="ADV" lemma="nur" type="stopword">nur</w>
+                    <w pos="VERB" lemma="erwähnen" type="no_stopword">erwähnen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="wie" type="stopword">wie</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Verfasser" type="no_stopword">Verfasser</w>
+                    <w pos="DET" lemma="mein" type="stopword">seine</w>
+                    <w pos="NOUN" lemma="Leser" type="no_stopword">Leser</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="VERB" lemma="orientirt" type="no_stopword">orientirt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="VERB" lemma="gelten" type="no_stopword">gilt</w>
+                    <w pos="ADV" lemma="heute" type="stopword">heute</w>
+                    <w pos="ADP" lemma="bei" type="stopword">bei</w>
+                    <w pos="NOUN" lemma="Freund" type="no_stopword">Freund</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Feind" type="no_stopword">Feind</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="DET" lemma="solche" type="stopword">solche</w>
+                    <w pos="NOUN" lemma="Autorität" type="no_stopword">Autorität</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="dass" type="stopword">dass</w>
+                    <w pos="ADV" lemma="selbst" type="stopword">selbst</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="DET" lemma="solch" type="stopword">solcher</w>
+                    <w pos="NOUN" lemma="Dühringschwärmer" type="no_stopword">Dühringschwärmer</w>
+                    <w pos="CCONJ" lemma="wie" type="stopword">wie</w>
+                    <w pos="NOUN" lemma="Herr" type="no_stopword">Herr</w>
+                    <w pos="PROPN" lemma="Bärenbach" type="no_stopword">Bärenbach</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ihm</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="mindestens" type="no_stopword">mindestens</w>
+                    <w pos="DET" lemma="ebensoviel" type="no_stopword">ebensoviel</w>
+                    <w pos="NOUN" lemma="Beachtung" type="no_stopword">Beachtung</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hätte</w>
+                    <w pos="VERB" lemma="schenken" type="no_stopword">schenken</w>
+                    <w pos="VERB" lemma="können" type="stopword">können</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="z" type="no_stopword">z</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="B." type="no_stopword">B.</w>
+                    <w pos="PROPN" lemma="H." type="no_stopword">H.</w>
+                    <w pos="PROPN" lemma="Spencer" type="no_stopword">Spencer</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">der</w>
+                    <w pos="ADV" lemma="doch" type="stopword">doch</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="PROPN" lemma="Deutschland" type="no_stopword">Deutschland</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="ADJ" lemma="rein" type="no_stopword">rein</w>
+                    <w pos="ADJ" lemma="akademische" type="no_stopword">akademische</w>
+                    <w pos="NOUN" lemma="Bedeutung" type="no_stopword">Bedeutung</w>
+                    <w pos="VERB" lemma="besizt" type="no_stopword">besizt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="statt" type="stopword">Statt</w>
+                    <w pos="PRON" lemma="der" type="stopword">dessen</w>
+                    <w pos="VERB" lemma="begnügen" type="no_stopword">begnügt</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="NOUN" lemma="Herr" type="no_stopword">Herr</w>
+                    <w pos="PROPN" lemma="Bärenbach" type="no_stopword">Bärenbach</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="nebst" type="no_stopword">nebst</w>
+                    <w pos="DET" lemma="einig" type="no_stopword">einigen</w>
+                    <w pos="ADJ" lemma="schalen" type="no_stopword">schalen</w>
+                    <w pos="NOUN" lemma="Wizen" type="no_stopword">Wizen</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="ADJ" lemma="Hegelsche" type="no_stopword">Hegelsche</w>
+                    <w pos="NOUN" lemma="Dialektik" type="no_stopword">Dialektik</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="Hegelschen" type="no_stopword">Hegelschen</w>
+                    <w pos="NOUN" lemma="Stil" type="no_stopword">Stil</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="einig" type="no_stopword">einige</w>
+                    <w pos="NOUN" lemma="Stelle" type="no_stopword">Stellen</w>
+                    <w pos="ADP" lemma="aus" type="stopword">aus</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Held" type="no_stopword">Held</w>
+                    <w pos="PROPN" lemma="’" type="no_stopword">’</w>
+                    <w pos="ADJ" lemma="schen" type="no_stopword">schen</w>
+                    <w pos="NOUN" lemma="Schrift" type="no_stopword">Schrift</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="NOUN" lemma="Sozialismus" type="no_stopword">Sozialismus</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Sozialdemokratie" type="no_stopword">Sozialdemokratie</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Sozialpolitik" type="no_stopword">Sozialpolitik</w>
+                    <w pos="VERB" lemma="abschreiben" type="no_stopword">abzuschreiben</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADV" lemma="überall" type="no_stopword">überall</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="wo" type="stopword">wo</w>
+                    <w pos="NOUN" lemma="Held" type="no_stopword">Held</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="VERB" lemma="nötigen" type="no_stopword">genötigt</w>
+                    <w pos="VERB" lemma="sehen" type="stopword">sah</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="NOUN" lemma="Achtung" type="no_stopword">Achtung</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Engel" type="no_stopword">Engels</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Lassalle" type="no_stopword">Lassalle</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="sprechen" type="no_stopword">sprechen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="NOUN" lemma="Fragezeichen" type="no_stopword">Fragezeichen</w>
+                    <w pos="VERB" lemma="hinmachen" type="no_stopword">hinzumachen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="Originell" type="no_stopword">Originell</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="ganz" type="stopword">ganzen</w>
+                    <w pos="NOUN" lemma="Buche" type="no_stopword">Buche</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADV" lemma="nur" type="stopword">nur</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Furcht" type="no_stopword">Furcht</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Verfasser" type="no_stopword">Verfassers</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="VERB" lemma="können" type="no_stopword">könne</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ihn</w>
+                    <w pos="ADV" lemma="irgend" type="stopword">irgend</w>
+                    <w pos="PRON" lemma="jemand" type="stopword">jemand</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="ein" type="stopword">einen</w>
+                    <w pos="NOUN" lemma="Sozialdemokrat" type="no_stopword">Sozialdemokraten</w>
+                    <w pos="VERB" lemma="halten" type="no_stopword">halten</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="ich" type="stopword">Wir</w>
+                    <w pos="VERB" lemma="können" type="stopword">können</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ihm</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="beruhigend" type="no_stopword">beruhigende</w>
+                    <w pos="NOUN" lemma="Versicherung" type="no_stopword">Versicherung</w>
+                    <w pos="VERB" lemma="geben" type="no_stopword">geben</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="daß" type="stopword">daß</w>
+                    <w pos="PRON" lemma="ich" type="stopword">wir</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ihn</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="ADV" lemma="etwas" type="stopword">etwas</w>
+                    <w pos="ADV" lemma="ganz" type="stopword">ganz</w>
+                    <w pos="PRON" lemma="ander" type="no_stopword">Anderes</w>
+                    <w pos="VERB" lemma="halten" type="no_stopword">halten</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="K." type="no_stopword">K.</w>
+                    <w pos="PROPN" lemma="K" type="no_stopword">K</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

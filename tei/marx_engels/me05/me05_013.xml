@@ -1,38 +1,197 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Erklaerung des Redaktionskomitees der "Neuen Rheinischen</title>
-        <author>"Neue Rheinische Zeitung"</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Stimmen der proletarischen Revolution</name>
-          <idno type="URL">http://www.mlwerke.de</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>["Neue Rheinische Zeitung" Nr. 1 vom 1. Juni 1848] Das Erscheinen der "Neuen Rheinischen Zeitung" war ursprünglich auf den ersten Juli festgesetzt. Die Arrangements mit den Korrespondenten etc. waren auf diesen Termin getroffen. Da jedoch bei dem erneuten frechen Auftreten der Reaktion deutsche Septembergesetze in naher Aussicht stehen, so haben wir jeden freien Tag benutzen wollen und erscheinen schon mit dem ersten Juni. Unsre Leser werden es uns also nachsehen müssen, wenn wir in den ersten Tagen an Nachrichten und mannigfaltigen Korrespondenzen noch nicht das reichhaltige Material liefern, wozu unsere ausgedehnten Verbindungen uns befähigen. In wenig Tagen werden wir auch hierin allen Anforderungen genügen können. Redaktionskomitee: Karl Marx, Redakteur en Chef Heinrich Bürgers, Ernst Dronke, Friedrich Engels, Georg Weerth, Ferdinand Wolff, Wilhelm Wolff, Redakteure</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Erklaerung des Redaktionskomitees der "Neuen Rheinischen</title>
+                <author>"Neue Rheinische Zeitung"</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Stimmen der proletarischen Revolution</name>
+                    <idno type="URL">http://www.mlwerke.de</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="[" type="no_stopword">[</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="Neues" type="stopword">Neue</w>
+                    <w pos="ADJ" lemma="rheinisch" type="no_stopword">Rheinische</w>
+                    <w pos="NOUN" lemma="Zeitung" type="no_stopword">Zeitung</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="1" type="no_stopword">1</w>
+                    <w pos="ADP" lemma="vom" type="stopword">vom</w>
+                    <w pos="NUM" lemma="1." type="no_stopword">1.</w>
+                    <w pos="NOUN" lemma="Juni" type="no_stopword">Juni</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="ADV" lemma="]" type="no_stopword">]</w>
+                    <w pos="DET" lemma="der" type="stopword">Das</w>
+                    <w pos="NOUN" lemma="Erscheinen" type="no_stopword">Erscheinen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="Neue" type="stopword">Neuen</w>
+                    <w pos="ADJ" lemma="Rheinische" type="no_stopword">Rheinischen</w>
+                    <w pos="NOUN" lemma="Zeitung" type="no_stopword">Zeitung</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="AUX" lemma="sein" type="stopword">war</w>
+                    <w pos="ADJ" lemma="ursprünglich" type="no_stopword">ursprünglich</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="erst" type="stopword">ersten</w>
+                    <w pos="NOUN" lemma="Juli" type="no_stopword">Juli</w>
+                    <w pos="VERB" lemma="festsetzen" type="no_stopword">festgesetzt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Arrangement" type="no_stopword">Arrangements</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Korrespondent" type="no_stopword">Korrespondenten</w>
+                    <w pos="ADV" lemma="etc." type="no_stopword">etc.</w>
+                    <w pos="AUX" lemma="sein" type="stopword">waren</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="dies" type="stopword">diesen</w>
+                    <w pos="NOUN" lemma="Termin" type="no_stopword">Termin</w>
+                    <w pos="VERB" lemma="triefen" type="no_stopword">getroffen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="SCONJ" lemma="da" type="stopword">Da</w>
+                    <w pos="ADV" lemma="jedoch" type="stopword">jedoch</w>
+                    <w pos="ADP" lemma="bei" type="stopword">bei</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="erneut" type="no_stopword">erneuten</w>
+                    <w pos="ADJ" lemma="frech" type="no_stopword">frechen</w>
+                    <w pos="NOUN" lemma="Auftreten" type="no_stopword">Auftreten</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Reaktion" type="no_stopword">Reaktion</w>
+                    <w pos="ADJ" lemma="deutsch" type="no_stopword">deutsche</w>
+                    <w pos="NOUN" lemma="Septembergesetze" type="no_stopword">Septembergesetze</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="ADJ" lemma="nah" type="no_stopword">naher</w>
+                    <w pos="NOUN" lemma="Aussicht" type="no_stopword">Aussicht</w>
+                    <w pos="VERB" lemma="stehen" type="no_stopword">stehen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="so" type="stopword">so</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="PRON" lemma="ich" type="stopword">wir</w>
+                    <w pos="DET" lemma="jed" type="stopword">jeden</w>
+                    <w pos="ADJ" lemma="frei" type="no_stopword">freien</w>
+                    <w pos="NOUN" lemma="Tag" type="stopword">Tag</w>
+                    <w pos="VERB" lemma="benutzen" type="no_stopword">benutzen</w>
+                    <w pos="VERB" lemma="wollen" type="stopword">wollen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="VERB" lemma="erscheinen" type="no_stopword">erscheinen</w>
+                    <w pos="ADV" lemma="schon" type="stopword">schon</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="erst" type="stopword">ersten</w>
+                    <w pos="NOUN" lemma="Juni" type="no_stopword">Juni</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Unsre" type="no_stopword">Unsre</w>
+                    <w pos="NOUN" lemma="Leser" type="no_stopword">Leser</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="PRON" lemma="sich" type="stopword">uns</w>
+                    <w pos="ADV" lemma="also" type="stopword">also</w>
+                    <w pos="VERB" lemma="nachsehen" type="no_stopword">nachsehen</w>
+                    <w pos="VERB" lemma="müssen" type="stopword">müssen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="wenn" type="stopword">wenn</w>
+                    <w pos="PRON" lemma="ich" type="stopword">wir</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="erst" type="stopword">ersten</w>
+                    <w pos="NOUN" lemma="Tag" type="stopword">Tagen</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="NOUN" lemma="Nachricht" type="no_stopword">Nachrichten</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="mannigfaltig" type="no_stopword">mannigfaltigen</w>
+                    <w pos="NOUN" lemma="Korrespondenzen" type="no_stopword">Korrespondenzen</w>
+                    <w pos="ADV" lemma="noch" type="stopword">noch</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="ADJ" lemma="reichhaltig" type="no_stopword">reichhaltige</w>
+                    <w pos="NOUN" lemma="Material" type="no_stopword">Material</w>
+                    <w pos="VERB" lemma="liefern" type="no_stopword">liefern</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="wozu" type="no_stopword">wozu</w>
+                    <w pos="DET" lemma="mein" type="stopword">unsere</w>
+                    <w pos="ADJ" lemma="ausgedehnt" type="no_stopword">ausgedehnten</w>
+                    <w pos="NOUN" lemma="Verbindung" type="no_stopword">Verbindungen</w>
+                    <w pos="PRON" lemma="sich" type="stopword">uns</w>
+                    <w pos="VERB" lemma="befähigen" type="no_stopword">befähigen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="In" type="stopword">In</w>
+                    <w pos="DET" lemma="wenig" type="stopword">wenig</w>
+                    <w pos="NOUN" lemma="Tag" type="stopword">Tagen</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="PRON" lemma="ich" type="stopword">wir</w>
+                    <w pos="ADV" lemma="auch" type="stopword">auch</w>
+                    <w pos="ADV" lemma="hierin" type="no_stopword">hierin</w>
+                    <w pos="DET" lemma="alle" type="stopword">allen</w>
+                    <w pos="NOUN" lemma="Anforderung" type="no_stopword">Anforderungen</w>
+                    <w pos="VERB" lemma="genügen" type="no_stopword">genügen</w>
+                    <w pos="VERB" lemma="können" type="stopword">können</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Redaktionskomitee" type="no_stopword">Redaktionskomitee</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="PROPN" lemma="Karl" type="no_stopword">Karl</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Redakteur" type="no_stopword">Redakteur</w>
+                    <w pos="PROPN" lemma="en" type="stopword">en</w>
+                    <w pos="NOUN" lemma="Chef" type="no_stopword">Chef</w>
+                    <w pos="PROPN" lemma="Heinrich" type="no_stopword">Heinrich</w>
+                    <w pos="PROPN" lemma="Bürger" type="no_stopword">Bürgers</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Ernst" type="no_stopword">Ernst</w>
+                    <w pos="PROPN" lemma="Dronke" type="no_stopword">Dronke</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Friedrich" type="no_stopword">Friedrich</w>
+                    <w pos="PROPN" lemma="Engel" type="no_stopword">Engels</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Georg" type="no_stopword">Georg</w>
+                    <w pos="PROPN" lemma="Weerth" type="no_stopword">Weerth</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Ferdinand" type="no_stopword">Ferdinand</w>
+                    <w pos="PROPN" lemma="Wolff" type="no_stopword">Wolff</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Wilhelm" type="no_stopword">Wilhelm</w>
+                    <w pos="PROPN" lemma="Wolff" type="no_stopword">Wolff</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Redakteur" type="no_stopword">Redakteure</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

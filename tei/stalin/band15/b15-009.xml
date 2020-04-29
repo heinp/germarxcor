@@ -1,38 +1,219 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>An die J.W. Stalin-Artilleriefabrik des Urals</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Band 15 AN DIE J.W. STALIN-ARTILLERIEFABRIK DES URALS Juni 1945 Ich beglückwünsche Euch, das Kollektiv der Arbeiter und Arbeiterinnen, der technischen Ingenieure und Angestellten der J.W. Stalin-Artilleriefabrik des Urals zu dem großen Produktionssieg: der Fertigstellung der 30000sten Kanone. Dafür wird die Fabrik mit dem Orden des „Vaterländischen Krieges - 1. Ordnung“ ausgezeichnet. Dank eines kühnen Neuerergeistes und der Anwendung einer fortgeschrittenen Konstruktionstechnik bei der Produktion von Artilleriewaffen ist die in den Tagen des Vaterländischen Krieges errichtete Artilleriefabrik die Produktionsstätte von wesentlich machtvolleren und ausgefeilteren Artilleriewaffen geworden. Diese Waffen übertrafen die Technik des Feindes. Mit ihnen hat unsere heldenhafte Rote Armee den vollständigen Sieg über das faschistische Deutschland errungen. Ich wünsche Ihnen für die Zukunft, während der Periode friedlichen Aufbaus, neue Erfolge bei der Herstellung von Artilleriewaffen und von Ausrüstungen für den Kohlebergbau und die Erdölindustrie unseres Landes. J. Stalin Prawda, 22. Juni 1945</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An die J.W. Stalin-Artilleriefabrik des Urals</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Band" type="no_stopword">Band</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="ADP" lemma="AN" type="stopword">AN</w>
+                    <w pos="DET" lemma="DIE" type="stopword">DIE</w>
+                    <w pos="NOUN" lemma="J.W" type="no_stopword">J.W</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="STALINARTILLERIEFABRIK" type="no_stopword">STALINARTILLERIEFABRIK</w>
+                    <w pos="PROPN" lemma="DES" type="stopword">DES</w>
+                    <w pos="PROPN" lemma="URALS" type="no_stopword">URALS</w>
+                    <w pos="NOUN" lemma="Juni" type="no_stopword">Juni</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="beglückwünschen" type="no_stopword">beglückwünsche</w>
+                    <w pos="PRON" lemma="sich" type="stopword">Euch</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="NOUN" lemma="Kollektiv" type="no_stopword">Kollektiv</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Arbeiterin" type="no_stopword">Arbeiterinnen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="technisch" type="no_stopword">technischen</w>
+                    <w pos="NOUN" lemma="Ingenieur" type="no_stopword">Ingenieure</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Angestellte" type="no_stopword">Angestellten</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="J.W" type="no_stopword">J.W</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="StalinArtilleriefabrik" type="no_stopword">StalinArtilleriefabrik</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Urals" type="no_stopword">Urals</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="groß" type="stopword">großen</w>
+                    <w pos="NOUN" lemma="Produktionssieg" type="no_stopword">Produktionssieg</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Fertigstellung" type="no_stopword">Fertigstellung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="sten" type="no_stopword">sten</w>
+                    <w pos="PROPN" lemma="Kanone" type="no_stopword">Kanone</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="Dafür" type="stopword">Dafür</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Fabrik" type="no_stopword">Fabrik</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Orden" type="no_stopword">Orden</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="PUNCT" lemma="„" type="no_stopword">„</w>
+                    <w pos="ADJ" lemma="Vaterländische" type="no_stopword">Vaterländischen</w>
+                    <w pos="NOUN" lemma="Krieg" type="no_stopword">Krieges</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="ADJ" lemma="1" type="no_stopword">1</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Ordnung" type="no_stopword">Ordnung</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="VERB" lemma="auszeichnen" type="no_stopword">ausgezeichnet</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Dank" type="stopword">Dank</w>
+                    <w pos="DET" lemma="ein" type="stopword">eines</w>
+                    <w pos="ADJ" lemma="kühn" type="no_stopword">kühnen</w>
+                    <w pos="NOUN" lemma="Neuerergeistes" type="no_stopword">Neuerergeistes</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Anwendung" type="no_stopword">Anwendung</w>
+                    <w pos="DET" lemma="einer" type="stopword">einer</w>
+                    <w pos="ADJ" lemma="fortgeschritten" type="no_stopword">fortgeschrittenen</w>
+                    <w pos="NOUN" lemma="Konstruktionstechnik" type="no_stopword">Konstruktionstechnik</w>
+                    <w pos="ADP" lemma="bei" type="stopword">bei</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Produktion" type="no_stopword">Produktion</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Artilleriewaffen" type="no_stopword">Artilleriewaffen</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Tag" type="stopword">Tagen</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="Vaterländische" type="no_stopword">Vaterländischen</w>
+                    <w pos="NOUN" lemma="Krieg" type="no_stopword">Krieges</w>
+                    <w pos="ADJ" lemma="errichten" type="no_stopword">errichtete</w>
+                    <w pos="NOUN" lemma="Artilleriefabrik" type="no_stopword">Artilleriefabrik</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Produktionsstätte" type="no_stopword">Produktionsstätte</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="ADJ" lemma="wesentlich" type="no_stopword">wesentlich</w>
+                    <w pos="VERB" lemma="machtvolleren" type="no_stopword">machtvolleren</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="ausgefeilt" type="no_stopword">ausgefeilteren</w>
+                    <w pos="NOUN" lemma="Artilleriewaffen" type="no_stopword">Artilleriewaffen</w>
+                    <w pos="AUX" lemma="werden" type="stopword">geworden</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Diese" type="stopword">Diese</w>
+                    <w pos="NOUN" lemma="Waffe" type="no_stopword">Waffen</w>
+                    <w pos="VERB" lemma="übertreffen" type="no_stopword">übertrafen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Technik" type="no_stopword">Technik</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Feind" type="no_stopword">Feindes</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Mit" type="stopword">Mit</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ihnen</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="DET" lemma="mein" type="stopword">unsere</w>
+                    <w pos="ADJ" lemma="heldenhafte" type="no_stopword">heldenhafte</w>
+                    <w pos="ADJ" lemma="rot" type="no_stopword">Rote</w>
+                    <w pos="NOUN" lemma="Armee" type="no_stopword">Armee</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="vollständig" type="no_stopword">vollständigen</w>
+                    <w pos="NOUN" lemma="Sieg" type="no_stopword">Sieg</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="ADJ" lemma="faschistische" type="no_stopword">faschistische</w>
+                    <w pos="PROPN" lemma="Deutschland" type="no_stopword">Deutschland</w>
+                    <w pos="VERB" lemma="erringen" type="no_stopword">errungen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="wünsche" type="no_stopword">wünsche</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Ihnen</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Zukunft" type="no_stopword">Zukunft</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="während" type="stopword">während</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Periode" type="no_stopword">Periode</w>
+                    <w pos="ADJ" lemma="friedlich" type="no_stopword">friedlichen</w>
+                    <w pos="NOUN" lemma="Aufbau" type="no_stopword">Aufbaus</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="neue" type="stopword">neue</w>
+                    <w pos="NOUN" lemma="Erfolg" type="no_stopword">Erfolge</w>
+                    <w pos="ADP" lemma="bei" type="stopword">bei</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Herstellung" type="no_stopword">Herstellung</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Artilleriewaffen" type="no_stopword">Artilleriewaffen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Ausrüstung" type="no_stopword">Ausrüstungen</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Kohlebergbau" type="no_stopword">Kohlebergbau</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Erdölindustrie" type="no_stopword">Erdölindustrie</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">unseres</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Landes</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="PROPN" lemma="Prawda" type="no_stopword">Prawda</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="2" type="no_stopword">2</w>
+                    <w pos="NOUN" lemma="Juni" type="no_stopword">Juni</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

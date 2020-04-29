@@ -1,38 +1,142 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Antwort auf die Botschaft des Premierministers des Irans</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Band 15 ANTWORT AUF DIE BOTSCHAFT DES PREMIERMINISTERS DES IRANS April 1946 Ich danke Eurer Excellenz für die freundschaftlichen Gefühle, die Sie in Ihrem Telegramm aus Anlass der erfolgreichen Beendigung der sowjetisch-iranischen Verhandlungen zum Ausdruck gebracht haben, an denen Sie persönlich so aktiv Anteil genommen haben. Ich bin davon überzeugt, dass der als Ergebnis dieser Verhandlungen abgeschlossene Vertrag zwischen der UdSSR und dem Iran der Entwicklung und weiteren Festigung der Zusammenarbeit und Freundschaft zwischen den Völkern unserer Länder dienen wird. Vorsitzender des Ministerrates der UdSSR Generalissimus Stalin Prawda, 8. April 1946</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Antwort auf die Botschaft des Premierministers des Irans</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Band" type="no_stopword">Band</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="NOUN" lemma="ANTWORT" type="no_stopword">ANTWORT</w>
+                    <w pos="ADP" lemma="AUF" type="stopword">AUF</w>
+                    <w pos="DET" lemma="DIE" type="stopword">DIE</w>
+                    <w pos="PROPN" lemma="BOTSCHAFT" type="no_stopword">BOTSCHAFT</w>
+                    <w pos="DET" lemma="DES" type="stopword">DES</w>
+                    <w pos="PROPN" lemma="PREMIERMINISTERS" type="no_stopword">PREMIERMINISTERS</w>
+                    <w pos="DET" lemma="DES" type="stopword">DES</w>
+                    <w pos="PROPN" lemma="IRANS" type="no_stopword">IRANS</w>
+                    <w pos="NOUN" lemma="April" type="no_stopword">April</w>
+                    <w pos="NUM" lemma="6" type="no_stopword">6</w>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="danke" type="no_stopword">danke</w>
+                    <w pos="DET" lemma="Eurer" type="no_stopword">Eurer</w>
+                    <w pos="NOUN" lemma="Excellenz" type="no_stopword">Excellenz</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="freundschaftlich" type="no_stopword">freundschaftlichen</w>
+                    <w pos="NOUN" lemma="Gefühl" type="no_stopword">Gefühle</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Sie</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="mein" type="stopword">Ihrem</w>
+                    <w pos="NOUN" lemma="Telegramm" type="no_stopword">Telegramm</w>
+                    <w pos="ADP" lemma="aus" type="stopword">aus</w>
+                    <w pos="NOUN" lemma="Anlass" type="no_stopword">Anlass</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="erfolgreich" type="no_stopword">erfolgreichen</w>
+                    <w pos="NOUN" lemma="Beendigung" type="no_stopword">Beendigung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="sowjetischiranischen" type="no_stopword">sowjetischiranischen</w>
+                    <w pos="NOUN" lemma="Verhandlung" type="no_stopword">Verhandlungen</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="NOUN" lemma="Ausdruck" type="no_stopword">Ausdruck</w>
+                    <w pos="VERB" lemma="bringen" type="no_stopword">gebracht</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="PRON" lemma="der" type="stopword">denen</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Sie</w>
+                    <w pos="ADJ" lemma="persönlich" type="no_stopword">persönlich</w>
+                    <w pos="ADV" lemma="so" type="stopword">so</w>
+                    <w pos="ADJ" lemma="aktiv" type="no_stopword">aktiv</w>
+                    <w pos="NOUN" lemma="Anteil" type="no_stopword">Anteil</w>
+                    <w pos="VERB" lemma="nehmen" type="no_stopword">genommen</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="AUX" lemma="sein" type="stopword">bin</w>
+                    <w pos="ADV" lemma="davon" type="stopword">davon</w>
+                    <w pos="VERB" lemma="überzeugen" type="no_stopword">überzeugt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="dass" type="stopword">dass</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Ergebnis" type="no_stopword">Ergebnis</w>
+                    <w pos="DET" lemma="dies" type="stopword">dieser</w>
+                    <w pos="NOUN" lemma="Verhandlung" type="no_stopword">Verhandlungen</w>
+                    <w pos="ADJ" lemma="abgeschlossen" type="no_stopword">abgeschlossene</w>
+                    <w pos="NOUN" lemma="Vertrag" type="no_stopword">Vertrag</w>
+                    <w pos="ADP" lemma="zwischen" type="stopword">zwischen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="UdSSR" type="no_stopword">UdSSR</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="PROPN" lemma="Iran" type="no_stopword">Iran</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Entwicklung" type="no_stopword">Entwicklung</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="weit" type="stopword">weiteren</w>
+                    <w pos="NOUN" lemma="Festigung" type="no_stopword">Festigung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Zusammenarbeit" type="no_stopword">Zusammenarbeit</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Freundschaft" type="no_stopword">Freundschaft</w>
+                    <w pos="ADP" lemma="zwischen" type="stopword">zwischen</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Volk" type="no_stopword">Völkern</w>
+                    <w pos="DET" lemma="mein" type="stopword">unserer</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Länder</w>
+                    <w pos="VERB" lemma="dienen" type="no_stopword">dienen</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Vorsitzender" type="no_stopword">Vorsitzender</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Ministerrates" type="no_stopword">Ministerrates</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="UdSSR" type="no_stopword">UdSSR</w>
+                    <w pos="NOUN" lemma="Generalissimus" type="no_stopword">Generalissimus</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="PROPN" lemma="Prawda" type="no_stopword">Prawda</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="8." type="no_stopword">8.</w>
+                    <w pos="NOUN" lemma="April" type="no_stopword">April</w>
+                    <w pos="NUM" lemma="6" type="no_stopword">6</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

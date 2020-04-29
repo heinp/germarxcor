@@ -1,38 +1,186 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>An den Präsidenten der Nationalregierung der chinesischen Republik, den Generalissimus Tschiank Kai-Schek</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Band 15 AN DEN PRÄSIDENTEN DER NATIONALREGIERUNG DER CHINESISCHEN REPUBLIK, DEN GENERALISSIMUS TSCHIANG KAI-SCHEK 18. August 1945 Ich danke Ihnen für Ihre freundschaftlichen Grüße und für die hohe Wertschätzung, die Sie der Rolle der Sowjetunion bei der Niederlage des japanischen Aggressors beimessen. Die Kapitulation Japans, das zusammen mit Deutschland den zweiten Weltkrieg entfesselt hat, beweist, dass die Menschheit den Sieg über die Aggressoren im Westen wie im Osten der engen militärischen Kooperation der Alliierten verdankt. Dieser Sieg hat eine weltgeschichtliche Bedeutung als großer Markstein bei der fortschrittlichen Entwicklung der ganzen Menschheit. Ich möchte die Gewissheit zum Ausdruck bringen, dass die Freundschaft und Zusammenarbeit unserer Länder mit allen freiheitsliebenden Nationen der Sache des Weltfriedens und des Wohlergehens der Völker dienen wird. J. Stalin Prawda, 19. August 1945</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An den Präsidenten der Nationalregierung der chinesischen Republik, den Generalissimus Tschiank Kai-Schek</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Band" type="no_stopword">Band</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="ADP" lemma="AN" type="stopword">AN</w>
+                    <w pos="DET" lemma="DEN" type="stopword">DEN</w>
+                    <w pos="NOUN" lemma="PRÄSIDENTEN" type="no_stopword">PRÄSIDENTEN</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="PROPN" lemma="NATIONALREGIERUNG" type="no_stopword">NATIONALREGIERUNG</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="ADJ" lemma="CHINESISCHEN" type="no_stopword">CHINESISCHEN</w>
+                    <w pos="NOUN" lemma="REPUBLIK" type="no_stopword">REPUBLIK</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="DEN" type="stopword">DEN</w>
+                    <w pos="PROPN" lemma="GENERALISSIMUS" type="no_stopword">GENERALISSIMUS</w>
+                    <w pos="PROPN" lemma="TSCHIANG" type="no_stopword">TSCHIANG</w>
+                    <w pos="PROPN" lemma="KAISCHEK" type="no_stopword">KAISCHEK</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="NOUN" lemma="August" type="no_stopword">August</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="danke" type="no_stopword">danke</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Ihnen</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="mein" type="stopword">Ihre</w>
+                    <w pos="ADJ" lemma="freundschaftlich" type="no_stopword">freundschaftlichen</w>
+                    <w pos="NOUN" lemma="Gruß" type="no_stopword">Grüße</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="hoch" type="no_stopword">hohe</w>
+                    <w pos="NOUN" lemma="Wertschätzung" type="no_stopword">Wertschätzung</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Sie</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Rolle" type="no_stopword">Rolle</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="Sowjetunion" type="no_stopword">Sowjetunion</w>
+                    <w pos="ADP" lemma="bei" type="stopword">bei</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Niederlage" type="no_stopword">Niederlage</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="japanisch" type="no_stopword">japanischen</w>
+                    <w pos="NOUN" lemma="Aggressors" type="no_stopword">Aggressors</w>
+                    <w pos="VERB" lemma="beimessen" type="no_stopword">beimessen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Kapitulation" type="no_stopword">Kapitulation</w>
+                    <w pos="PROPN" lemma="Japan" type="no_stopword">Japans</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">das</w>
+                    <w pos="ADV" lemma="zusammen" type="stopword">zusammen</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="PROPN" lemma="Deutschland" type="no_stopword">Deutschland</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="zweit" type="stopword">zweiten</w>
+                    <w pos="NOUN" lemma="Weltkrieg" type="no_stopword">Weltkrieg</w>
+                    <w pos="VERB" lemma="entfesseln" type="no_stopword">entfesselt</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="beweisen" type="no_stopword">beweist</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="dass" type="stopword">dass</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Menschheit" type="no_stopword">Menschheit</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Sieg" type="no_stopword">Sieg</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Aggressoren" type="no_stopword">Aggressoren</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Westen" type="no_stopword">Westen</w>
+                    <w pos="CCONJ" lemma="wie" type="stopword">wie</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Osten" type="no_stopword">Osten</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="eng" type="no_stopword">engen</w>
+                    <w pos="ADJ" lemma="militärisch" type="no_stopword">militärischen</w>
+                    <w pos="NOUN" lemma="Kooperation" type="no_stopword">Kooperation</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Alliierte" type="no_stopword">Alliierten</w>
+                    <w pos="VERB" lemma="verdanken" type="no_stopword">verdankt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Dieser" type="stopword">Dieser</w>
+                    <w pos="NOUN" lemma="Sieg" type="no_stopword">Sieg</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="DET" lemma="einen" type="stopword">eine</w>
+                    <w pos="ADJ" lemma="weltgeschichtlich" type="no_stopword">weltgeschichtliche</w>
+                    <w pos="NOUN" lemma="Bedeutung" type="no_stopword">Bedeutung</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="ADJ" lemma="groß" type="stopword">großer</w>
+                    <w pos="NOUN" lemma="Markstein" type="no_stopword">Markstein</w>
+                    <w pos="ADP" lemma="bei" type="stopword">bei</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="fortschrittlich" type="no_stopword">fortschrittlichen</w>
+                    <w pos="NOUN" lemma="Entwicklung" type="no_stopword">Entwicklung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="ganz" type="stopword">ganzen</w>
+                    <w pos="NOUN" lemma="Menschheit" type="no_stopword">Menschheit</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="mögen" type="stopword">möchte</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Gewissheit" type="no_stopword">Gewissheit</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="NOUN" lemma="Ausdruck" type="no_stopword">Ausdruck</w>
+                    <w pos="VERB" lemma="bringen" type="no_stopword">bringen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="dass" type="stopword">dass</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Freundschaft" type="no_stopword">Freundschaft</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Zusammenarbeit" type="no_stopword">Zusammenarbeit</w>
+                    <w pos="DET" lemma="mein" type="stopword">unserer</w>
+                    <w pos="NOUN" lemma="Land" type="no_stopword">Länder</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="alle" type="stopword">allen</w>
+                    <w pos="ADJ" lemma="freiheitsliebend" type="no_stopword">freiheitsliebenden</w>
+                    <w pos="NOUN" lemma="Nation" type="no_stopword">Nationen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Sache" type="no_stopword">Sache</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Weltfriedens" type="no_stopword">Weltfriedens</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Wohlergehen" type="no_stopword">Wohlergehens</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Volk" type="no_stopword">Völker</w>
+                    <w pos="VERB" lemma="dienen" type="no_stopword">dienen</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="PROPN" lemma="Prawda" type="no_stopword">Prawda</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="9" type="no_stopword">9</w>
+                    <w pos="NOUN" lemma="August" type="no_stopword">August</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

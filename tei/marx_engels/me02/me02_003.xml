@@ -1,55 +1,793 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Die heilige Familie</title>
-        <author>Karl Marx-Friedrich Engels</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Stimmen der proletarischen Revolution</name>
-          <idno type="URL">http://www.mlwerke.de</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Karl Marx-Friedrich Engels Die heilige Familie oder Kritik der kritischen Kritik gegen Bruno Bauer und Kunsorten Geschrieben September bis November 1844. Erstmals erschienen Ende Februar 1845.</p>
-      <p>Vorrede</p>
-      <p>Kapitel. "Die kritische Kritik in Buchbindermeister-Gestalt" oder die kritische Kritik als Herr Reichardt (von Engels) Kapitel. "Die kritische Kritik" als "Mühleigner" oder die kritische Kritik als Herr Jules Faucher (vom Engels) Kapitel. "Die Gründlichkeit der kritischen Kritik" oder die kritische Kritik als Herr J. (Jungnitz?) (von Engels) Kapitel. "Die kritische Kritik" als die Ruhe des Erkennens oder die "kritische Kritik" als Herr Edgar</p>
-      <p>"Die Union ouvrière" der Flora Tristan (von Engels) Béraud über die Freudenmädchen (von Engels) Die Liebe (von Marx) Proudhon (von Marx)</p>
-      <p>Charakterisierende Übersetzung Nr. I Kritische Randglosse Nr. I Kritische Randglosse Nr. II Charakterisierende Übersetzung Nr. II Kritische Randglosse Nr. III Charakterisierende Übersetzung Nr. III Kritische Randglosse Nr. IV Charakterisierende Übersetzung Nr. IV Kritische Randglosse Nr. V</p>
-      <p>Kapitel. Die "kritische Kritik" als Geheimniskrämer oder die "kritische Kritik" als Herr Szeliga (von Marx)</p>
-      <p>"Das Geheimnis der Verwilderung in der Zivilisation" und "das Geheimnis der Rechtslosigkeit im Staate" Das Geheimnis der spekulativen Konstruktion "Das Geheimnis der gebildeten Gesellschaft" "Das Geheimnis der Rechtschaffenheit und Frömmigkeit" "Das Geheimnis ein Spott" Lachtaube (Rigolette) Der Weltzustand der Geheimnisse von Paris Kapitel. die absolute kritische Kritik oder die kritische Kritik als Herr Bruno</p>
-      <p>Feldzug der absoluten Kritik (von Marx)</p>
-      <p>Der "Geist" und die "Masse" Die Judenfrage Nr. I. Die Stellung der Fragen Hinrichs Nr. I. Geheimnisvolle Andeutungen über Politik, Sozialismus und Philosophie Zweiter Feldzug der absoluten Kritik</p>
-      <p>Hinrichs Nr. II. Die "Kritik" und "Feuerbach". Verdammung der Philosophie (von Engels) Die Judenfrage Nr. II. Kritische Entdeckungen über Sozialismus, Jurispundenz und Politik (Nationalität) (von Marx) Feldzug der absoluten Kritik (von Marx)</p>
-      <p>Selbstapologie der absoluten Kritik. Ihre "politische" Vergangenheit Die Judenfrage Nr. III Kritische Schlacht gegen die französische Revolution Kritische Schlacht gegen den französischen Materialismus Schließliche Niederlage des Sozialismus Der spekulative Kreislauf der absoluten Kritik und die Philosophie des Selbstbewußtseins Kapitel. Die Korrespondenz der kritischen Kritik</p>
-      <p>Die kritische Masse (von Marx) Die "unkritische Masse" und die "kritische Kritik"</p>
-      <p>Die "verstockte Masse" und die "unbefriedigte Masse" (von Marx) Die "weichherzige" und "erlösugsbedürftige" Masse (von Engels) Der Gnadendurchbruch der Masse (von Marx) Die unkritisch-kritische Masse oder die Kritik und die "Berliner Couleur" (von Marx) Kapitel. Weltgang und Verklärung der "kritischen Kritik" oder "die kritische Kritik" als Rudolph, Fürst von Geroldstein (von Marx)</p>
-      <p>Kritische Verwandlung eines Metzgers in einen Hund oder der Chourineur Enthüllung des geheimnisses der kritischen Religion oder Fleur de Marie</p>
-      <p>Die spekulative "Blumen-Marie" Fleur de Marie Enthüllung der Geheimnisse des Rechts</p>
-      <p>Der maître d'école oder die neue Straftheorie. Das enthüllte Geheimnis des Zellularsystems. Medizinische Geheimnisse Belohnung und Strafe. Die doppelte Justiz, nebst Tabelle Aufhebung der Verwilderung innerhalb der Zivilisation und der Rechtslosigkeit im Staate Das enthüllte Geheimnis des "Standpunkts" Enthüllung des Geheimnisses von der Utilisierung der menschlichen Triebe oder Clémence d'Harville Enthüllung des Geheimnisses des Emanzipation der Weiber oder Louise Morel Enthüllung der nationalökonomischen Geheimnisse</p>
-      <p>Theoretische Enthüllung der nationalökonomischen Geheimnisse "Die Armenbank" Musterwirtschaft zu Bouqueval Rudoplph, "das enthüllte Geheimnis aller Geheimnisse" Kapitel. Das kritische jüngste Gericht (von Marx)</p>
-      <p>Historische Nachrede</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Die heilige Familie</title>
+                <author>Karl Marx-Friedrich Engels</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Stimmen der proletarischen Revolution</name>
+                    <idno type="URL">http://www.mlwerke.de</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="PROPN" lemma="Karl" type="no_stopword">Karl</w>
+                    <w pos="PROPN" lemma="MarxFriedrich" type="no_stopword">MarxFriedrich</w>
+                    <w pos="PROPN" lemma="Engel" type="no_stopword">Engels</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="heilig" type="no_stopword">heilige</w>
+                    <w pos="NOUN" lemma="Familie" type="no_stopword">Familie</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritischen</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="PROPN" lemma="Bruno" type="no_stopword">Bruno</w>
+                    <w pos="NOUN" lemma="Bauer" type="no_stopword">Bauer</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Kunsorten" type="no_stopword">Kunsorten</w>
+                    <w pos="VERB" lemma="Geschrieben" type="no_stopword">Geschrieben</w>
+                    <w pos="NOUN" lemma="September" type="no_stopword">September</w>
+                    <w pos="ADP" lemma="bis" type="stopword">bis</w>
+                    <w pos="NOUN" lemma="November" type="no_stopword">November</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="Erstmals" type="no_stopword">Erstmals</w>
+                    <w pos="VERB" lemma="erscheinen" type="no_stopword">erschienen</w>
+                    <w pos="NOUN" lemma="Ende" type="stopword">Ende</w>
+                    <w pos="NOUN" lemma="Februar" type="no_stopword">Februar</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="vorreden" type="no_stopword">Vorrede</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Kapitel" type="no_stopword">Kapitel</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="NOUN" lemma="BuchbindermeisterGestalt" type="no_stopword">BuchbindermeisterGestalt</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Herr" type="no_stopword">Herr</w>
+                    <w pos="PROPN" lemma="Reichardt" type="no_stopword">Reichardt</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Engel" type="no_stopword">Engels</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="NOUN" lemma="Kapitel" type="no_stopword">Kapitel</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="NOUN" lemma="Mühleigner" type="no_stopword">Mühleigner</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Herr" type="no_stopword">Herr</w>
+                    <w pos="PROPN" lemma="Jules" type="no_stopword">Jules</w>
+                    <w pos="PROPN" lemma="Faucher" type="no_stopword">Faucher</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="vom" type="stopword">vom</w>
+                    <w pos="NOUN" lemma="Engel" type="no_stopword">Engels</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="NOUN" lemma="Kapitel" type="no_stopword">Kapitel</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Gründlichkeit" type="no_stopword">Gründlichkeit</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritischen</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Herr" type="no_stopword">Herr</w>
+                    <w pos="X" lemma="J" type="no_stopword">J</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Jungnitz" type="no_stopword">Jungnitz</w>
+                    <w pos="PUNCT" lemma="?" type="no_stopword">?</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Engel" type="no_stopword">Engels</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="NOUN" lemma="Kapitel" type="no_stopword">Kapitel</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="CCONJ" lemma="als" type="stopword">als</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Ruhe" type="no_stopword">Ruhe</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Erkennen" type="no_stopword">Erkennens</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Herr" type="no_stopword">Herr</w>
+                    <w pos="PROPN" lemma="Edgar" type="no_stopword">Edgar</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Union" type="no_stopword">Union</w>
+                    <w pos="PROPN" lemma="ouvrière" type="no_stopword">ouvrière</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="Flora" type="no_stopword">Flora</w>
+                    <w pos="PROPN" lemma="Tristan" type="no_stopword">Tristan</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Engel" type="no_stopword">Engels</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="NOUN" lemma="Béraud" type="no_stopword">Béraud</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Freudenmädchen" type="no_stopword">Freudenmädchen</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Engel" type="no_stopword">Engels</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="lieben" type="no_stopword">Liebe</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="NOUN" lemma="Proudhon" type="no_stopword">Proudhon</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="ADJ" lemma="Charakterisierende" type="no_stopword">Charakterisierende</w>
+                    <w pos="NOUN" lemma="Übersetzung" type="no_stopword">Übersetzung</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="I" type="no_stopword">I</w>
+                    <w pos="ADJ" lemma="Kritische" type="no_stopword">Kritische</w>
+                    <w pos="NOUN" lemma="Randglosse" type="no_stopword">Randglosse</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="I" type="no_stopword">I</w>
+                    <w pos="ADJ" lemma="Kritische" type="no_stopword">Kritische</w>
+                    <w pos="NOUN" lemma="Randglosse" type="no_stopword">Randglosse</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="II" type="no_stopword">II</w>
+                    <w pos="ADJ" lemma="Charakterisierende" type="no_stopword">Charakterisierende</w>
+                    <w pos="NOUN" lemma="Übersetzung" type="no_stopword">Übersetzung</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="II" type="no_stopword">II</w>
+                    <w pos="ADJ" lemma="Kritische" type="no_stopword">Kritische</w>
+                    <w pos="NOUN" lemma="Randglosse" type="no_stopword">Randglosse</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="III" type="no_stopword">III</w>
+                    <w pos="ADJ" lemma="Charakterisierende" type="no_stopword">Charakterisierende</w>
+                    <w pos="NOUN" lemma="Übersetzung" type="no_stopword">Übersetzung</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="III" type="no_stopword">III</w>
+                    <w pos="ADJ" lemma="Kritische" type="no_stopword">Kritische</w>
+                    <w pos="NOUN" lemma="Randglosse" type="no_stopword">Randglosse</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="IV" type="no_stopword">IV</w>
+                    <w pos="ADJ" lemma="Charakterisierende" type="no_stopword">Charakterisierende</w>
+                    <w pos="NOUN" lemma="Übersetzung" type="no_stopword">Übersetzung</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="IV" type="no_stopword">IV</w>
+                    <w pos="ADJ" lemma="Kritische" type="no_stopword">Kritische</w>
+                    <w pos="NOUN" lemma="Randglosse" type="no_stopword">Randglosse</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="X" lemma="V" type="no_stopword">V</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Kapitel" type="no_stopword">Kapitel</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="PROPN" lemma="Geheimniskrämer" type="no_stopword">Geheimniskrämer</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Herr" type="no_stopword">Herr</w>
+                    <w pos="PROPN" lemma="Szeliga" type="no_stopword">Szeliga</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="der" type="stopword">Das</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnis</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Verwilderung" type="no_stopword">Verwilderung</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Zivilisation" type="no_stopword">Zivilisation</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnis</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Rechtslosigkeit" type="no_stopword">Rechtslosigkeit</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Staat" type="no_stopword">Staate</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="DET" lemma="der" type="stopword">Das</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnis</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="spekulativ" type="no_stopword">spekulativen</w>
+                    <w pos="NOUN" lemma="Konstruktion" type="no_stopword">Konstruktion</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="der" type="stopword">Das</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnis</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="gebildet" type="no_stopword">gebildeten</w>
+                    <w pos="NOUN" lemma="Gesellschaft" type="no_stopword">Gesellschaft</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="der" type="stopword">Das</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnis</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Rechtschaffenheit" type="no_stopword">Rechtschaffenheit</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Frömmigkeit" type="no_stopword">Frömmigkeit</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="der" type="stopword">Das</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnis</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="NOUN" lemma="Spott" type="no_stopword">Spott</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="PROPN" lemma="Lachtaube" type="no_stopword">Lachtaube</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="PROPN" lemma="Rigolette" type="no_stopword">Rigolette</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="DET" lemma="der" type="stopword">Der</w>
+                    <w pos="NOUN" lemma="Weltzustand" type="no_stopword">Weltzustand</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnisse</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Paris" type="no_stopword">Paris</w>
+                    <w pos="PROPN" lemma="Kapitel" type="no_stopword">Kapitel</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="absolut" type="no_stopword">absolute</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Herr" type="no_stopword">Herr</w>
+                    <w pos="PROPN" lemma="Bruno" type="no_stopword">Bruno</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Feldzug" type="no_stopword">Feldzug</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="absolut" type="no_stopword">absoluten</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Der</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="NOUN" lemma="Geist" type="no_stopword">Geist</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="NOUN" lemma="Masse" type="no_stopword">Masse</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Judenfrage" type="no_stopword">Judenfrage</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="I" type="no_stopword">I</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Stellung" type="no_stopword">Stellung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Frage" type="no_stopword">Fragen</w>
+                    <w pos="PROPN" lemma="Hinrichs" type="no_stopword">Hinrichs</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="ADJ" lemma="I." type="no_stopword">I.</w>
+                    <w pos="ADJ" lemma="geheimnisvoll" type="no_stopword">Geheimnisvolle</w>
+                    <w pos="NOUN" lemma="Andeutung" type="no_stopword">Andeutungen</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="NOUN" lemma="Politik" type="no_stopword">Politik</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Sozialismus" type="no_stopword">Sozialismus</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Philosophie" type="no_stopword">Philosophie</w>
+                    <w pos="ADJ" lemma="Zweiter" type="stopword">Zweiter</w>
+                    <w pos="NOUN" lemma="Feldzug" type="no_stopword">Feldzug</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="absolut" type="no_stopword">absoluten</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PROPN" lemma="Hinrichs" type="no_stopword">Hinrichs</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="II" type="no_stopword">II</w>
+                    <w pos="PROPN" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="NOUN" lemma="Feuerbach" type="no_stopword">Feuerbach</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Verdammung" type="no_stopword">Verdammung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Philosophie" type="no_stopword">Philosophie</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Engel" type="no_stopword">Engels</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Judenfrage" type="no_stopword">Judenfrage</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="ADJ" lemma="II" type="no_stopword">II</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="Kritische" type="no_stopword">Kritische</w>
+                    <w pos="NOUN" lemma="Entdeckung" type="no_stopword">Entdeckungen</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="NOUN" lemma="Sozialismus" type="no_stopword">Sozialismus</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Jurispundenz" type="no_stopword">Jurispundenz</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Politik" type="no_stopword">Politik</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="NOUN" lemma="Nationalität" type="no_stopword">Nationalität</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="NOUN" lemma="Feldzug" type="no_stopword">Feldzug</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="absolut" type="no_stopword">absoluten</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Selbstapologie" type="no_stopword">Selbstapologie</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="absolut" type="no_stopword">absoluten</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="mein" type="stopword">Ihre</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="politische" type="no_stopword">politische</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="NOUN" lemma="Vergangenheit" type="no_stopword">Vergangenheit</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Judenfrage" type="no_stopword">Judenfrage</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="III" type="no_stopword">III</w>
+                    <w pos="ADJ" lemma="Kritische" type="no_stopword">Kritische</w>
+                    <w pos="NOUN" lemma="Schlacht" type="no_stopword">Schlacht</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="französische" type="no_stopword">französische</w>
+                    <w pos="NOUN" lemma="Revolution" type="no_stopword">Revolution</w>
+                    <w pos="ADJ" lemma="Kritische" type="no_stopword">Kritische</w>
+                    <w pos="NOUN" lemma="Schlacht" type="no_stopword">Schlacht</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="französisch" type="no_stopword">französischen</w>
+                    <w pos="NOUN" lemma="Materialismus" type="no_stopword">Materialismus</w>
+                    <w pos="ADJ" lemma="Schließliche" type="no_stopword">Schließliche</w>
+                    <w pos="NOUN" lemma="Niederlage" type="no_stopword">Niederlage</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Sozialismus" type="no_stopword">Sozialismus</w>
+                    <w pos="DET" lemma="der" type="stopword">Der</w>
+                    <w pos="ADJ" lemma="spekulative" type="no_stopword">spekulative</w>
+                    <w pos="NOUN" lemma="Kreislauf" type="no_stopword">Kreislauf</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="absolut" type="no_stopword">absoluten</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Philosophie" type="no_stopword">Philosophie</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Selbstbewußtsein" type="no_stopword">Selbstbewußtseins</w>
+                    <w pos="NOUN" lemma="Kapitel" type="no_stopword">Kapitel</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Korrespondenz" type="no_stopword">Korrespondenz</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritischen</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Masse" type="no_stopword">Masse</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="unkritische" type="no_stopword">unkritische</w>
+                    <w pos="NOUN" lemma="Masse" type="no_stopword">Masse</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="verstockte" type="no_stopword">verstockte</w>
+                    <w pos="NOUN" lemma="Masse" type="no_stopword">Masse</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="unbefriedigt" type="no_stopword">unbefriedigte</w>
+                    <w pos="NOUN" lemma="Masse" type="no_stopword">Masse</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="NOUN" lemma="weichherzige" type="no_stopword">weichherzige</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="erlösugsbedürftige" type="no_stopword">erlösugsbedürftige</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="NOUN" lemma="Masse" type="no_stopword">Masse</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Engel" type="no_stopword">Engels</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="DET" lemma="der" type="stopword">Der</w>
+                    <w pos="NOUN" lemma="Gnadendurchbruch" type="no_stopword">Gnadendurchbruch</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Masse" type="no_stopword">Masse</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="unkritischkritische" type="no_stopword">unkritischkritische</w>
+                    <w pos="NOUN" lemma="Masse" type="no_stopword">Masse</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="Berliner" type="no_stopword">Berliner</w>
+                    <w pos="NOUN" lemma="Couleur" type="no_stopword">Couleur</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="NOUN" lemma="Kapitel" type="no_stopword">Kapitel</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Weltgang" type="no_stopword">Weltgang</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Verklärung" type="no_stopword">Verklärung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritischen</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Rudolph" type="no_stopword">Rudolph</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Fürst" type="no_stopword">Fürst</w>
+                    <w pos="PROPN" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Geroldstein" type="no_stopword">Geroldstein</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="ADJ" lemma="Kritische" type="no_stopword">Kritische</w>
+                    <w pos="NOUN" lemma="Verwandlung" type="no_stopword">Verwandlung</w>
+                    <w pos="DET" lemma="ein" type="stopword">eines</w>
+                    <w pos="NOUN" lemma="Metzger" type="no_stopword">Metzgers</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="ein" type="stopword">einen</w>
+                    <w pos="NOUN" lemma="Hund" type="no_stopword">Hund</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Chourineur" type="no_stopword">Chourineur</w>
+                    <w pos="NOUN" lemma="Enthüllung" type="no_stopword">Enthüllung</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="geheimnisses" type="no_stopword">geheimnisses</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritischen</w>
+                    <w pos="NOUN" lemma="Religion" type="no_stopword">Religion</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="PROPN" lemma="Fleur" type="no_stopword">Fleur</w>
+                    <w pos="PROPN" lemma="de" type="no_stopword">de</w>
+                    <w pos="PROPN" lemma="Marie" type="no_stopword">Marie</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="spekulative" type="no_stopword">spekulative</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="NOUN" lemma="BlumenMarie" type="no_stopword">BlumenMarie</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="PROPN" lemma="Fleur" type="no_stopword">Fleur</w>
+                    <w pos="PROPN" lemma="de" type="no_stopword">de</w>
+                    <w pos="PROPN" lemma="Marie" type="no_stopword">Marie</w>
+                    <w pos="NOUN" lemma="Enthüllung" type="no_stopword">Enthüllung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnisse</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Recht" type="no_stopword">Rechts</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Der</w>
+                    <w pos="X" lemma="maître" type="no_stopword">maître</w>
+                    <w pos="PROPN" lemma="d'école" type="no_stopword">d'école</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="neue" type="stopword">neue</w>
+                    <w pos="NOUN" lemma="Straftheorie" type="no_stopword">Straftheorie</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Das</w>
+                    <w pos="ADJ" lemma="enthüllen" type="no_stopword">enthüllte</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnis</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Zellularsystems" type="no_stopword">Zellularsystems</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="medizinisch" type="no_stopword">Medizinische</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnisse</w>
+                    <w pos="NOUN" lemma="Belohnung" type="no_stopword">Belohnung</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Strafe" type="no_stopword">Strafe</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="doppeln" type="no_stopword">doppelte</w>
+                    <w pos="NOUN" lemma="Justiz" type="no_stopword">Justiz</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="nebst" type="no_stopword">nebst</w>
+                    <w pos="PROPN" lemma="Tabelle" type="no_stopword">Tabelle</w>
+                    <w pos="NOUN" lemma="Aufhebung" type="no_stopword">Aufhebung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Verwilderung" type="no_stopword">Verwilderung</w>
+                    <w pos="ADP" lemma="innerhalb" type="no_stopword">innerhalb</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Zivilisation" type="no_stopword">Zivilisation</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Rechtslosigkeit" type="no_stopword">Rechtslosigkeit</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Staat" type="no_stopword">Staate</w>
+                    <w pos="DET" lemma="der" type="stopword">Das</w>
+                    <w pos="ADJ" lemma="enthüllen" type="no_stopword">enthüllte</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnis</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="NOUN" lemma="Standpunkt" type="no_stopword">Standpunkts</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="NOUN" lemma="Enthüllung" type="no_stopword">Enthüllung</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnisses</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Utilisierung" type="no_stopword">Utilisierung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="menschlich" type="no_stopword">menschlichen</w>
+                    <w pos="NOUN" lemma="Trieb" type="no_stopword">Triebe</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="NOUN" lemma="Clémence" type="no_stopword">Clémence</w>
+                    <w pos="PROPN" lemma="d'Harville" type="no_stopword">d'Harville</w>
+                    <w pos="NOUN" lemma="Enthüllung" type="no_stopword">Enthüllung</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnisses</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Emanzipation" type="no_stopword">Emanzipation</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Weib" type="no_stopword">Weiber</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="PROPN" lemma="Louise" type="no_stopword">Louise</w>
+                    <w pos="PROPN" lemma="Morel" type="no_stopword">Morel</w>
+                    <w pos="NOUN" lemma="Enthüllung" type="no_stopword">Enthüllung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="nationalökonomischen" type="no_stopword">nationalökonomischen</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnisse</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="ADJ" lemma="theoretisch" type="no_stopword">Theoretische</w>
+                    <w pos="NOUN" lemma="Enthüllung" type="no_stopword">Enthüllung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="nationalökonomischen" type="no_stopword">nationalökonomischen</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnisse</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Armenbank" type="no_stopword">Armenbank</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="NOUN" lemma="Musterwirtschaft" type="no_stopword">Musterwirtschaft</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                    <w pos="PROPN" lemma="Bouqueval" type="no_stopword">Bouqueval</w>
+                    <w pos="PROPN" lemma="Rudoplph" type="no_stopword">Rudoplph</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="ADJ" lemma="enthüllen" type="no_stopword">enthüllte</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnis</w>
+                    <w pos="DET" lemma="all" type="stopword">aller</w>
+                    <w pos="NOUN" lemma="Geheimnis" type="no_stopword">Geheimnisse</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="NOUN" lemma="Kapitel" type="no_stopword">Kapitel</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Das</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="ADJ" lemma="jüngste" type="no_stopword">jüngste</w>
+                    <w pos="NOUN" lemma="Gericht" type="no_stopword">Gericht</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Marx" type="no_stopword">Marx</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="ADJ" lemma="historisch" type="no_stopword">Historische</w>
+                    <w pos="NOUN" lemma="Nachrede" type="no_stopword">Nachrede</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

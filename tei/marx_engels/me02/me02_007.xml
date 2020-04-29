@@ -1,38 +1,158 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Vorwort</title>
-        <author>Karl Marx-Friedrich Engels - Die heilige Familie</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Stimmen der proletarischen Revolution</name>
-          <idno type="URL">http://www.mlwerke.de</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Unsere Darstellung ist natürlich durch ihren Gegenstand bedingt. Die kritische Kritik steht durchgehends unter der schon erreichten Höhe der deutschen theoretischen Entwicklung. Es ist also durch die Natur unsres Gegenstandes gerechtfertigt, wenn wir jene Entwicklung selbst hier nicht weiter beurteilen. Die kritische Kritik zwingt vielmehr, die schon vorhandenen Resultate als solche ihr gegenüber geltend zu machen. Wir schicken daher diese Polemik den selbständigen Schriften voraus, worin wir - versteht sich, jeder von uns für sich - unsre positive Ansicht und damit unser positives Verhältnis zu den neueren philosophischen und sozialen Doktrinen darstellen werden. Paris, im September 1844</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vorwort</title>
+                <author>Karl Marx-Friedrich Engels - Die heilige Familie</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Stimmen der proletarischen Revolution</name>
+                    <idno type="URL">http://www.mlwerke.de</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="DET" lemma="mein" type="stopword">Unsere</w>
+                    <w pos="NOUN" lemma="Darstellung" type="no_stopword">Darstellung</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADV" lemma="natürlich" type="stopword">natürlich</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihren</w>
+                    <w pos="NOUN" lemma="Gegenstand" type="no_stopword">Gegenstand</w>
+                    <w pos="ADJ" lemma="bedingt" type="no_stopword">bedingt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="VERB" lemma="stehen" type="no_stopword">steht</w>
+                    <w pos="PROPN" lemma="durchgehends" type="no_stopword">durchgehends</w>
+                    <w pos="ADP" lemma="unter" type="stopword">unter</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADV" lemma="schon" type="stopword">schon</w>
+                    <w pos="ADJ" lemma="erreichen" type="no_stopword">erreichten</w>
+                    <w pos="NOUN" lemma="Höhe" type="no_stopword">Höhe</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="deutsch" type="no_stopword">deutschen</w>
+                    <w pos="ADJ" lemma="theoretisch" type="no_stopword">theoretischen</w>
+                    <w pos="NOUN" lemma="Entwicklung" type="no_stopword">Entwicklung</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="ich" type="stopword">Es</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADV" lemma="also" type="stopword">also</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Natur" type="no_stopword">Natur</w>
+                    <w pos="DET" lemma="unsres" type="no_stopword">unsres</w>
+                    <w pos="NOUN" lemma="Gegenstand" type="no_stopword">Gegenstandes</w>
+                    <w pos="VERB" lemma="rechtfertigen" type="no_stopword">gerechtfertigt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="wenn" type="stopword">wenn</w>
+                    <w pos="PRON" lemma="ich" type="stopword">wir</w>
+                    <w pos="DET" lemma="jen" type="stopword">jene</w>
+                    <w pos="NOUN" lemma="Entwicklung" type="no_stopword">Entwicklung</w>
+                    <w pos="ADV" lemma="selbst" type="stopword">selbst</w>
+                    <w pos="ADV" lemma="hier" type="stopword">hier</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="ADV" lemma="weit" type="stopword">weiter</w>
+                    <w pos="VERB" lemma="beurteilen" type="no_stopword">beurteilen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="kritisch" type="no_stopword">kritische</w>
+                    <w pos="NOUN" lemma="Kritik" type="no_stopword">Kritik</w>
+                    <w pos="VERB" lemma="zwingen" type="no_stopword">zwingt</w>
+                    <w pos="ADV" lemma="vielmehr" type="no_stopword">vielmehr</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADV" lemma="schon" type="stopword">schon</w>
+                    <w pos="ADJ" lemma="vorhanden" type="no_stopword">vorhandenen</w>
+                    <w pos="NOUN" lemma="Resultat" type="no_stopword">Resultate</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="PRON" lemma="solche" type="stopword">solche</w>
+                    <w pos="PRON" lemma="mein" type="stopword">ihr</w>
+                    <w pos="ADP" lemma="gegenüber" type="stopword">gegenüber</w>
+                    <w pos="ADJ" lemma="gelten" type="no_stopword">geltend</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="machen" type="stopword">machen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="ich" type="stopword">Wir</w>
+                    <w pos="VERB" lemma="schick" type="no_stopword">schicken</w>
+                    <w pos="ADV" lemma="daher" type="stopword">daher</w>
+                    <w pos="DET" lemma="dies" type="stopword">diese</w>
+                    <w pos="NOUN" lemma="Polemik" type="no_stopword">Polemik</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="selbständig" type="no_stopword">selbständigen</w>
+                    <w pos="NOUN" lemma="Schrift" type="no_stopword">Schriften</w>
+                    <w pos="ADP" lemma="voraus" type="no_stopword">voraus</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="worin" type="no_stopword">worin</w>
+                    <w pos="PRON" lemma="ich" type="stopword">wir</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="VERB" lemma="verstehen" type="no_stopword">versteht</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="jed" type="stopword">jeder</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PRON" lemma="sich" type="stopword">uns</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="DET" lemma="unsre" type="no_stopword">unsre</w>
+                    <w pos="ADJ" lemma="positiv" type="no_stopword">positive</w>
+                    <w pos="NOUN" lemma="Ansicht" type="no_stopword">Ansicht</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADV" lemma="damit" type="stopword">damit</w>
+                    <w pos="DET" lemma="sich" type="stopword">unser</w>
+                    <w pos="ADJ" lemma="positiv" type="no_stopword">positives</w>
+                    <w pos="NOUN" lemma="Verhältnis" type="no_stopword">Verhältnis</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="neu" type="no_stopword">neueren</w>
+                    <w pos="ADJ" lemma="philosophisch" type="no_stopword">philosophischen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="sozial" type="no_stopword">sozialen</w>
+                    <w pos="NOUN" lemma="Doktrinen" type="no_stopword">Doktrinen</w>
+                    <w pos="VERB" lemma="darstellen" type="no_stopword">darstellen</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Paris" type="no_stopword">Paris</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="September" type="no_stopword">September</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

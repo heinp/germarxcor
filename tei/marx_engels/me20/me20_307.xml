@@ -1,43 +1,639 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Planskizzen</title>
-        <author>Friedrich Engels - Dialektik der Natur</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Stimmen der proletarischen Revolution</name>
-          <idno type="URL">http://www.mlwerke.de</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>1. Korrektur Erstellt am 10.10.1999 Friedrich Engels - Dialektik der Natur [Planskizzen]</p>
-      <p>[Skizze des Gesamtplans] |307| 1. Historische Einleitung: in der Naturwissenschaft durch ihre eigene Entwicklung die metaphysische Auffassung unmöglich geworden. 2. Gang der theoretischen Entwicklung in Deutschland seit Hegel (alte Vorrede |Siehe S.328-336|). Rückkehr zur Dialektik vollzieht sich unbewußt, daher widerspruchsvoll und langsam. 3. Dialektik als Wissenschaft des Gesamtzusammenhangs. Hauptgesetze: Umschlag von Quantität und Qualität - Gegenseitiges Durchdringen der polaren Gegensätze und Ineinander-Umschlagen, wenn auf die Spitze getrieben - Entwicklung durch den Widerspruch oder Negation der Negation - Spirale Form der Entwicklung. 4. Zusammenhang der Wissenschaften. Mathematik, Mechanik, Physik, Chemie, Biologie. St. Simon (Comte) und Hegel. 5. Aperçus über die einzelnen Wissenschaften und deren dialektischen Inhalt:</p>
-      <p>1. Mathematik: dialektische Hülfsmittel und Wendungen. - Das Mathematisch-Unendliche wirklich vorkommend; 2. Mechanik des Himmels - letzt aufgelöst in einen Prozeß. - Mechanik: Ausgegangen von der Inertia |Trägheit|, die nur der negative Ausdruck der Unzerstörbarkeit der Bewegung ist; 3. Physik - Übergänge der molekularen Bewegungen ineinander. Clausius und Loschmidt; 4. Chemie: Theorien. Energie; 5. Biologie. Darwinismus. Notwendigkeit und Zufälligkeit.</p>
-      <p>6. Die Grenzen des Erkennens. Du Bois-Reymond und Nägeli. - Helmholtz, Kant, Hume. |308| 7. Die mechanische Theorie. Haeckel. 8. Die Plastidulseele - Haeckel und Nägeli. 9. Wissenschaft und Lehre - Virchow. 10. Zellenstaat - Virchow. 11. Darwinistische Politik und Gesellschaftslehre - Haeckel und Schmidt - Differentiation des Menschen durch Arbeit. - Anwendung der Ökonomie auf die Naturwissenschaft. Helmholtz' »Arbeit« (»Populäre Vorträge«, II). [Skizze des Teilplans] 1. Bewegung im Allgemeinen. 2. Attraktion und Repulsion. Übertragung von Bewegung. 3. [Gesetz der] Erhaltung der Energie hierauf angewandt. Repulsion + Attraktion. - Zutritt von Repulsion = Energie. 4. Schwere - Himmelskörper - irdische Mechanik. 5. Physik. Wärme. Elektrizität. 6. Chemie. 7. Resumé. a) Vor 4: Mathematik. Unendliche Linie. + und - gleich. b) Bei Astronomie: Arbeitsleistung durch Flutwelle. Doppelrechnung bei Helmholtz, II, 120 |Siehe S. 366-369|. »Kräfte« bei Helmholtz, II, 190 |Siehe S. 364-366|.</p>
-      <p>Pfad: »../me/me20«</p>
-      <p>MLWerke</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Planskizzen</title>
+                <author>Friedrich Engels - Dialektik der Natur</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Stimmen der proletarischen Revolution</name>
+                    <idno type="URL">http://www.mlwerke.de</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="ADV" lemma="1" type="no_stopword">1</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Korrektur" type="no_stopword">Korrektur</w>
+                    <w pos="PROPN" lemma="Erstellt" type="no_stopword">Erstellt</w>
+                    <w pos="ADP" lemma="am" type="stopword">am</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="PROPN" lemma="Friedrich" type="no_stopword">Friedrich</w>
+                    <w pos="PROPN" lemma="Engel" type="no_stopword">Engels</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="NOUN" lemma="Dialektik" type="no_stopword">Dialektik</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Natur" type="no_stopword">Natur</w>
+                    <w pos="NOUN" lemma="[" type="no_stopword">[</w>
+                    <w pos="NOUN" lemma="Planskizzen" type="no_stopword">Planskizzen</w>
+                    <w pos="X" lemma="]" type="no_stopword">]</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="PROPN" lemma="[" type="no_stopword">[</w>
+                    <w pos="NOUN" lemma="Skizze" type="no_stopword">Skizze</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Gesamtplans" type="no_stopword">Gesamtplans</w>
+                    <w pos="ADJ" lemma="]" type="no_stopword">]</w>
+                    <w pos="NOUN" lemma="|307|" type="no_stopword">|307|</w>
+                    <w pos="ADV" lemma="1" type="no_stopword">1</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="historisch" type="no_stopword">Historische</w>
+                    <w pos="NOUN" lemma="Einleitung" type="no_stopword">Einleitung</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Naturwissenschaft" type="no_stopword">Naturwissenschaft</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihre</w>
+                    <w pos="ADJ" lemma="eigene" type="stopword">eigene</w>
+                    <w pos="NOUN" lemma="Entwicklung" type="no_stopword">Entwicklung</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="metaphysische" type="no_stopword">metaphysische</w>
+                    <w pos="NOUN" lemma="Auffassung" type="no_stopword">Auffassung</w>
+                    <w pos="ADJ" lemma="unmöglich" type="no_stopword">unmöglich</w>
+                    <w pos="AUX" lemma="werden" type="stopword">geworden</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="2" type="no_stopword">2</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Gang" type="no_stopword">Gang</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="theoretisch" type="no_stopword">theoretischen</w>
+                    <w pos="NOUN" lemma="Entwicklung" type="no_stopword">Entwicklung</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Deutschland" type="no_stopword">Deutschland</w>
+                    <w pos="ADP" lemma="seit" type="stopword">seit</w>
+                    <w pos="PROPN" lemma="Hegel" type="no_stopword">Hegel</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="ADJ" lemma="alt" type="no_stopword">alte</w>
+                    <w pos="NOUN" lemma="vorreden" type="no_stopword">Vorrede</w>
+                    <w pos="PROPN" lemma="|Siehe" type="no_stopword">|Siehe</w>
+                    <w pos="PROPN" lemma="S.328336|" type="no_stopword">S.328336|</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Rückkehr" type="no_stopword">Rückkehr</w>
+                    <w pos="ADP" lemma="zur" type="stopword">zur</w>
+                    <w pos="NOUN" lemma="Dialektik" type="no_stopword">Dialektik</w>
+                    <w pos="VERB" lemma="vollziehen" type="no_stopword">vollzieht</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADJ" lemma="unbewußt" type="no_stopword">unbewußt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="daher" type="stopword">daher</w>
+                    <w pos="ADJ" lemma="widerspruchsvoll" type="no_stopword">widerspruchsvoll</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="langsam" type="no_stopword">langsam</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="3" type="no_stopword">3</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Dialektik" type="no_stopword">Dialektik</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Wissenschaft" type="no_stopword">Wissenschaft</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Gesamtzusammenhangs" type="no_stopword">Gesamtzusammenhangs</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Hauptgesetze" type="no_stopword">Hauptgesetze</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="NOUN" lemma="Umschlag" type="no_stopword">Umschlag</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Quantität" type="no_stopword">Quantität</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Qualität" type="no_stopword">Qualität</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="ADJ" lemma="Gegenseitiges" type="no_stopword">Gegenseitiges</w>
+                    <w pos="NOUN" lemma="Durchdringen" type="no_stopword">Durchdringen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="polar" type="no_stopword">polaren</w>
+                    <w pos="NOUN" lemma="Gegensatz" type="no_stopword">Gegensätze</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="IneinanderUmschlagen" type="no_stopword">IneinanderUmschlagen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="wenn" type="stopword">wenn</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="spitzen" type="no_stopword">Spitze</w>
+                    <w pos="VERB" lemma="getrieben" type="no_stopword">getrieben</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="NOUN" lemma="Entwicklung" type="no_stopword">Entwicklung</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Widerspruch" type="no_stopword">Widerspruch</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="NOUN" lemma="Negation" type="no_stopword">Negation</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Negation" type="no_stopword">Negation</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="PROPN" lemma="Spirale" type="no_stopword">Spirale</w>
+                    <w pos="NOUN" lemma="Form" type="no_stopword">Form</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Entwicklung" type="no_stopword">Entwicklung</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="4" type="no_stopword">4</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Zusammenhang" type="no_stopword">Zusammenhang</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Wissenschaft" type="no_stopword">Wissenschaften</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Mathematik" type="no_stopword">Mathematik</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Mechanik" type="no_stopword">Mechanik</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Physik" type="no_stopword">Physik</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Chemie" type="no_stopword">Chemie</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Biologie" type="no_stopword">Biologie</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="St." type="no_stopword">St.</w>
+                    <w pos="PROPN" lemma="Simon" type="no_stopword">Simon</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="PROPN" lemma="Comte" type="no_stopword">Comte</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Hegel" type="no_stopword">Hegel</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="5" type="no_stopword">5</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Aperçus" type="no_stopword">Aperçus</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="einzeln" type="no_stopword">einzelnen</w>
+                    <w pos="NOUN" lemma="Wissenschaft" type="no_stopword">Wissenschaften</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PRON" lemma="der" type="stopword">deren</w>
+                    <w pos="ADJ" lemma="dialektisch" type="no_stopword">dialektischen</w>
+                    <w pos="NOUN" lemma="Inhalt" type="no_stopword">Inhalt</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="ADV" lemma="1" type="no_stopword">1</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Mathematik" type="no_stopword">Mathematik</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="ADJ" lemma="dialektische" type="no_stopword">dialektische</w>
+                    <w pos="NOUN" lemma="Hülfsmittel" type="no_stopword">Hülfsmittel</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Wendungen" type="no_stopword">Wendungen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Das</w>
+                    <w pos="NOUN" lemma="MathematischUnendliche" type="no_stopword">MathematischUnendliche</w>
+                    <w pos="ADJ" lemma="wirklich" type="stopword">wirklich</w>
+                    <w pos="ADJ" lemma="vorkommen" type="no_stopword">vorkommend</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                    <w pos="ADV" lemma="2" type="no_stopword">2</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Mechanik" type="no_stopword">Mechanik</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Himmel" type="no_stopword">Himmels</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="ADV" lemma="letzt" type="no_stopword">letzt</w>
+                    <w pos="VERB" lemma="auflösen" type="no_stopword">aufgelöst</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="ein" type="stopword">einen</w>
+                    <w pos="NOUN" lemma="Prozeß" type="no_stopword">Prozeß</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Mechanik" type="no_stopword">Mechanik</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="VERB" lemma="Ausgegangen" type="no_stopword">Ausgegangen</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Inertia" type="no_stopword">Inertia</w>
+                    <w pos="PROPN" lemma="|Trägheit|" type="no_stopword">|Trägheit|</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADV" lemma="nur" type="stopword">nur</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="negative" type="no_stopword">negative</w>
+                    <w pos="NOUN" lemma="Ausdruck" type="no_stopword">Ausdruck</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Unzerstörbarkeit" type="no_stopword">Unzerstörbarkeit</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Bewegung" type="no_stopword">Bewegung</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                    <w pos="ADV" lemma="3" type="no_stopword">3</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Physik" type="no_stopword">Physik</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="NOUN" lemma="Übergang" type="no_stopword">Übergänge</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="molekular" type="no_stopword">molekularen</w>
+                    <w pos="NOUN" lemma="Bewegung" type="no_stopword">Bewegungen</w>
+                    <w pos="ADV" lemma="ineinander" type="no_stopword">ineinander</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Clausius" type="no_stopword">Clausius</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Loschmidt" type="no_stopword">Loschmidt</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                    <w pos="ADJ" lemma="4" type="no_stopword">4</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Chemie" type="no_stopword">Chemie</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="NOUN" lemma="Theorie" type="no_stopword">Theorien</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Energie" type="no_stopword">Energie</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                    <w pos="ADJ" lemma="5" type="no_stopword">5</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Biologie" type="no_stopword">Biologie</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Darwinismus" type="no_stopword">Darwinismus</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Notwendigkeit" type="no_stopword">Notwendigkeit</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Zufälligkeit" type="no_stopword">Zufälligkeit</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="ADV" lemma="6" type="no_stopword">6</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Grenze" type="no_stopword">Grenzen</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Erkennen" type="no_stopword">Erkennens</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Du" type="stopword">Du</w>
+                    <w pos="PROPN" lemma="BoisReymond" type="no_stopword">BoisReymond</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Nägeli" type="no_stopword">Nägeli</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Helmholtz" type="no_stopword">Helmholtz</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Kant" type="no_stopword">Kant</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Hume" type="no_stopword">Hume</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="|308|" type="no_stopword">|308|</w>
+                    <w pos="ADV" lemma="7" type="no_stopword">7</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="ADJ" lemma="mechanische" type="no_stopword">mechanische</w>
+                    <w pos="NOUN" lemma="Theorie" type="no_stopword">Theorie</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Haeckel" type="no_stopword">Haeckel</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="8" type="no_stopword">8</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Die</w>
+                    <w pos="NOUN" lemma="Plastidulseele" type="no_stopword">Plastidulseele</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="PROPN" lemma="Haeckel" type="no_stopword">Haeckel</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Nägeli" type="no_stopword">Nägeli</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="9" type="no_stopword">9</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Wissenschaft" type="no_stopword">Wissenschaft</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Lehre" type="no_stopword">Lehre</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="PROPN" lemma="Virchow" type="no_stopword">Virchow</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="0" type="no_stopword">0</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Zellenstaat" type="no_stopword">Zellenstaat</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="PROPN" lemma="Virchow" type="no_stopword">Virchow</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="1" type="no_stopword">1</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="darwinistisch" type="no_stopword">Darwinistische</w>
+                    <w pos="NOUN" lemma="Politik" type="no_stopword">Politik</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Gesellschaftslehre" type="no_stopword">Gesellschaftslehre</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="PROPN" lemma="Haeckel" type="no_stopword">Haeckel</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PROPN" lemma="Schmidt" type="no_stopword">Schmidt</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="NOUN" lemma="Differentiation" type="no_stopword">Differentiation</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Mensch" type="stopword">Menschen</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="NOUN" lemma="Arbeit" type="no_stopword">Arbeit</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Anwendung" type="no_stopword">Anwendung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Ökonomie" type="no_stopword">Ökonomie</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Naturwissenschaft" type="no_stopword">Naturwissenschaft</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Helmholtz" type="no_stopword">Helmholtz</w>
+                    <w pos="PUNCT" lemma="'" type="no_stopword">'</w>
+                    <w pos="PUNCT" lemma="»" type="no_stopword">»</w>
+                    <w pos="NOUN" lemma="Arbeit" type="no_stopword">Arbeit</w>
+                    <w pos="PUNCT" lemma="«" type="no_stopword">«</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="PUNCT" lemma="»" type="no_stopword">»</w>
+                    <w pos="ADJ" lemma="populär" type="no_stopword">Populäre</w>
+                    <w pos="NOUN" lemma="Vortrag" type="no_stopword">Vorträge</w>
+                    <w pos="PUNCT" lemma="«" type="no_stopword">«</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="II" type="no_stopword">II</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                    <w pos="PROPN" lemma="[" type="no_stopword">[</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Skizze" type="no_stopword">Skizze</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Teilplans" type="no_stopword">Teilplans</w>
+                    <w pos="ADJ" lemma="]" type="no_stopword">]</w>
+                    <w pos="ADJ" lemma="1" type="no_stopword">1</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Bewegung" type="no_stopword">Bewegung</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="ADJ" lemma="Allgemeine" type="stopword">Allgemeinen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="2" type="no_stopword">2</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Attraktion" type="no_stopword">Attraktion</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Repulsion" type="no_stopword">Repulsion</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Übertragung" type="no_stopword">Übertragung</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Bewegung" type="no_stopword">Bewegung</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="3" type="no_stopword">3</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                    <w pos="NOUN" lemma="[" type="no_stopword">[</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Gesetz" type="no_stopword">Gesetz</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PUNCT" lemma="]" type="no_stopword">]</w>
+                    <w pos="NOUN" lemma="Erhaltung" type="no_stopword">Erhaltung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Energie" type="no_stopword">Energie</w>
+                    <w pos="ADV" lemma="hierauf" type="no_stopword">hierauf</w>
+                    <w pos="VERB" lemma="anwenden" type="no_stopword">angewandt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Repulsion" type="no_stopword">Repulsion</w>
+                    <w pos="CCONJ" lemma="+" type="no_stopword">+</w>
+                    <w pos="NOUN" lemma="Attraktion" type="no_stopword">Attraktion</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Zutritt" type="no_stopword">Zutritt</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Repulsion" type="no_stopword">Repulsion</w>
+                    <w pos="X" lemma="=" type="no_stopword">=</w>
+                    <w pos="NOUN" lemma="Energie" type="no_stopword">Energie</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="4" type="no_stopword">4</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="Schwere" type="no_stopword">Schwere</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="NOUN" lemma="Himmelskörper" type="no_stopword">Himmelskörper</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="ADJ" lemma="irdische" type="no_stopword">irdische</w>
+                    <w pos="NOUN" lemma="Mechanik" type="no_stopword">Mechanik</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="5" type="no_stopword">5</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Physik" type="no_stopword">Physik</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Wärme" type="no_stopword">Wärme</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Elektrizität" type="no_stopword">Elektrizität</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="6" type="no_stopword">6</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Chemie" type="no_stopword">Chemie</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="7" type="no_stopword">7</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Resumé" type="no_stopword">Resumé</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="X" lemma="a" type="stopword">a</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="ADP" lemma="Vor" type="stopword">Vor</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                    <w pos="ADJ" lemma=":" type="no_stopword">:</w>
+                    <w pos="NOUN" lemma="Mathematik" type="no_stopword">Mathematik</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="Unendliche" type="no_stopword">Unendliche</w>
+                    <w pos="NOUN" lemma="Linie" type="no_stopword">Linie</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="CCONJ" lemma="+" type="no_stopword">+</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="ADV" lemma="gleichen" type="stopword">gleich</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="X" lemma="b" type="no_stopword">b</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="ADP" lemma="Bei" type="stopword">Bei</w>
+                    <w pos="NOUN" lemma="Astronomie" type="no_stopword">Astronomie</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="NOUN" lemma="Arbeitsleistung" type="no_stopword">Arbeitsleistung</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="NOUN" lemma="Flutwelle" type="no_stopword">Flutwelle</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Doppelrechnung" type="no_stopword">Doppelrechnung</w>
+                    <w pos="ADP" lemma="bei" type="stopword">bei</w>
+                    <w pos="PROPN" lemma="Helmholtz" type="no_stopword">Helmholtz</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="II" type="no_stopword">II</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="PROPN" lemma="|Siehe" type="no_stopword">|Siehe</w>
+                    <w pos="PROPN" lemma="S" type="no_stopword">S</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADJ" lemma="9" type="no_stopword">9</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                    <w pos="PUNCT" lemma="»" type="no_stopword">»</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Kraft" type="no_stopword">Kräfte</w>
+                    <w pos="PUNCT" lemma="«" type="no_stopword">«</w>
+                    <w pos="ADP" lemma="bei" type="stopword">bei</w>
+                    <w pos="PROPN" lemma="Helmholtz" type="no_stopword">Helmholtz</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="II" type="no_stopword">II</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="PROPN" lemma="|Siehe" type="no_stopword">|Siehe</w>
+                    <w pos="PROPN" lemma="S" type="no_stopword">S</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="6" type="no_stopword">6</w>
+                    <w pos="ADV" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Pfad" type="no_stopword">Pfad</w>
+                    <w pos="PUNCT" lemma=":" type="no_stopword">:</w>
+                    <w pos="PUNCT" lemma="»" type="no_stopword">»</w>
+                    <w pos="PUNCT" lemma="../me/me20" type="no_stopword">../me/me20</w>
+                    <w pos="PUNCT" lemma="«" type="no_stopword">«</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="MLWerke" type="no_stopword">MLWerke</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

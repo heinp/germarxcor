@@ -1,39 +1,327 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Zwischen Imperialismus und Revolution (Widmung)</title>
-        <author>Leo Trotzki</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Marxist Internet Archive</name>
-          <idno type="URL">https://www.marxists.org/deutsch/archiv/trotzki/index.htm</idno>
-          <availability>
-            <licence>
-              <ab>CC-BY-SA-2.0</ab>
-              <ref target="https://www.marxists.org/admin/legal/cc/by-sa.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>[Widmung]</p>
-      <p>Dem Andenken von Stepan Schaumjan, Alexei Dschaparidse und der 24 anderen Kommunisten aus Baku, ohne Untersuchung und Gericht auf der öden Bahnstrecke zwischen den transkaspischen Stationen »Perewal« und »Achtscha Kuima« getötet am 20. September 1918 durch den Chef der englischen militärischen Mission in Aschabad, Teag Jones, mit Wissen und Billigung der anderen englischen Behörden in Transkaukasien und im besonderen des Kommandeurs der britischen Truppen in Transkaukasien, Generalmajor Tompson; Dem Andenken der Arbeiter, die von der menschewistischen Regierung während des Meetings im Alexandergarten in Tiflis am 10. Februar 1918 erschossen wurden; Dem Andenken von Hunderten und Tausenden transkaukasischer Kommunisten, die im Kampfe für die Sowjetmacht zugrunde gingen, erschossen, erhängt, zu Tode gefoltert durch die »demokratische« Koalitionsregierung Transkaukasiens, durch die menschewistische Regierung des »demokratischen« Georgiens, durch die Truppen des Sultans, des Bundesgenossen der transkaukasischen »Demokratie«, durch die Truppen des Hohenzollern, des Beschützers des menschewistischen Georgiens, durch die großbritannischen Truppen, die zum gemeinsamen Kampfe mit den Menschewiki gegen die Kommunisten in Georgen einmarschiert waren, durch die Weißgardisten Denikins und, Wrangels, unter direkter und indirekter Mitwirkung der georgischen Menschewiki; Dem Andenken der revolutionären Führer der Bauernaufstände Ossetiens, Abchasiens, Adshariens, Guriens, Mingreliens u. a., die erschossen wurden durch die menschewistische Regierung Georgiens, wird dieses Buch vom Verfasser gewidmet, geschrieben zur Entlarvung von Lüge, Verleumdung und Hetze, die in dichten Wolken ausgehen von dem Lager der Unterdrücker, Ausbeuter, Imperialisten, Räuber, Mörder und ihrer politischen Söldner und freiwilligen Lakaien.</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zwischen Imperialismus und Revolution (Widmung)</title>
+                <author>Leo Trotzki</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Marxist Internet Archive</name>
+                    <idno type="URL">https://www.marxists.org/deutsch/archiv/trotzki/index.htm</idno>
+                    <availability>
+                        <licence>
+                            <ab>CC-BY-SA-2.0</ab>
+                            <ref target="https://www.marxists.org/admin/legal/cc/by-sa.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="X" lemma="[" type="no_stopword">[</w>
+                    <w pos="NOUN" lemma="Widmung" type="no_stopword">Widmung</w>
+                    <w pos="X" lemma="]" type="no_stopword">]</w>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <w pos="DET" lemma="der" type="stopword">Dem</w>
+                    <w pos="NOUN" lemma="Andenken" type="no_stopword">Andenken</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PROPN" lemma="Stepan" type="no_stopword">Stepan</w>
+                    <w pos="PROPN" lemma="Schaumjan" type="no_stopword">Schaumjan</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Alexei" type="no_stopword">Alexei</w>
+                    <w pos="PROPN" lemma="Dschaparidse" type="no_stopword">Dschaparidse</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                    <w pos="ADJ" lemma="ander" type="stopword">anderen</w>
+                    <w pos="NOUN" lemma="Kommunist" type="no_stopword">Kommunisten</w>
+                    <w pos="ADP" lemma="aus" type="stopword">aus</w>
+                    <w pos="PROPN" lemma="Baku" type="no_stopword">Baku</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="ohne" type="stopword">ohne</w>
+                    <w pos="NOUN" lemma="Untersuchung" type="no_stopword">Untersuchung</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Gericht" type="no_stopword">Gericht</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="öden" type="no_stopword">öden</w>
+                    <w pos="NOUN" lemma="Bahnstrecke" type="no_stopword">Bahnstrecke</w>
+                    <w pos="ADP" lemma="zwischen" type="stopword">zwischen</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="transkaspischen" type="no_stopword">transkaspischen</w>
+                    <w pos="NOUN" lemma="Station" type="no_stopword">Stationen</w>
+                    <w pos="PUNCT" lemma="»" type="no_stopword">»</w>
+                    <w pos="NOUN" lemma="Perewal" type="no_stopword">Perewal</w>
+                    <w pos="PUNCT" lemma="«" type="no_stopword">«</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PUNCT" lemma="»" type="no_stopword">»</w>
+                    <w pos="PROPN" lemma="Achtscha" type="no_stopword">Achtscha</w>
+                    <w pos="PROPN" lemma="Kuima" type="no_stopword">Kuima</w>
+                    <w pos="PUNCT" lemma="«" type="no_stopword">«</w>
+                    <w pos="VERB" lemma="töten" type="no_stopword">getötet</w>
+                    <w pos="ADP" lemma="am" type="stopword">am</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="NOUN" lemma="September" type="no_stopword">September</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Chef" type="no_stopword">Chef</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="englisch" type="no_stopword">englischen</w>
+                    <w pos="ADJ" lemma="militärisch" type="no_stopword">militärischen</w>
+                    <w pos="NOUN" lemma="Mission" type="no_stopword">Mission</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Aschabad" type="no_stopword">Aschabad</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Teag" type="no_stopword">Teag</w>
+                    <w pos="PROPN" lemma="Jones" type="no_stopword">Jones</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="NOUN" lemma="Wissen" type="no_stopword">Wissen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Billigung" type="no_stopword">Billigung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="ander" type="stopword">anderen</w>
+                    <w pos="ADJ" lemma="englisch" type="no_stopword">englischen</w>
+                    <w pos="NOUN" lemma="Behörde" type="no_stopword">Behörden</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="NOUN" lemma="Transkaukasien" type="no_stopword">Transkaukasien</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="ADJ" lemma="besonder" type="no_stopword">besonderen</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Kommandeurs" type="no_stopword">Kommandeurs</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="britisch" type="no_stopword">britischen</w>
+                    <w pos="NOUN" lemma="Truppe" type="no_stopword">Truppen</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="NOUN" lemma="Transkaukasien" type="no_stopword">Transkaukasien</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Generalmajor" type="no_stopword">Generalmajor</w>
+                    <w pos="PROPN" lemma="Tompson" type="no_stopword">Tompson</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                    <w pos="DET" lemma="der" type="stopword">Dem</w>
+                    <w pos="NOUN" lemma="Andenken" type="no_stopword">Andenken</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="menschewistischen" type="no_stopword">menschewistischen</w>
+                    <w pos="NOUN" lemma="Regierung" type="no_stopword">Regierung</w>
+                    <w pos="ADP" lemma="während" type="stopword">während</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Meeting" type="no_stopword">Meetings</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Alexandergarten" type="no_stopword">Alexandergarten</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Tiflis" type="no_stopword">Tiflis</w>
+                    <w pos="ADP" lemma="am" type="stopword">am</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="NOUN" lemma="Februar" type="no_stopword">Februar</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="VERB" lemma="erschießen" type="no_stopword">erschossen</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wurden</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                    <w pos="DET" lemma="der" type="stopword">Dem</w>
+                    <w pos="NOUN" lemma="Andenken" type="no_stopword">Andenken</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Hunderte" type="no_stopword">Hunderten</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Tausende" type="no_stopword">Tausenden</w>
+                    <w pos="ADJ" lemma="transkaukasischer" type="no_stopword">transkaukasischer</w>
+                    <w pos="NOUN" lemma="Kommunist" type="no_stopword">Kommunisten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kampfe</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Sowjetmacht" type="no_stopword">Sowjetmacht</w>
+                    <w pos="ADV" lemma="zugrunde" type="no_stopword">zugrunde</w>
+                    <w pos="VERB" lemma="gehen" type="no_stopword">gingen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="erschießen" type="no_stopword">erschossen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="erhängen" type="no_stopword">erhängt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                    <w pos="NOUN" lemma="Tod" type="no_stopword">Tode</w>
+                    <w pos="VERB" lemma="foltern" type="no_stopword">gefoltert</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="PUNCT" lemma="»" type="no_stopword">»</w>
+                    <w pos="ADJ" lemma="demokratische" type="no_stopword">demokratische</w>
+                    <w pos="PUNCT" lemma="«" type="no_stopword">«</w>
+                    <w pos="NOUN" lemma="Koalitionsregierung" type="no_stopword">Koalitionsregierung</w>
+                    <w pos="PROPN" lemma="Transkaukasiens" type="no_stopword">Transkaukasiens</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="menschewistische" type="no_stopword">menschewistische</w>
+                    <w pos="NOUN" lemma="Regierung" type="no_stopword">Regierung</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="PUNCT" lemma="»" type="no_stopword">»</w>
+                    <w pos="ADJ" lemma="demokratisch" type="no_stopword">demokratischen</w>
+                    <w pos="PUNCT" lemma="«" type="no_stopword">«</w>
+                    <w pos="PROPN" lemma="Georgien" type="no_stopword">Georgiens</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Truppe" type="no_stopword">Truppen</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Sultans" type="no_stopword">Sultans</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Bundesgenossen" type="no_stopword">Bundesgenossen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="transkaukasischen" type="no_stopword">transkaukasischen</w>
+                    <w pos="PUNCT" lemma="»" type="no_stopword">»</w>
+                    <w pos="NOUN" lemma="Demokratie" type="no_stopword">Demokratie</w>
+                    <w pos="PUNCT" lemma="«" type="no_stopword">«</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Truppe" type="no_stopword">Truppen</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Hohenzollern" type="no_stopword">Hohenzollern</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Beschützer" type="no_stopword">Beschützers</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="menschewistischen" type="no_stopword">menschewistischen</w>
+                    <w pos="NOUN" lemma="Georgien" type="no_stopword">Georgiens</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="großbritannischen" type="no_stopword">großbritannischen</w>
+                    <w pos="NOUN" lemma="Truppe" type="no_stopword">Truppen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="zum" type="stopword">zum</w>
+                    <w pos="ADJ" lemma="gemeinsam" type="no_stopword">gemeinsamen</w>
+                    <w pos="NOUN" lemma="Kampf" type="no_stopword">Kampfe</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Menschewiki" type="no_stopword">Menschewiki</w>
+                    <w pos="ADP" lemma="gegen" type="stopword">gegen</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Kommunist" type="no_stopword">Kommunisten</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="NOUN" lemma="Georgen" type="no_stopword">Georgen</w>
+                    <w pos="VERB" lemma="einmarschieren" type="no_stopword">einmarschiert</w>
+                    <w pos="AUX" lemma="sein" type="stopword">waren</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Weißgardisten" type="no_stopword">Weißgardisten</w>
+                    <w pos="PROPN" lemma="Denikins" type="no_stopword">Denikins</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Wrangels" type="no_stopword">Wrangels</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="unter" type="stopword">unter</w>
+                    <w pos="ADJ" lemma="direkt" type="no_stopword">direkter</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="indirekt" type="no_stopword">indirekter</w>
+                    <w pos="NOUN" lemma="Mitwirkung" type="no_stopword">Mitwirkung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="georgisch" type="no_stopword">georgischen</w>
+                    <w pos="NOUN" lemma="Menschewiki" type="no_stopword">Menschewiki</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                    <w pos="DET" lemma="der" type="stopword">Dem</w>
+                    <w pos="NOUN" lemma="Andenken" type="no_stopword">Andenken</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="revolutionär" type="no_stopword">revolutionären</w>
+                    <w pos="NOUN" lemma="Führer" type="no_stopword">Führer</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Bauernaufstände" type="no_stopword">Bauernaufstände</w>
+                    <w pos="PROPN" lemma="Ossetiens" type="no_stopword">Ossetiens</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Abchasien" type="no_stopword">Abchasiens</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Adshariens" type="no_stopword">Adshariens</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Guriens" type="no_stopword">Guriens</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Mingreliens" type="no_stopword">Mingreliens</w>
+                    <w pos="ADP" lemma="u." type="no_stopword">u.</w>
+                    <w pos="PRON" lemma="a." type="no_stopword">a.</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="VERB" lemma="erschießen" type="no_stopword">erschossen</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wurden</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="menschewistische" type="no_stopword">menschewistische</w>
+                    <w pos="NOUN" lemma="Regierung" type="no_stopword">Regierung</w>
+                    <w pos="PROPN" lemma="Georgien" type="no_stopword">Georgiens</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="DET" lemma="dies" type="stopword">dieses</w>
+                    <w pos="NOUN" lemma="Buch" type="no_stopword">Buch</w>
+                    <w pos="ADP" lemma="vom" type="stopword">vom</w>
+                    <w pos="NOUN" lemma="Verfasser" type="no_stopword">Verfasser</w>
+                    <w pos="VERB" lemma="widmen" type="no_stopword">gewidmet</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="schreiben" type="no_stopword">geschrieben</w>
+                    <w pos="ADP" lemma="zur" type="stopword">zur</w>
+                    <w pos="NOUN" lemma="Entlarvung" type="no_stopword">Entlarvung</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Lüge" type="no_stopword">Lüge</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Verleumdung" type="no_stopword">Verleumdung</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Hetze" type="no_stopword">Hetze</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="ADJ" lemma="dicht" type="no_stopword">dichten</w>
+                    <w pos="NOUN" lemma="Wolke" type="no_stopword">Wolken</w>
+                    <w pos="VERB" lemma="ausgehen" type="no_stopword">ausgehen</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Lager" type="no_stopword">Lager</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Unterdrücker" type="no_stopword">Unterdrücker</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Ausbeuter" type="no_stopword">Ausbeuter</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Imperialist" type="no_stopword">Imperialisten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Räuber" type="no_stopword">Räuber</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Mörder" type="no_stopword">Mörder</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="sich" type="stopword">ihrer</w>
+                    <w pos="ADJ" lemma="politisch" type="no_stopword">politischen</w>
+                    <w pos="NOUN" lemma="Söldner" type="no_stopword">Söldner</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="freiwillig" type="no_stopword">freiwilligen</w>
+                    <w pos="NOUN" lemma="Lakaien" type="no_stopword">Lakaien</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

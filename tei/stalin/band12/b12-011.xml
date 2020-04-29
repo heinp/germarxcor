@@ -1,38 +1,109 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>An den Kommunistischen Jugendverband der Ukraine zum zehnten Jahrestag seines Bestehens</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>AN DEN KOMMUNISTISCHEN JUGENDVERBAND DER UKRAINE ZUM ZEHNTEN JAHRESTAG SEINES BESTEHENS Dem in den Schlachten des Bürgerkriegs erprobten Leninschen Kommunistischen Jugendverband der Ukraine, der erfolgreich den sozialistischen Wettbewerb entfaltet und aktiv am Aufbau der ukrainischen sozialistischen Kultur teilnimmt, zu seinem zehnten Jahrestag flammende Grüße. J. Stalin Moskau, 10. Juli 1929. Prawda“ Nr. 157, 12. Juli 1929.</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An den Kommunistischen Jugendverband der Ukraine zum zehnten Jahrestag seines Bestehens</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="ADP" lemma="AN" type="stopword">AN</w>
+                    <w pos="DET" lemma="DEN" type="stopword">DEN</w>
+                    <w pos="ADJ" lemma="KOMMUNISTISCHEN" type="no_stopword">KOMMUNISTISCHEN</w>
+                    <w pos="PROPN" lemma="JUGENDVERBAND" type="no_stopword">JUGENDVERBAND</w>
+                    <w pos="DET" lemma="DER" type="stopword">DER</w>
+                    <w pos="PROPN" lemma="UKRAINE" type="no_stopword">UKRAINE</w>
+                    <w pos="ADP" lemma="ZUM" type="stopword">ZUM</w>
+                    <w pos="ADJ" lemma="ZEHNTEN" type="stopword">ZEHNTEN</w>
+                    <w pos="PROPN" lemma="JAHRESTAG" type="no_stopword">JAHRESTAG</w>
+                    <w pos="DET" lemma="SEINES" type="stopword">SEINES</w>
+                    <w pos="NOUN" lemma="BESTEHENS" type="no_stopword">BESTEHENS</w>
+                    <w pos="DET" lemma="der" type="stopword">Dem</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Schlacht" type="no_stopword">Schlachten</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Bürgerkriegs" type="no_stopword">Bürgerkriegs</w>
+                    <w pos="ADJ" lemma="erproben" type="no_stopword">erprobten</w>
+                    <w pos="NOUN" lemma="Leninschen" type="no_stopword">Leninschen</w>
+                    <w pos="ADJ" lemma="Kommunistische" type="no_stopword">Kommunistischen</w>
+                    <w pos="NOUN" lemma="Jugendverband" type="no_stopword">Jugendverband</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PROPN" lemma="Ukraine" type="no_stopword">Ukraine</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="erfolgreich" type="no_stopword">erfolgreich</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="ADJ" lemma="sozialistisch" type="no_stopword">sozialistischen</w>
+                    <w pos="NOUN" lemma="Wettbewerb" type="no_stopword">Wettbewerb</w>
+                    <w pos="VERB" lemma="entfalten" type="no_stopword">entfaltet</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="aktiv" type="no_stopword">aktiv</w>
+                    <w pos="ADP" lemma="am" type="stopword">am</w>
+                    <w pos="NOUN" lemma="Aufbau" type="no_stopword">Aufbau</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="ukrainisch" type="no_stopword">ukrainischen</w>
+                    <w pos="ADJ" lemma="sozialistisch" type="no_stopword">sozialistischen</w>
+                    <w pos="NOUN" lemma="Kultur" type="no_stopword">Kultur</w>
+                    <w pos="VERB" lemma="teilnehmen" type="no_stopword">teilnimmt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                    <w pos="DET" lemma="mein" type="stopword">seinem</w>
+                    <w pos="ADJ" lemma="zehnten" type="stopword">zehnten</w>
+                    <w pos="NOUN" lemma="Jahrestag" type="no_stopword">Jahrestag</w>
+                    <w pos="ADJ" lemma="flammend" type="no_stopword">flammende</w>
+                    <w pos="NOUN" lemma="Gruß" type="no_stopword">Grüße</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="PROPN" lemma="Moskau" type="no_stopword">Moskau</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="0" type="no_stopword">0</w>
+                    <w pos="NOUN" lemma="Juli" type="no_stopword">Juli</w>
+                    <w pos="ADJ" lemma="9" type="no_stopword">9</w>
+                    <w pos="ADJ" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PROPN" lemma="Prawda" type="no_stopword">Prawda</w>
+                    <w pos="PUNCT" lemma="“" type="no_stopword">“</w>
+                    <w pos="NOUN" lemma="Nr." type="no_stopword">Nr.</w>
+                    <w pos="NUM" lemma="7" type="no_stopword">7</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="2" type="no_stopword">2</w>
+                    <w pos="NOUN" lemma="Juli" type="no_stopword">Juli</w>
+                    <w pos="NUM" lemma="9" type="no_stopword">9</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

@@ -1,38 +1,175 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Telegramm nach Zarizyn an den Frontbefehlshaber Woroschilow</title>
-        <author>Josef Stalin</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-SA-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>J.W. Stalin – Werke und Texte</name>
-          <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="N/A">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Band 4 TELEGRAMM NACH ZARIZYN AN DEN FRONTBEFEHLSHABER WOROSCHILOW Übermitteln Sie dem heldenhaften Kommando und allen revolutionären Truppen der Zarizyner Front, die aufopferungsvoll für die Festigung der Macht der Arbeiter und Bauern kämpfen, unseren brüderlichen Gruß. Übermitteln Sie ihnen, dass Sowjetrußland mit Begeisterung die Heldentaten der kommunistischen und revolutionären Regimenter Chartschenkos, Kolpakows, der Kavallerie Bulatkins, der Panzerzüge Aljabjews, der Wolgakriegsflottille würdigt. Haltet die roten Banner hoch, tragt sie furchtlos voran, rottet die Konterrevolution der Gutsbesitzer, Generale und Kulaken unbarmherzig aus und zeigt der ganzen Welt, dass das Sozialistische Rußland unbesiegbar ist. Vorsitzender des Rates der Volkskommissare W. Uljanow-Lenin Volkskommissar und Vorsitzender des Revolutionären Kriegsrats der Südfront J. Stalin Moskau, 19. September 1918.</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telegramm nach Zarizyn an den Frontbefehlshaber Woroschilow</title>
+                <author>Josef Stalin</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-SA-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>J.W. Stalin – Werke und Texte</name>
+                    <idno type="URL">https://web.archive.org/web/20180319113921/http://stalinwerke.de/</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="N/A">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="NOUN" lemma="Band" type="no_stopword">Band</w>
+                    <w pos="NUM" lemma="4" type="no_stopword">4</w>
+                    <w pos="PROPN" lemma="TELEGRAMM" type="no_stopword">TELEGRAMM</w>
+                    <w pos="ADP" lemma="NACH" type="stopword">NACH</w>
+                    <w pos="PROPN" lemma="ZARIZYN" type="no_stopword">ZARIZYN</w>
+                    <w pos="ADP" lemma="AN" type="stopword">AN</w>
+                    <w pos="PROPN" lemma="DEN" type="stopword">DEN</w>
+                    <w pos="PROPN" lemma="FRONTBEFEHLSHABER" type="no_stopword">FRONTBEFEHLSHABER</w>
+                    <w pos="PROPN" lemma="WOROSCHILOW" type="no_stopword">WOROSCHILOW</w>
+                    <w pos="VERB" lemma="Übermitteln" type="no_stopword">Übermitteln</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Sie</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="heldenhaft" type="no_stopword">heldenhaften</w>
+                    <w pos="NOUN" lemma="Kommando" type="no_stopword">Kommando</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="alle" type="stopword">allen</w>
+                    <w pos="ADJ" lemma="revolutionär" type="no_stopword">revolutionären</w>
+                    <w pos="NOUN" lemma="Truppe" type="no_stopword">Truppen</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="Zarizyner" type="no_stopword">Zarizyner</w>
+                    <w pos="NOUN" lemma="Front" type="no_stopword">Front</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="aufopferungsvoll" type="no_stopword">aufopferungsvoll</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Festigung" type="no_stopword">Festigung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Macht" type="stopword">Macht</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Bauer" type="no_stopword">Bauern</w>
+                    <w pos="VERB" lemma="kämpfen" type="no_stopword">kämpfen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">unseren</w>
+                    <w pos="ADJ" lemma="brüderlich" type="no_stopword">brüderlichen</w>
+                    <w pos="NOUN" lemma="Gruß" type="no_stopword">Gruß</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="VERB" lemma="Übermitteln" type="no_stopword">Übermitteln</w>
+                    <w pos="PRON" lemma="ich" type="stopword">Sie</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ihnen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="dass" type="stopword">dass</w>
+                    <w pos="PROPN" lemma="Sowjetrußland" type="no_stopword">Sowjetrußland</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="NOUN" lemma="Begeisterung" type="no_stopword">Begeisterung</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Heldentaten" type="no_stopword">Heldentaten</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="kommunistisch" type="no_stopword">kommunistischen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="revolutionär" type="no_stopword">revolutionären</w>
+                    <w pos="NOUN" lemma="Regiment" type="no_stopword">Regimenter</w>
+                    <w pos="PROPN" lemma="Chartschenkos" type="no_stopword">Chartschenkos</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PROPN" lemma="Kolpakows" type="no_stopword">Kolpakows</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Kavallerie" type="no_stopword">Kavallerie</w>
+                    <w pos="PROPN" lemma="Bulatkins" type="no_stopword">Bulatkins</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Panzerzüge" type="no_stopword">Panzerzüge</w>
+                    <w pos="PROPN" lemma="Aljabjews" type="no_stopword">Aljabjews</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Wolgakriegsflottille" type="no_stopword">Wolgakriegsflottille</w>
+                    <w pos="VERB" lemma="würdigen" type="no_stopword">würdigt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="VERB" lemma="Haltet" type="no_stopword">Haltet</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="rot" type="no_stopword">roten</w>
+                    <w pos="NOUN" lemma="Banner" type="no_stopword">Banner</w>
+                    <w pos="ADJ" lemma="hoch" type="stopword">hoch</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="tragen" type="no_stopword">tragt</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="ADJ" lemma="furchtlos" type="no_stopword">furchtlos</w>
+                    <w pos="ADP" lemma="voran" type="no_stopword">voran</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="rotten" type="no_stopword">rottet</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Konterrevolution" type="no_stopword">Konterrevolution</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Gutsbesitzer" type="no_stopword">Gutsbesitzer</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="General" type="no_stopword">Generale</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Kulaken" type="no_stopword">Kulaken</w>
+                    <w pos="ADJ" lemma="unbarmherzig" type="no_stopword">unbarmherzig</w>
+                    <w pos="ADP" lemma="aus" type="stopword">aus</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="VERB" lemma="zeigen" type="no_stopword">zeigt</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="ganz" type="stopword">ganzen</w>
+                    <w pos="NOUN" lemma="Welt" type="no_stopword">Welt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="dass" type="stopword">dass</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="ADJ" lemma="sozialistisch" type="no_stopword">Sozialistische</w>
+                    <w pos="PROPN" lemma="Rußland" type="no_stopword">Rußland</w>
+                    <w pos="ADJ" lemma="unbesiegbar" type="no_stopword">unbesiegbar</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Vorsitzender" type="no_stopword">Vorsitzender</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Rat" type="no_stopword">Rates</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Volkskommissare" type="no_stopword">Volkskommissare</w>
+                    <w pos="PROPN" lemma="W." type="no_stopword">W.</w>
+                    <w pos="PROPN" lemma="UljanowLenin" type="no_stopword">UljanowLenin</w>
+                    <w pos="PROPN" lemma="Volkskommissar" type="no_stopword">Volkskommissar</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Vorsitzender" type="no_stopword">Vorsitzender</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="ADJ" lemma="Revolutionäre" type="no_stopword">Revolutionären</w>
+                    <w pos="NOUN" lemma="Kriegsrats" type="no_stopword">Kriegsrats</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Südfront" type="no_stopword">Südfront</w>
+                    <w pos="PROPN" lemma="J." type="no_stopword">J.</w>
+                    <w pos="PROPN" lemma="Stalin" type="no_stopword">Stalin</w>
+                    <w pos="PROPN" lemma="Moskau" type="no_stopword">Moskau</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="9" type="no_stopword">9</w>
+                    <w pos="NOUN" lemma="September" type="no_stopword">September</w>
+                    <w pos="NUM" lemma="8" type="no_stopword">8</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>

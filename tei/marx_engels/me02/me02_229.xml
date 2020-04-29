@@ -1,38 +1,640 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>An die arbeitende Klasse Großbritanniens</title>
-        <author>Friedrich Engels - Lage der arbeitenden Klasse in England</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Pascal Hein</publisher>
-        <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
-        <availability>
-          <licence>
-            <ab>CC-BY-4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Stimmen der proletarischen Revolution</name>
-          <idno type="URL">http://www.mlwerke.de</idno>
-          <availability>
-            <licence>
-              <ab>N/A</ab>
-              <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>Dank meiner gleichzeitigen umfassenden Gelegenheit zur Beobachtung der Mittelklasse, eures Gegners, bin ich sehr schnell zu dem Schluß gelangt, daß ihr im Recht, völlig im Recht seid, wenn ihr von ihnen keinerlei Hilfe erwartet. Ihre Interessen sind den euren diametral entgegengesetzt, obgleich sie immer versuchen werden, das Gegenteil zu behaupten und in euch den Glauben zu wecken an ihr herzlichstes Mitgefühl mit eurem Schicksal. Ihre Taten strafen sie Lügen. Ich hoffe mehr als genügendes Beweismaterial dafür erbracht zu haben, daß die Mittelklasse - was immer sie zu sagen beliebt - in Wirklichkeit kein anderes Ziel kennt, als sich durch eure Arbeit zu bereichern, solange sie deren Produkt verkaufen kann, und euch dem Hungertod zu überlassen, sobald sie aus diesem indirekten Handel mit Menschenfleisch keinen Profit schlagen kann. Was haben sie getan, um ihre vorgeblichen guten Absichten euch gegenüber zu beweisen? Haben sie euren Leiden jemals irgendwie ernste Beachtung geschenkt? Haben sie mehr getan, als die Kosten zu bewilligen für ein halbes Dutzend Untersuchungskommissionen, deren umfangreiche Berichte verurteilt sind, ewig unter Haufen von Makulatur auf den Regalen des Home Office Ministerium des Innern zu schlummern? Haben sie sich je dazu aufgeschwungen, aus ihren modernen Blaubüchern auch nur ein einziges lesbares Buch zusammenzustellen, das jedem die Möglichkeit geben würde, sich ohne Mühe einiges Material über die Lebenslage der großen Mehrheit der "freigebornen Briten" zu machen? Natürlich nicht, das sind Dinge, über die sie nicht zu sprechen lieben - sie überließen es einem Ausländer, der zivilisierten Welt über die entwürdigende Lage zu berichten, in der ihr zu leben gezwungen seid. Ein Ausländer für sie, ich hoffe, nicht für euch. Mag auch mein Englisch nicht rein sein, so werdet ihr doch hoffentlich finden, daß es deutliches Englisch ist. Kein Arbeiter in England - nebenbei gesagt, auch in Frankreich nicht - hat mich je als Ausländer behandelt. Mit dem größten Vergnügen sah ich euer Freisein von dem verderblichen Fluch der nationalen Beschränktheit und der nationalen Überheblichkeit, die schließlich nichts ist als Egoismus im großen - ich beobachtete eure Sympathie mit jedem, der seine Kräfte ehrlich dem menschlichen Fortschritt widmet, ob er ein Engländer oder nicht - eure Bewunderung für alles Edle und Gute, ob auf eurem Heimatboden er wachsen oder nicht - ich fand, daß ihr mehr seid als nur Engländer Angehörige einer einzelnen, isolierten Nation ich fand, daß ihr Menschen seid, Angehörige der großen und internationalen Familie der Menschheit, die erkannt haben, daß ihre Interessen und die der ganzen menschlichen Rasse die  gleichen sind, und als solche als Glieder dieser Familie der "einen und unteilbaren" Menschheit, als menschliche Wesen in der nachdrücklichsten Bedeutung des Wortes, als solche begrüßen ich und viele andere auf dem Festland eure Fortschritte in jeder Richtung und wünschen euch schnellen Erfolg. Vorwärts denn auf dem beschrittenen Wege. Vieles steht euch noch bevor; seid standhaft, laßt euch nicht entmutigen - euer Erfolg ist gewiß, und jeder einzelne Schritt vorwärts auf dem Wege, den ihr zu gehen habt, wird unserer gemeinsamen Sache dienen, der Sache der Menschheit! Barmen (Rheinpreußen), 15. März 1845</p>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An die arbeitende Klasse Großbritanniens</title>
+                <author>Friedrich Engels - Lage der arbeitenden Klasse in England</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Pascal Hein</publisher>
+                <idno type="URL">https://www.github.com/heinp/germarxcor</idno>
+                <availability>
+                    <licence>
+                        <ab>CC-BY-4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/deed.de">licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Stimmen der proletarischen Revolution</name>
+                    <idno type="URL">http://www.mlwerke.de</idno>
+                    <availability>
+                        <licence>
+                            <ab>N/A</ab>
+                            <ref target="http://mlwerke.de/ies/kontakt.htm">licence</ref>
+                        </licence>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <s>
+                    <w pos="ADP" lemma="Dank" type="stopword">Dank</w>
+                    <w pos="DET" lemma="sich" type="stopword">meiner</w>
+                    <w pos="ADJ" lemma="gleichzeitig" type="no_stopword">gleichzeitigen</w>
+                    <w pos="ADJ" lemma="umfassend" type="no_stopword">umfassenden</w>
+                    <w pos="NOUN" lemma="Gelegenheit" type="no_stopword">Gelegenheit</w>
+                    <w pos="ADP" lemma="zur" type="stopword">zur</w>
+                    <w pos="NOUN" lemma="Beobachtung" type="no_stopword">Beobachtung</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Mittelklasse" type="no_stopword">Mittelklasse</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">eures</w>
+                    <w pos="NOUN" lemma="Gegner" type="no_stopword">Gegners</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="AUX" lemma="sein" type="stopword">bin</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="ADV" lemma="sehr" type="stopword">sehr</w>
+                    <w pos="ADJ" lemma="schnellen" type="no_stopword">schnell</w>
+                    <w pos="ADP" lemma="zu" type="stopword">zu</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Schluß" type="no_stopword">Schluß</w>
+                    <w pos="VERB" lemma="langen" type="no_stopword">gelangt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="daß" type="stopword">daß</w>
+                    <w pos="PRON" lemma="mein" type="stopword">ihr</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Recht" type="stopword">Recht</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="völlig" type="no_stopword">völlig</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="NOUN" lemma="Recht" type="stopword">Recht</w>
+                    <w pos="AUX" lemma="sein" type="stopword">seid</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="wenn" type="stopword">wenn</w>
+                    <w pos="PRON" lemma="mein" type="stopword">ihr</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ihnen</w>
+                    <w pos="DET" lemma="keinerlei" type="no_stopword">keinerlei</w>
+                    <w pos="NOUN" lemma="Hilfe" type="no_stopword">Hilfe</w>
+                    <w pos="VERB" lemma="erwarten" type="no_stopword">erwartet</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="mein" type="stopword">Ihre</w>
+                    <w pos="NOUN" lemma="Interesse" type="no_stopword">Interessen</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="PRON" lemma="mein" type="no_stopword">euren</w>
+                    <w pos="ADJ" lemma="diametral" type="no_stopword">diametral</w>
+                    <w pos="VERB" lemma="entgegensetzen" type="no_stopword">entgegengesetzt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="obgleich" type="no_stopword">obgleich</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="ADV" lemma="immer" type="stopword">immer</w>
+                    <w pos="VERB" lemma="versuchen" type="no_stopword">versuchen</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werden</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">das</w>
+                    <w pos="NOUN" lemma="Gegenteil" type="no_stopword">Gegenteil</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="behaupten" type="no_stopword">behaupten</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PRON" lemma="sich" type="stopword">euch</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Glaube" type="no_stopword">Glauben</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="wecken" type="no_stopword">wecken</w>
+                    <w pos="ADP" lemma="an" type="stopword">an</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihr</w>
+                    <w pos="ADJ" lemma="herzlich" type="no_stopword">herzlichstes</w>
+                    <w pos="NOUN" lemma="Mitgefühl" type="no_stopword">Mitgefühl</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">eurem</w>
+                    <w pos="NOUN" lemma="Schicksal" type="no_stopword">Schicksal</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="mein" type="stopword">Ihre</w>
+                    <w pos="NOUN" lemma="Tate" type="no_stopword">Taten</w>
+                    <w pos="VERB" lemma="strafen" type="no_stopword">strafen</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="NOUN" lemma="Lüge" type="no_stopword">Lügen</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Ich" type="stopword">Ich</w>
+                    <w pos="VERB" lemma="hoffen" type="no_stopword">hoffe</w>
+                    <w pos="DET" lemma="mehr" type="stopword">mehr</w>
+                    <w pos="CCONJ" lemma="als" type="stopword">als</w>
+                    <w pos="ADJ" lemma="genügend" type="no_stopword">genügendes</w>
+                    <w pos="NOUN" lemma="Beweismaterial" type="no_stopword">Beweismaterial</w>
+                    <w pos="ADV" lemma="dafür" type="stopword">dafür</w>
+                    <w pos="VERB" lemma="erbringen" type="no_stopword">erbracht</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="daß" type="stopword">daß</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Mittelklasse" type="no_stopword">Mittelklasse</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="PRON" lemma="was" type="stopword">was</w>
+                    <w pos="ADV" lemma="immer" type="stopword">immer</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="sagen" type="no_stopword">sagen</w>
+                    <w pos="ADJ" lemma="belieben" type="no_stopword">beliebt</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="NOUN" lemma="Wirklichkeit" type="no_stopword">Wirklichkeit</w>
+                    <w pos="DET" lemma="kein" type="stopword">kein</w>
+                    <w pos="ADJ" lemma="ander" type="no_stopword">anderes</w>
+                    <w pos="NOUN" lemma="Ziel" type="no_stopword">Ziel</w>
+                    <w pos="VERB" lemma="kennen" type="no_stopword">kennt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="als" type="stopword">als</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADP" lemma="durch" type="stopword">durch</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">eure</w>
+                    <w pos="NOUN" lemma="Arbeit" type="no_stopword">Arbeit</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="bereichern" type="no_stopword">bereichern</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="solange" type="no_stopword">solange</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="PRON" lemma="der" type="stopword">deren</w>
+                    <w pos="NOUN" lemma="Produkt" type="no_stopword">Produkt</w>
+                    <w pos="VERB" lemma="verkaufen" type="no_stopword">verkaufen</w>
+                    <w pos="VERB" lemma="können" type="stopword">kann</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PRON" lemma="sich" type="stopword">euch</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Hungertod" type="no_stopword">Hungertod</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="überlassen" type="no_stopword">überlassen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="sobald" type="no_stopword">sobald</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="ADP" lemma="aus" type="stopword">aus</w>
+                    <w pos="DET" lemma="dies" type="stopword">diesem</w>
+                    <w pos="ADJ" lemma="indirekt" type="no_stopword">indirekten</w>
+                    <w pos="NOUN" lemma="Handel" type="no_stopword">Handel</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="NOUN" lemma="Menschenfleisch" type="no_stopword">Menschenfleisch</w>
+                    <w pos="DET" lemma="kein" type="stopword">keinen</w>
+                    <w pos="NOUN" lemma="Profit" type="no_stopword">Profit</w>
+                    <w pos="VERB" lemma="schlagen" type="no_stopword">schlagen</w>
+                    <w pos="VERB" lemma="können" type="stopword">kann</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="Was" type="stopword">Was</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="VERB" lemma="tun" type="no_stopword">getan</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="um" type="stopword">um</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihre</w>
+                    <w pos="ADJ" lemma="vorbleichen" type="no_stopword">vorgeblichen</w>
+                    <w pos="ADJ" lemma="gut" type="no_stopword">guten</w>
+                    <w pos="NOUN" lemma="Absicht" type="no_stopword">Absichten</w>
+                    <w pos="PRON" lemma="sich" type="stopword">euch</w>
+                    <w pos="ADV" lemma="gegenüber" type="stopword">gegenüber</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="beweisen" type="no_stopword">beweisen</w>
+                    <w pos="PUNCT" lemma="?" type="no_stopword">?</w>
+                </s>
+                <s>
+                    <w pos="AUX" lemma="Haben" type="stopword">Haben</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">euren</w>
+                    <w pos="NOUN" lemma="Leid" type="no_stopword">Leiden</w>
+                    <w pos="ADV" lemma="jemals" type="no_stopword">jemals</w>
+                    <w pos="ADV" lemma="irgendwie" type="no_stopword">irgendwie</w>
+                    <w pos="ADJ" lemma="ernst" type="no_stopword">ernste</w>
+                    <w pos="NOUN" lemma="Beachtung" type="no_stopword">Beachtung</w>
+                    <w pos="VERB" lemma="schenken" type="no_stopword">geschenkt</w>
+                    <w pos="PUNCT" lemma="?" type="no_stopword">?</w>
+                </s>
+                <s>
+                    <w pos="AUX" lemma="Haben" type="stopword">Haben</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="ADV" lemma="mehr" type="stopword">mehr</w>
+                    <w pos="VERB" lemma="tun" type="no_stopword">getan</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="als" type="stopword">als</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Kosten" type="no_stopword">Kosten</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="bewilligen" type="no_stopword">bewilligen</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="ADJ" lemma="halb" type="no_stopword">halbes</w>
+                    <w pos="NOUN" lemma="Dutzend" type="no_stopword">Dutzend</w>
+                    <w pos="NOUN" lemma="Untersuchungskommissionen" type="no_stopword">Untersuchungskommissionen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">deren</w>
+                    <w pos="ADJ" lemma="umfangreiche" type="no_stopword">umfangreiche</w>
+                    <w pos="NOUN" lemma="Bericht" type="no_stopword">Berichte</w>
+                    <w pos="VERB" lemma="verurteilen" type="no_stopword">verurteilt</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="ewig" type="no_stopword">ewig</w>
+                    <w pos="ADP" lemma="unter" type="stopword">unter</w>
+                    <w pos="NOUN" lemma="Haufen" type="no_stopword">Haufen</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="NOUN" lemma="Makulatur" type="no_stopword">Makulatur</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">den</w>
+                    <w pos="NOUN" lemma="Regal" type="no_stopword">Regalen</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Home" type="no_stopword">Home</w>
+                    <w pos="PROPN" lemma="Office" type="no_stopword">Office</w>
+                    <w pos="NOUN" lemma="Ministerium" type="no_stopword">Ministerium</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Innern" type="no_stopword">Innern</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="schlummern" type="no_stopword">schlummern</w>
+                    <w pos="PUNCT" lemma="?" type="no_stopword">?</w>
+                </s>
+                <s>
+                    <w pos="AUX" lemma="Haben" type="stopword">Haben</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADV" lemma="je" type="stopword">je</w>
+                    <w pos="ADV" lemma="dazu" type="stopword">dazu</w>
+                    <w pos="VERB" lemma="aufschwingen" type="no_stopword">aufgeschwungen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="aus" type="stopword">aus</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihren</w>
+                    <w pos="ADJ" lemma="modern" type="no_stopword">modernen</w>
+                    <w pos="NOUN" lemma="Blaubüchern" type="no_stopword">Blaubüchern</w>
+                    <w pos="ADV" lemma="auch" type="stopword">auch</w>
+                    <w pos="ADV" lemma="nur" type="stopword">nur</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="ADJ" lemma="einzig" type="no_stopword">einziges</w>
+                    <w pos="ADJ" lemma="lesbares" type="no_stopword">lesbares</w>
+                    <w pos="NOUN" lemma="Buch" type="no_stopword">Buch</w>
+                    <w pos="VERB" lemma="zusammenstellen" type="no_stopword">zusammenzustellen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">das</w>
+                    <w pos="PRON" lemma="jed" type="stopword">jedem</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Möglichkeit" type="no_stopword">Möglichkeit</w>
+                    <w pos="VERB" lemma="geben" type="no_stopword">geben</w>
+                    <w pos="AUX" lemma="werden" type="stopword">würde</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="sich" type="stopword">sich</w>
+                    <w pos="ADP" lemma="ohne" type="stopword">ohne</w>
+                    <w pos="NOUN" lemma="Mühe" type="no_stopword">Mühe</w>
+                    <w pos="DET" lemma="einig" type="stopword">einiges</w>
+                    <w pos="NOUN" lemma="Material" type="no_stopword">Material</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="NOUN" lemma="Lebenslage" type="no_stopword">Lebenslage</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="groß" type="stopword">großen</w>
+                    <w pos="NOUN" lemma="Mehrheit" type="no_stopword">Mehrheit</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="ADJ" lemma="freigebornen" type="no_stopword">freigebornen</w>
+                    <w pos="NOUN" lemma="Brite" type="no_stopword">Briten</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="machen" type="stopword">machen</w>
+                    <w pos="PUNCT" lemma="?" type="no_stopword">?</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="Natürlich" type="stopword">Natürlich</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">das</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="NOUN" lemma="Ding" type="no_stopword">Dinge</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="sprechen" type="no_stopword">sprechen</w>
+                    <w pos="VERB" lemma="lieb" type="no_stopword">lieben</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="VERB" lemma="überlassen" type="no_stopword">überließen</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="DET" lemma="einer" type="stopword">einem</w>
+                    <w pos="NOUN" lemma="Ausländer" type="no_stopword">Ausländer</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="zivilisierten" type="no_stopword">zivilisierten</w>
+                    <w pos="NOUN" lemma="Welt" type="no_stopword">Welt</w>
+                    <w pos="ADP" lemma="über" type="stopword">über</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="entwürdigend" type="no_stopword">entwürdigende</w>
+                    <w pos="NOUN" lemma="Lage" type="no_stopword">Lage</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="berichten" type="no_stopword">berichten</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PRON" lemma="der" type="stopword">der</w>
+                    <w pos="PRON" lemma="mein" type="stopword">ihr</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="leben" type="no_stopword">leben</w>
+                    <w pos="VERB" lemma="zwingen" type="no_stopword">gezwungen</w>
+                    <w pos="AUX" lemma="sein" type="stopword">seid</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="Ein" type="stopword">Ein</w>
+                    <w pos="NOUN" lemma="Ausländer" type="no_stopword">Ausländer</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="PRON" lemma="ich" type="stopword">sie</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="VERB" lemma="hoffen" type="no_stopword">hoffe</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="PRON" lemma="sich" type="stopword">euch</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="VERB" lemma="mögen" type="stopword">Mag</w>
+                    <w pos="ADV" lemma="auch" type="stopword">auch</w>
+                    <w pos="DET" lemma="meinen" type="stopword">mein</w>
+                    <w pos="NOUN" lemma="Englisch" type="no_stopword">Englisch</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="ADJ" lemma="rein" type="no_stopword">rein</w>
+                    <w pos="AUX" lemma="mein" type="stopword">sein</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="so" type="stopword">so</w>
+                    <w pos="AUX" lemma="werden" type="stopword">werdet</w>
+                    <w pos="PRON" lemma="mein" type="stopword">ihr</w>
+                    <w pos="ADV" lemma="doch" type="stopword">doch</w>
+                    <w pos="ADJ" lemma="hoffentlich" type="no_stopword">hoffentlich</w>
+                    <w pos="VERB" lemma="finden" type="no_stopword">finden</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="daß" type="stopword">daß</w>
+                    <w pos="PRON" lemma="ich" type="stopword">es</w>
+                    <w pos="ADJ" lemma="deutlich" type="no_stopword">deutliches</w>
+                    <w pos="NOUN" lemma="Englisch" type="no_stopword">Englisch</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="DET" lemma="kein" type="stopword">Kein</w>
+                    <w pos="NOUN" lemma="Arbeiter" type="no_stopword">Arbeiter</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="England" type="no_stopword">England</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="ADV" lemma="nebenbei" type="no_stopword">nebenbei</w>
+                    <w pos="VERB" lemma="sagen" type="stopword">gesagt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADV" lemma="auch" type="stopword">auch</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="PROPN" lemma="Frankreich" type="no_stopword">Frankreich</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="AUX" lemma="haben" type="stopword">hat</w>
+                    <w pos="PRON" lemma="sich" type="stopword">mich</w>
+                    <w pos="ADV" lemma="je" type="stopword">je</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Ausländer" type="no_stopword">Ausländer</w>
+                    <w pos="VERB" lemma="behandeln" type="no_stopword">behandelt</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADP" lemma="Mit" type="stopword">Mit</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="groß" type="no_stopword">größten</w>
+                    <w pos="NOUN" lemma="Vergnügen" type="no_stopword">Vergnügen</w>
+                    <w pos="VERB" lemma="sehen" type="stopword">sah</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="DET" lemma="sich" type="no_stopword">euer</w>
+                    <w pos="NOUN" lemma="Freisein" type="no_stopword">Freisein</w>
+                    <w pos="ADP" lemma="von" type="stopword">von</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="verderblich" type="no_stopword">verderblichen</w>
+                    <w pos="NOUN" lemma="Fluch" type="no_stopword">Fluch</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="national" type="no_stopword">nationalen</w>
+                    <w pos="NOUN" lemma="Beschränktheit" type="no_stopword">Beschränktheit</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="national" type="no_stopword">nationalen</w>
+                    <w pos="NOUN" lemma="Überheblichkeit" type="no_stopword">Überheblichkeit</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="ADV" lemma="schließlich" type="no_stopword">schließlich</w>
+                    <w pos="PRON" lemma="nichts" type="stopword">nichts</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="CCONJ" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Egoismus" type="no_stopword">Egoismus</w>
+                    <w pos="ADP" lemma="im" type="stopword">im</w>
+                    <w pos="ADJ" lemma="groß" type="stopword">großen</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="VERB" lemma="beobachten" type="no_stopword">beobachtete</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">eure</w>
+                    <w pos="NOUN" lemma="Sympathie" type="no_stopword">Sympathie</w>
+                    <w pos="ADP" lemma="mit" type="stopword">mit</w>
+                    <w pos="PRON" lemma="jed" type="stopword">jedem</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">der</w>
+                    <w pos="DET" lemma="mein" type="stopword">seine</w>
+                    <w pos="NOUN" lemma="Kraft" type="no_stopword">Kräfte</w>
+                    <w pos="ADJ" lemma="ehrlich" type="stopword">ehrlich</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="menschlich" type="no_stopword">menschlichen</w>
+                    <w pos="NOUN" lemma="Fortschritt" type="no_stopword">Fortschritt</w>
+                    <w pos="VERB" lemma="widmen" type="no_stopword">widmet</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="ob" type="stopword">ob</w>
+                    <w pos="PRON" lemma="ich" type="stopword">er</w>
+                    <w pos="DET" lemma="einen" type="stopword">ein</w>
+                    <w pos="NOUN" lemma="Engländer" type="no_stopword">Engländer</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">eure</w>
+                    <w pos="NOUN" lemma="Bewunderung" type="no_stopword">Bewunderung</w>
+                    <w pos="ADP" lemma="für" type="stopword">für</w>
+                    <w pos="DET" lemma="alle" type="stopword">alles</w>
+                    <w pos="NOUN" lemma="Edle" type="no_stopword">Edle</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="NOUN" lemma="Gute" type="stopword">Gute</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="ob" type="stopword">ob</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">eurem</w>
+                    <w pos="NOUN" lemma="Heimatboden" type="no_stopword">Heimatboden</w>
+                    <w pos="PRON" lemma="ich" type="stopword">er</w>
+                    <w pos="VERB" lemma="wachsen" type="no_stopword">wachsen</w>
+                    <w pos="CCONJ" lemma="oder" type="stopword">oder</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="VERB" lemma="finden" type="no_stopword">fand</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="daß" type="stopword">daß</w>
+                    <w pos="PRON" lemma="mein" type="stopword">ihr</w>
+                    <w pos="PRON" lemma="mehr" type="stopword">mehr</w>
+                    <w pos="AUX" lemma="sein" type="stopword">seid</w>
+                    <w pos="CCONJ" lemma="als" type="stopword">als</w>
+                    <w pos="ADV" lemma="nur" type="stopword">nur</w>
+                    <w pos="ADJ" lemma="Engländer" type="no_stopword">Engländer</w>
+                    <w pos="NOUN" lemma="Angehörige" type="no_stopword">Angehörige</w>
+                    <w pos="DET" lemma="einer" type="stopword">einer</w>
+                    <w pos="ADJ" lemma="einzeln" type="no_stopword">einzelnen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADJ" lemma="isolieren" type="no_stopword">isolierten</w>
+                    <w pos="NOUN" lemma="Nation" type="no_stopword">Nation</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="VERB" lemma="finden" type="no_stopword">fand</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="daß" type="stopword">daß</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihr</w>
+                    <w pos="NOUN" lemma="Mensch" type="stopword">Menschen</w>
+                    <w pos="AUX" lemma="sein" type="stopword">seid</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NOUN" lemma="Angehörige" type="no_stopword">Angehörige</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="groß" type="stopword">großen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="international" type="no_stopword">internationalen</w>
+                    <w pos="NOUN" lemma="Familie" type="no_stopword">Familie</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Menschheit" type="no_stopword">Menschheit</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="VERB" lemma="erkennen" type="no_stopword">erkannt</w>
+                    <w pos="AUX" lemma="haben" type="stopword">haben</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="SCONJ" lemma="daß" type="stopword">daß</w>
+                    <w pos="DET" lemma="mein" type="stopword">ihre</w>
+                    <w pos="NOUN" lemma="Interesse" type="no_stopword">Interessen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="PRON" lemma="der" type="stopword">die</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="ganz" type="stopword">ganzen</w>
+                    <w pos="ADJ" lemma="menschlich" type="no_stopword">menschlichen</w>
+                    <w pos="NOUN" lemma="Rasse" type="no_stopword">Rasse</w>
+                    <w pos="DET" lemma="der" type="stopword">die</w>
+                    <w pos="ADJ" lemma="gleich" type="no_stopword">gleichen</w>
+                    <w pos="AUX" lemma="sein" type="stopword">sind</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="SCONJ" lemma="als" type="stopword">als</w>
+                    <w pos="PRON" lemma="solche" type="stopword">solche</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="NOUN" lemma="Glied" type="no_stopword">Glieder</w>
+                    <w pos="DET" lemma="dies" type="stopword">dieser</w>
+                    <w pos="NOUN" lemma="Familie" type="no_stopword">Familie</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="PUNCT" lemma="``" type="no_stopword">``</w>
+                    <w pos="PRON" lemma="ein" type="stopword">einen</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="ADJ" lemma="unteilbaren" type="no_stopword">unteilbaren</w>
+                    <w pos="PUNCT" lemma="''" type="no_stopword">''</w>
+                    <w pos="NOUN" lemma="Menschheit" type="no_stopword">Menschheit</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="ADJ" lemma="menschliche" type="no_stopword">menschliche</w>
+                    <w pos="NOUN" lemma="Wesen" type="no_stopword">Wesen</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="ADJ" lemma="nachdrücklichsten" type="no_stopword">nachdrücklichsten</w>
+                    <w pos="NOUN" lemma="Bedeutung" type="no_stopword">Bedeutung</w>
+                    <w pos="DET" lemma="der" type="stopword">des</w>
+                    <w pos="NOUN" lemma="Wort" type="no_stopword">Wortes</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="ADP" lemma="als" type="stopword">als</w>
+                    <w pos="PRON" lemma="solche" type="stopword">solche</w>
+                    <w pos="VERB" lemma="begrüßen" type="no_stopword">begrüßen</w>
+                    <w pos="PRON" lemma="ich" type="stopword">ich</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="viel" type="stopword">viele</w>
+                    <w pos="PRON" lemma="ander" type="stopword">andere</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Festland" type="no_stopword">Festland</w>
+                    <w pos="DET" lemma="mein" type="no_stopword">eure</w>
+                    <w pos="NOUN" lemma="Fortschritt" type="no_stopword">Fortschritte</w>
+                    <w pos="ADP" lemma="in" type="stopword">in</w>
+                    <w pos="DET" lemma="jed" type="stopword">jeder</w>
+                    <w pos="NOUN" lemma="Richtung" type="no_stopword">Richtung</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="VERB" lemma="wünschen" type="no_stopword">wünschen</w>
+                    <w pos="PRON" lemma="sich" type="stopword">euch</w>
+                    <w pos="ADJ" lemma="schnell" type="no_stopword">schnellen</w>
+                    <w pos="NOUN" lemma="Erfolg" type="no_stopword">Erfolg</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="ADV" lemma="Vorwärts" type="no_stopword">Vorwärts</w>
+                    <w pos="ADV" lemma="denn" type="stopword">denn</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="ADJ" lemma="beschritten" type="no_stopword">beschrittenen</w>
+                    <w pos="NOUN" lemma="Weg" type="no_stopword">Wege</w>
+                    <w pos="PUNCT" lemma="." type="no_stopword">.</w>
+                </s>
+                <s>
+                    <w pos="PRON" lemma="viel" type="no_stopword">Vieles</w>
+                    <w pos="VERB" lemma="stehen" type="no_stopword">steht</w>
+                    <w pos="PRON" lemma="sich" type="stopword">euch</w>
+                    <w pos="ADV" lemma="noch" type="stopword">noch</w>
+                    <w pos="ADP" lemma="bevor" type="no_stopword">bevor</w>
+                    <w pos="PUNCT" lemma=";" type="no_stopword">;</w>
+                    <w pos="AUX" lemma="sein" type="stopword">seid</w>
+                    <w pos="ADJ" lemma="standhaft" type="no_stopword">standhaft</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="VERB" lemma="lassen" type="no_stopword">laßt</w>
+                    <w pos="PRON" lemma="sich" type="stopword">euch</w>
+                    <w pos="PART" lemma="nicht" type="stopword">nicht</w>
+                    <w pos="VERB" lemma="entmutigen" type="no_stopword">entmutigen</w>
+                    <w pos="PUNCT" lemma="-" type="no_stopword">-</w>
+                    <w pos="DET" lemma="sich" type="no_stopword">euer</w>
+                    <w pos="NOUN" lemma="Erfolg" type="no_stopword">Erfolg</w>
+                    <w pos="AUX" lemma="sein" type="stopword">ist</w>
+                    <w pos="ADV" lemma="gewiß" type="no_stopword">gewiß</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="CCONJ" lemma="und" type="stopword">und</w>
+                    <w pos="DET" lemma="jed" type="stopword">jeder</w>
+                    <w pos="ADJ" lemma="einzelne" type="no_stopword">einzelne</w>
+                    <w pos="NOUN" lemma="Schritt" type="no_stopword">Schritt</w>
+                    <w pos="ADV" lemma="vorwärts" type="no_stopword">vorwärts</w>
+                    <w pos="ADP" lemma="auf" type="stopword">auf</w>
+                    <w pos="DET" lemma="der" type="stopword">dem</w>
+                    <w pos="NOUN" lemma="Weg" type="no_stopword">Wege</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="PRON" lemma="der" type="stopword">den</w>
+                    <w pos="PRON" lemma="mein" type="stopword">ihr</w>
+                    <w pos="PART" lemma="zu" type="stopword">zu</w>
+                    <w pos="VERB" lemma="gehen" type="stopword">gehen</w>
+                    <w pos="AUX" lemma="haben" type="stopword">habt</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="AUX" lemma="werden" type="stopword">wird</w>
+                    <w pos="DET" lemma="mein" type="stopword">unserer</w>
+                    <w pos="ADJ" lemma="gemeinsam" type="no_stopword">gemeinsamen</w>
+                    <w pos="NOUN" lemma="Sache" type="no_stopword">Sache</w>
+                    <w pos="VERB" lemma="dienen" type="no_stopword">dienen</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Sache" type="no_stopword">Sache</w>
+                    <w pos="DET" lemma="der" type="stopword">der</w>
+                    <w pos="NOUN" lemma="Menschheit" type="no_stopword">Menschheit</w>
+                    <w pos="PUNCT" lemma="!" type="no_stopword">!</w>
+                </s>
+                <s>
+                    <w pos="NOUN" lemma="Barmen" type="no_stopword">Barmen</w>
+                    <w pos="PUNCT" lemma="(" type="no_stopword">(</w>
+                    <w pos="NOUN" lemma="Rheinpreußen" type="no_stopword">Rheinpreußen</w>
+                    <w pos="PUNCT" lemma=")" type="no_stopword">)</w>
+                    <w pos="PUNCT" lemma="," type="no_stopword">,</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                    <w pos="NOUN" lemma="März" type="no_stopword">März</w>
+                    <w pos="NUM" lemma="5" type="no_stopword">5</w>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>
