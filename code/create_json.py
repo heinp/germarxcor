@@ -8,6 +8,8 @@ from collections import defaultdict
 parser = ArgumentParser(description="Safe tokens as json")
 parser.add_argument("-y", "--filter-symbols", action="store_true")
 parser.add_argument("-t", "--filter-stopwords", action="store_true")
+parser.add_argument("-p", "--pos", action="store_true")
+parser.add_argument("-l", "--lemma", action="store_true")
 parser.add_argument("files", nargs="+")
 args = parser.parse_args(sys.argv[1:])
 
@@ -54,13 +56,26 @@ for author, work_files in orged_files.items():
                     is_symbol = len(lemma) == 1 and not lemma.isalnum()
                     # save token if there is no active flag rising for an active filter
                     if not (is_stopword and args.filter_stopwords) and not (is_symbol and args.filter_symbols):
-                        new_token = f"{lemma.lower()}_{token.attrib['pos'].lower()[0]}"
+                        if args.lemma:
+                            new_token = lemma.lower()
+                        else:
+                            new_token = token.text
+                        if args.pos:
+                            new_token += f"_{token.attrib['pos'].lower()[0]}"
                         new_sent.append(new_token)
                 # save sentence in list form to data structure
                 if len(new_sent) > 0:
                     data[doc].append(new_sent)
         c += len(files)
-        out_file = f"json/{author}/{work}{addendum}.json"
+        file_name = f"{work}{addendum}.json"
+        if args.lemma or args.pos:
+            file_name = "_" + file_name
+            if args.lemma:
+                file_name = "l" + file_name
+            if args.pos:
+                file_name = "p" + file_name
+
+        out_file = f"json/{author}/{file_name}"
         path2file = path.dirname(out_file)
         if not path.exists(path2file):
             makedirs(path2file)
